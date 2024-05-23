@@ -7,12 +7,42 @@
 
 import SwiftUI
 
-struct StateObject: View {
+class TimerManager: ObservableObject {
+    @Published var timerCount = 0
+    private var timer = Timer()
+    
+    func start() { 
+        timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { _ in
+            self.timerCount += 1
+        }
+    }
+    
+    func stop() {
+        timer.invalidate()
+    }
+}
+
+struct StateObjectView: View {
+    @StateObject private var timerManager = TimerManager()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Timer Count: \(timerManager.timerCount)")
+            Button(action: {
+                timerManager.start()
+            }) {
+                Text("Start Timer")
+            }
+            Button(action: {
+                timerManager.stop()
+            }) {
+                Text("Stop Timer")
+                
+            }
+        }
     }
 }
 
 #Preview {
-    StateObject()
+    StateObjectView()
 }

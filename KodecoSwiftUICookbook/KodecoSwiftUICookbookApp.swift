@@ -11,7 +11,8 @@ import SwiftUI
 struct KodecoSwiftUICookbookApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            RootView()
         }
     }
 }

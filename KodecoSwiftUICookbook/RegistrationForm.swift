@@ -1,5 +1,5 @@
 //
-//  Form.swift
+//  RegistrationForm.swift
 //  KodecoSwiftUICookbook
 //
 //  Created by Tatsuya Moriguchi on 5/15/24.
@@ -20,7 +20,7 @@ struct RegistrationForm: View {
                     TextField("Email", text: $email)
                 }
                 
-                Section(header: Text("Login Credentials")) {
+                Section(header: Text("Login Credentials"), footer: Text("Hello this is a footer.")) {
                     TextField("Password", text: $password)
                 }
                 
@@ -28,6 +28,11 @@ struct RegistrationForm: View {
                     Button(action: Register().register) {
                         Text("Register")
                     }
+                }
+                
+                Section(footer: Text("Keep the credential information with you.")) {
+                    Text("Hello")
+                
                 }
             }
         }

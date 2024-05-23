@@ -7,12 +7,28 @@
 
 import SwiftUI
 
-struct Environment_Objects: View {
+class GameSettings: ObservableObject {
+    @Published var score = 0
+}
+
+struct RootView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Environment_Objects()
+            .environmentObject(GameSettings())
+    }
+}
+
+struct Environment_Objects: View {
+    @EnvironmentObject var settings: GameSettings
+    var body: some View {
+        Text("Score: \(settings.score)")
+        Button("Increment Score") {
+            settings.score += 1
+            print("Button tapped")
+        }
     }
 }
 
 #Preview {
-    Environment_Objects()
+    RootView()
 }

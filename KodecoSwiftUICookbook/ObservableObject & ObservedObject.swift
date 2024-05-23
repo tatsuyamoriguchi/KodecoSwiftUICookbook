@@ -7,9 +7,21 @@
 
 import SwiftUI
 
+class UserSettings: ObservableObject {
+    @Published var username = "Anonymous"
+}
+
 struct ObservableObject___ObservedObject: View {
+    @ObservedObject var settings = UserSettings()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Hello, \(settings.username)")
+            Button("Change Username") {
+                settings.username = "John Doe"
+            }
+     
+        }
     }
 }
 

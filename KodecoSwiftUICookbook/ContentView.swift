@@ -15,6 +15,10 @@ struct ContentView: View {
             
             VStack {
                 Text("Hello, SwiftUI")
+                Text("Hello, SwiftUI")
+                    .opacity(0.5)
+                Text("Hello, SwiftUI")
+                    .opacity(0.2)
                 NavigationLink(destination: DetailView()) {
                     Text("Go to Detail View")
                 }
@@ -25,6 +29,7 @@ struct ContentView: View {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {
                         print("Settings pressed")
+                   
                     }) {
                         Text("Settings")
                     }
@@ -42,7 +47,7 @@ struct ContentView: View {
             .background(
                 LinearGradient(gradient: Gradient(colors: [.purple, .pink]), startPoint: .topLeading, endPoint: .bottomTrailing))
             .cornerRadius(10)
-            
+
             Image("Kodeco")
                 .resizable()
                 .foregroundStyle(.tint)
@@ -50,11 +55,12 @@ struct ContentView: View {
                 .frame(width: 300, height: 300)
                 .clipShape(Circle())
                 .overlay(Circle().stroke(Color.black, lineWidth: 4))
-                .shadow(radius:10)
+                .shadow(color: .purple, radius:10, x: 10, y: 5)
             
             
-            
-            Text("Welcome to Kodeco SwiftUI Cookbook.")
+            NavigationLink(destination: MoreSwiftUI()) {
+                Text("Welcome to Kodeco SwiftUI Cookbook.")
+            }
         }
         .padding()
     }
@@ -68,6 +74,10 @@ struct DetailView: View {
         Text("This is the detail view.")
             .navigationTitle("Detail")
             .navigationBarTitleDisplayMode(.large)
+        NavigationLink(destination: RegistrationForm()) {
+            Text("Go to Registration Form")
+        }
+
         List(tasks, id: \.self) { task in
             Text(task)
         }

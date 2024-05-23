@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct SwiftUIState: View {
+    @State private var isSwitchedOn = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Toggle(isOn: $isSwitchedOn) {
+                Text("Turn me on or off")
+            }
+            if isSwitchedOn {
+                Text("The switch is on.")
+            }
+        }
+        .padding()
     }
 }
 

@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C44919C2BF507930005C1C2 /* RegistrationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C44919B2BF507930005C1C2 /* RegistrationForm.swift */; };
+		8C573DA02BF65F3A00501565 /* MoreSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C573D9F2BF65F3A00501565 /* MoreSwiftUI.swift */; };
+		8C573DA42BF7C18400501565 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C573DA32BF7C18400501565 /* Grid.swift */; };
+		8C85E8C42BFA6E8A005B6201 /* SwiftUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85E8C32BFA6E8A005B6201 /* SwiftUIState.swift */; };
+		8C85E8C62BFA73B2005B6201 /* SwiftUIBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85E8C52BFA73B2005B6201 /* SwiftUIBinding.swift */; };
+		8C85E8CE2BFBAFC6005B6201 /* ObservableObject & ObservedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85E8CD2BFBAFC6005B6201 /* ObservableObject & ObservedObject.swift */; };
+		8C85E8D02BFBB520005B6201 /* Environment Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85E8CF2BFBB520005B6201 /* Environment Objects.swift */; };
+		8C85E8D22BFD0496005B6201 /* StateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85E8D12BFD0496005B6201 /* StateObject.swift */; };
+		8CA749C32BF9583200753A6A /* CustomViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA749C22BF9583200753A6A /* CustomViewModifier.swift */; };
+		8CA749C52BF962FC00753A6A /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA749C42BF962FC00753A6A /* CustomShape.swift */; };
 		8CB4F4922BF1191200BA2A90 /* KodecoSwiftUICookbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB4F4912BF1191200BA2A90 /* KodecoSwiftUICookbookApp.swift */; };
 		8CB4F4942BF1191200BA2A90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB4F4932BF1191200BA2A90 /* ContentView.swift */; };
 		8CB4F4962BF1191400BA2A90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB4F4952BF1191400BA2A90 /* Assets.xcassets */; };
@@ -14,6 +24,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C44919B2BF507930005C1C2 /* RegistrationForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationForm.swift; sourceTree = "<group>"; };
+		8C573D9F2BF65F3A00501565 /* MoreSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreSwiftUI.swift; sourceTree = "<group>"; };
+		8C573DA32BF7C18400501565 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		8C85E8C32BFA6E8A005B6201 /* SwiftUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIState.swift; sourceTree = "<group>"; };
+		8C85E8C52BFA73B2005B6201 /* SwiftUIBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBinding.swift; sourceTree = "<group>"; };
+		8C85E8CD2BFBAFC6005B6201 /* ObservableObject & ObservedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableObject & ObservedObject.swift"; sourceTree = "<group>"; };
+		8C85E8CF2BFBB520005B6201 /* Environment Objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Environment Objects.swift"; sourceTree = "<group>"; };
+		8C85E8D12BFD0496005B6201 /* StateObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObject.swift; sourceTree = "<group>"; };
+		8CA749C22BF9583200753A6A /* CustomViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewModifier.swift; sourceTree = "<group>"; };
+		8CA749C42BF962FC00753A6A /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 		8CB4F48E2BF1191200BA2A90 /* KodecoSwiftUICookbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KodecoSwiftUICookbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB4F4912BF1191200BA2A90 /* KodecoSwiftUICookbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KodecoSwiftUICookbookApp.swift; sourceTree = "<group>"; };
 		8CB4F4932BF1191200BA2A90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +75,16 @@
 				8CB4F4932BF1191200BA2A90 /* ContentView.swift */,
 				8CB4F4952BF1191400BA2A90 /* Assets.xcassets */,
 				8CB4F4972BF1191400BA2A90 /* Preview Content */,
+				8C44919B2BF507930005C1C2 /* RegistrationForm.swift */,
+				8C573D9F2BF65F3A00501565 /* MoreSwiftUI.swift */,
+				8C573DA32BF7C18400501565 /* Grid.swift */,
+				8CA749C22BF9583200753A6A /* CustomViewModifier.swift */,
+				8CA749C42BF962FC00753A6A /* CustomShape.swift */,
+				8C85E8C32BFA6E8A005B6201 /* SwiftUIState.swift */,
+				8C85E8C52BFA73B2005B6201 /* SwiftUIBinding.swift */,
+				8C85E8CD2BFBAFC6005B6201 /* ObservableObject & ObservedObject.swift */,
+				8C85E8CF2BFBB520005B6201 /* Environment Objects.swift */,
+				8C85E8D12BFD0496005B6201 /* StateObject.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -137,8 +167,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C85E8D22BFD0496005B6201 /* StateObject.swift in Sources */,
 				8CB4F4942BF1191200BA2A90 /* ContentView.swift in Sources */,
+				8C85E8D02BFBB520005B6201 /* Environment Objects.swift in Sources */,
+				8C85E8C42BFA6E8A005B6201 /* SwiftUIState.swift in Sources */,
 				8CB4F4922BF1191200BA2A90 /* KodecoSwiftUICookbookApp.swift in Sources */,
+				8CA749C32BF9583200753A6A /* CustomViewModifier.swift in Sources */,
+				8C85E8C62BFA73B2005B6201 /* SwiftUIBinding.swift in Sources */,
+				8C573DA02BF65F3A00501565 /* MoreSwiftUI.swift in Sources */,
+				8C573DA42BF7C18400501565 /* Grid.swift in Sources */,
+				8C85E8CE2BFBAFC6005B6201 /* ObservableObject & ObservedObject.swift in Sources */,
+				8CA749C52BF962FC00753A6A /* CustomShape.swift in Sources */,
+				8C44919C2BF507930005C1C2 /* RegistrationForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
