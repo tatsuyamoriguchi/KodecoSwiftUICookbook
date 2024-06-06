@@ -9,8 +9,17 @@ import SwiftUI
 
 struct BlendTwoImages: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+        ZStack {
+            Image("SunriseTent")
+                .resizable()
+                .scaledToFill()
+                .edgesIgnoringSafeArea(.all)
+            Image("WavyPattern")
+                .resizable()
+                .scaledToFill()
+                .blendMode(.multiply)
+                .opacity(0.7)
+        }    }
 }
 
 #Preview {

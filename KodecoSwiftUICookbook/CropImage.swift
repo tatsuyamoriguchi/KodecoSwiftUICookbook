@@ -9,7 +9,14 @@ import SwiftUI
 
 struct CropImage: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Cropping with Clipped")
+            .font(.title)
+        Image("WinterPup")
+            .resizable()
+            .scaledToFill()
+            .frame(width: 200, height: 200)
+            .clipped()
+            .border(.black, width: 2)
     }
 }
 

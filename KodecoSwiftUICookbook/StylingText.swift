@@ -8,9 +8,17 @@
 import SwiftUI
 
 struct StylingText: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+  var body: some View {
+    Text("Hello, 1982 world!")
+      // 1
+      .font(.custom("Papyrus", size: 24))
+      // 2
+      .foregroundColor(.purple)
+      // 3
+      .frame(maxWidth: .infinity, alignment: .leading)
+      // 4
+      .padding()
+  }
 }
 
 #Preview {

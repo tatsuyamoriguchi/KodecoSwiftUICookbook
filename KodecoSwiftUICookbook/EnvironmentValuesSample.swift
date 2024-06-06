@@ -1,5 +1,5 @@
 //
-//  EnvironmentValues.swift
+//  EnvironmentValuesSample.swift
 //  KodecoSwiftUICookbook
 //
 //  Created by Tatsuya Moriguchi on 5/26/24.

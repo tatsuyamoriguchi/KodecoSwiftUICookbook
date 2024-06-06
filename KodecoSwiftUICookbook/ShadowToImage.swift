@@ -9,7 +9,12 @@ import SwiftUI
 
 struct ShadowToImage: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image("CoolCat")
+        // The modifier order matters. resizable() first
+            .resizable()
+            .shadow(color: .mint, radius: 20, x:10, y:20)
+            .aspectRatio(contentMode: .fit)
+            .frame(width: 200, height: 200)
     }
 }
 

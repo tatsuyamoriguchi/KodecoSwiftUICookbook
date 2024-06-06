@@ -28,8 +28,29 @@ struct SwiftUIPhotosPicker: View {
             
             VStack {
                 Spacer()
-                PhotosPicker(selection:)
+                PhotosPicker(selection: $selectedItems, matching: .images) {
+                    Text("Select Images")
+                }
+                .task(id: selectedItems, {
+                    await loadImages(from: selectedItems)
+                })
+                Spacer()
             }
+        }
+    }
+    
+    private func loadImages(from items: [PhotosPickerItem]) async {
+        for item in items {
+            do {
+                let image = try await item.loadTransferable(type: Image.self)
+                if let image = image {
+                    images[UUID()] = image
+                    
+                }
+            } catch {
+                print("Failed to load images: \(error)")
+            }
+            
         }
     }
 }

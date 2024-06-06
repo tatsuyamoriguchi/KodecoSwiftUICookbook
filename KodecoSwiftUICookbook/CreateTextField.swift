@@ -15,7 +15,19 @@ struct CreateTextField: View {
   }
 }
 
+struct CustomizeTextField: View {
+  @State private var name = ""
+  var body: some View {
+    TextField("Enter your name", text: $name)
+      .foregroundColor(.blue)
+      .background(.yellow)
+      .font(.largeTitle)
+      .multilineTextAlignment(.center)
+  }
+}
+
 
 #Preview {
-    CreateTextField()
+//    CreateTextField()
+    CustomizeTextField()
 }

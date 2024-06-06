@@ -12,7 +12,8 @@ struct KodecoSwiftUICookbookApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            RootView()
+//            RootView()
+            TaskListView()
         }
     }
 }
