@@ -34,6 +34,20 @@
 		8C56A6D72BFFACF300D5AC2B /* AppStorage_SceneStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C56A6D62BFFACF300D5AC2B /* AppStorage_SceneStorage.swift */; };
 		8C573DA02BF65F3A00501565 /* MoreSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C573D9F2BF65F3A00501565 /* MoreSwiftUI.swift */; };
 		8C573DA42BF7C18400501565 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C573DA32BF7C18400501565 /* Grid.swift */; };
+		8C69C7042C13742700D5E041 /* ConsistentSwiftUIDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69C7032C13742700D5E041 /* ConsistentSwiftUIDesign.swift */; };
+		8C69C7062C137CD400D5E041 /* CreateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69C7052C137CD400D5E041 /* CreateButton.swift */; };
+		8C69C7082C137EB000D5E041 /* CustomizeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69C7072C137EB000D5E041 /* CustomizeButton.swift */; };
+		8C69C70C2C14C7A600D5E041 /* ImageToButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69C70B2C14C7A600D5E041 /* ImageToButton.swift */; };
+		8C69C70E2C14CD9E00D5E041 /* ActionToButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69C70D2C14CD9E00D5E041 /* ActionToButton.swift */; };
+		8C69C7102C14D06700D5E041 /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69C70F2C14D06700D5E041 /* ToggleButton.swift */; };
+		8C69C7122C160C5400D5E041 /* GroupOfButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69C7112C160C5400D5E041 /* GroupOfButtons.swift */; };
+		8C69C7142C160D4F00D5E041 /* DisableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69C7132C160D4F00D5E041 /* DisableButton.swift */; };
+		8C69C7162C1611DA00D5E041 /* IconToButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69C7152C1611DA00D5E041 /* IconToButton.swift */; };
+		8C69C7182C1612FA00D5E041 /* FullScreenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69C7172C1612FA00D5E041 /* FullScreenButton.swift */; };
+		8C69C71A2C16146400D5E041 /* AdvancedButtonStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69C7192C16146400D5E041 /* AdvancedButtonStyling.swift */; };
+		8C69C71E2C167B1900D5E041 /* CreateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69C71D2C167B1900D5E041 /* CreateList.swift */; };
+		8C69C7202C16859B00D5E041 /* CustomizeListRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69C71F2C16859B00D5E041 /* CustomizeListRows.swift */; };
+		8C69C7222C16A48000D5E041 /* NvigationToList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69C7212C16A48000D5E041 /* NvigationToList.swift */; };
 		8C85E8C42BFA6E8A005B6201 /* SwiftUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85E8C32BFA6E8A005B6201 /* SwiftUIState.swift */; };
 		8C85E8C62BFA73B2005B6201 /* SwiftUIBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85E8C52BFA73B2005B6201 /* SwiftUIBinding.swift */; };
 		8C85E8CE2BFBAFC6005B6201 /* ObservableObject & ObservedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85E8CD2BFBAFC6005B6201 /* ObservableObject & ObservedObject.swift */; };
@@ -45,6 +59,7 @@
 		8CB4F4942BF1191200BA2A90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB4F4932BF1191200BA2A90 /* ContentView.swift */; };
 		8CB4F4962BF1191400BA2A90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB4F4952BF1191400BA2A90 /* Assets.xcassets */; };
 		8CB4F4992BF1191400BA2A90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB4F4982BF1191400BA2A90 /* Preview Assets.xcassets */; };
+		8CFECD2A2C175CA100632C90 /* NavigationTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFECD292C175CA100632C90 /* NavigationTitle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +91,20 @@
 		8C56A6D62BFFACF300D5AC2B /* AppStorage_SceneStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage_SceneStorage.swift; sourceTree = "<group>"; };
 		8C573D9F2BF65F3A00501565 /* MoreSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreSwiftUI.swift; sourceTree = "<group>"; };
 		8C573DA32BF7C18400501565 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		8C69C7032C13742700D5E041 /* ConsistentSwiftUIDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsistentSwiftUIDesign.swift; sourceTree = "<group>"; };
+		8C69C7052C137CD400D5E041 /* CreateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateButton.swift; sourceTree = "<group>"; };
+		8C69C7072C137EB000D5E041 /* CustomizeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeButton.swift; sourceTree = "<group>"; };
+		8C69C70B2C14C7A600D5E041 /* ImageToButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageToButton.swift; sourceTree = "<group>"; };
+		8C69C70D2C14CD9E00D5E041 /* ActionToButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionToButton.swift; sourceTree = "<group>"; };
+		8C69C70F2C14D06700D5E041 /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
+		8C69C7112C160C5400D5E041 /* GroupOfButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupOfButtons.swift; sourceTree = "<group>"; };
+		8C69C7132C160D4F00D5E041 /* DisableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisableButton.swift; sourceTree = "<group>"; };
+		8C69C7152C1611DA00D5E041 /* IconToButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconToButton.swift; sourceTree = "<group>"; };
+		8C69C7172C1612FA00D5E041 /* FullScreenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenButton.swift; sourceTree = "<group>"; };
+		8C69C7192C16146400D5E041 /* AdvancedButtonStyling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedButtonStyling.swift; sourceTree = "<group>"; };
+		8C69C71D2C167B1900D5E041 /* CreateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateList.swift; sourceTree = "<group>"; };
+		8C69C71F2C16859B00D5E041 /* CustomizeListRows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeListRows.swift; sourceTree = "<group>"; };
+		8C69C7212C16A48000D5E041 /* NvigationToList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvigationToList.swift; sourceTree = "<group>"; };
 		8C85E8C32BFA6E8A005B6201 /* SwiftUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIState.swift; sourceTree = "<group>"; };
 		8C85E8C52BFA73B2005B6201 /* SwiftUIBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBinding.swift; sourceTree = "<group>"; };
 		8C85E8CD2BFBAFC6005B6201 /* ObservableObject & ObservedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableObject & ObservedObject.swift"; sourceTree = "<group>"; };
@@ -88,6 +117,7 @@
 		8CB4F4932BF1191200BA2A90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8CB4F4952BF1191400BA2A90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CB4F4982BF1191400BA2A90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8CFECD292C175CA100632C90 /* NavigationTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +189,21 @@
 				8C2AAA672C12239400C7B29C /* BlendTwoImages.swift */,
 				8C2AAA692C1225F000C7B29C /* AnimatedImages.swift */,
 				8C2AAA6B2C122C7800C7B29C /* SwiftUIPhotosPicker.swift */,
+				8C69C7032C13742700D5E041 /* ConsistentSwiftUIDesign.swift */,
+				8C69C7052C137CD400D5E041 /* CreateButton.swift */,
+				8C69C7072C137EB000D5E041 /* CustomizeButton.swift */,
+				8C69C70B2C14C7A600D5E041 /* ImageToButton.swift */,
+				8C69C70D2C14CD9E00D5E041 /* ActionToButton.swift */,
+				8C69C70F2C14D06700D5E041 /* ToggleButton.swift */,
+				8C69C7112C160C5400D5E041 /* GroupOfButtons.swift */,
+				8C69C7132C160D4F00D5E041 /* DisableButton.swift */,
+				8C69C7152C1611DA00D5E041 /* IconToButton.swift */,
+				8C69C7172C1612FA00D5E041 /* FullScreenButton.swift */,
+				8C69C7192C16146400D5E041 /* AdvancedButtonStyling.swift */,
+				8C69C71D2C167B1900D5E041 /* CreateList.swift */,
+				8C69C71F2C16859B00D5E041 /* CustomizeListRows.swift */,
+				8C69C7212C16A48000D5E041 /* NvigationToList.swift */,
+				8CFECD292C175CA100632C90 /* NavigationTitle.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -242,21 +287,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C69C7102C14D06700D5E041 /* ToggleButton.swift in Sources */,
 				8C2AAA6C2C122C7800C7B29C /* SwiftUIPhotosPicker.swift in Sources */,
+				8C69C71A2C16146400D5E041 /* AdvancedButtonStyling.swift in Sources */,
 				8C85E8D22BFD0496005B6201 /* StateObject.swift in Sources */,
 				8CB4F4942BF1191200BA2A90 /* ContentView.swift in Sources */,
 				8C2AEC3A2C08F28800A80EF4 /* CreateTextField.swift in Sources */,
+				8C69C70E2C14CD9E00D5E041 /* ActionToButton.swift in Sources */,
 				8C85E8D02BFBB520005B6201 /* Environment Objects.swift in Sources */,
 				8C85E8C42BFA6E8A005B6201 /* SwiftUIState.swift in Sources */,
+				8C69C7222C16A48000D5E041 /* NvigationToList.swift in Sources */,
 				8CB4F4922BF1191200BA2A90 /* KodecoSwiftUICookbookApp.swift in Sources */,
 				8C08BA9F2C10C54500677F91 /* ShadowToImage.swift in Sources */,
 				8CA749C32BF9583200753A6A /* CustomViewModifier.swift in Sources */,
 				8C2AEC2F2C078A8A00A80EF4 /* MultilineTextView.swift in Sources */,
+				8C69C7062C137CD400D5E041 /* CreateButton.swift in Sources */,
+				8C69C71E2C167B1900D5E041 /* CreateList.swift in Sources */,
 				8C85E8C62BFA73B2005B6201 /* SwiftUIBinding.swift in Sources */,
+				8C69C7042C13742700D5E041 /* ConsistentSwiftUIDesign.swift in Sources */,
+				8C69C7182C1612FA00D5E041 /* FullScreenButton.swift in Sources */,
+				8C69C70C2C14C7A600D5E041 /* ImageToButton.swift in Sources */,
 				8C2AAA6A2C1225F000C7B29C /* AnimatedImages.swift in Sources */,
 				8C573DA02BF65F3A00501565 /* MoreSwiftUI.swift in Sources */,
+				8C69C7082C137EB000D5E041 /* CustomizeButton.swift in Sources */,
 				8C573DA42BF7C18400501565 /* Grid.swift in Sources */,
+				8C69C7122C160C5400D5E041 /* GroupOfButtons.swift in Sources */,
 				8C2AEC462C0CD0D400A80EF4 /* LoadImage.swift in Sources */,
+				8CFECD2A2C175CA100632C90 /* NavigationTitle.swift in Sources */,
 				8C2AEC482C0CD30000A80EF4 /* AspectRatios.swift in Sources */,
 				8C2AEC422C0AE3FB00A80EF4 /* SeureFieldView.swift in Sources */,
 				8C2AEC312C078F8A00A80EF4 /* DynamicTypeTextStyles.swift in Sources */,
@@ -264,6 +321,7 @@
 				8C2AEC442C0AE66100A80EF4 /* TextFieldKeyboardType.swift in Sources */,
 				8C2AEC232C03A02200A80EF4 /* EnvironmentValuesSample.swift in Sources */,
 				8C2AEC2B2C0788DD00A80EF4 /* TextView.swift in Sources */,
+				8C69C7162C1611DA00D5E041 /* IconToButton.swift in Sources */,
 				8C56A6D72BFFACF300D5AC2B /* AppStorage_SceneStorage.swift in Sources */,
 				8CA749C52BF962FC00753A6A /* CustomShape.swift in Sources */,
 				8C2AEC4A2C0CD42300A80EF4 /* CropImage.swift in Sources */,
@@ -271,9 +329,11 @@
 				8C2AEC2D2C07898C00A80EF4 /* StylingText.swift in Sources */,
 				8C2AEC502C0F843F00A80EF4 /* CustomImageShape.swift in Sources */,
 				8C2AAA682C12239400C7B29C /* BlendTwoImages.swift in Sources */,
+				8C69C7142C160D4F00D5E041 /* DisableButton.swift in Sources */,
 				8C08BAA12C10C99A00677F91 /* FilterToImage.swift in Sources */,
 				8C2AEC4E2C0EC3AB00A80EF4 /* SFSymbols.swift in Sources */,
 				8C2AEC332C07918900A80EF4 /* FormatText.swift in Sources */,
+				8C69C7202C16859B00D5E041 /* CustomizeListRows.swift in Sources */,
 				8C2AEC352C08EA7000A80EF4 /* CustomFonts.swift in Sources */,
 				8C56A6D52BFFA56300D5AC2B /* StateManagementWithCombine.swift in Sources */,
 				8C44919C2BF507930005C1C2 /* RegistrationForm.swift in Sources */,

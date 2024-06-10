@@ -9,8 +9,20 @@ import SwiftUI
 
 struct FullScreenButton: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        FullScreenButtonView()
     }
+}
+
+struct FullScreenButtonView: View {
+    var body: some View {
+        Button(action: {
+            print("Full Screen Button Tapped")
+        }, label: {
+            Text("Full Screen Button")
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+        })
+    }
+    
 }
 
 #Preview {

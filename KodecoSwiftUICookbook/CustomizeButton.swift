@@ -9,7 +9,14 @@ import SwiftUI
 
 struct CustomizeButton: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button("Click Me") {
+            print("Button Clicked")
+        }
+        .padding()
+        .background(.mint)
+        .foregroundColor(.white)
+        .font(.title)
+        .clipShape(RoundedRectangle(cornerRadius: 10))
     }
 }
 

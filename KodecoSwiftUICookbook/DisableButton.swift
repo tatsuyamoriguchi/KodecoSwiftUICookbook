@@ -8,8 +8,20 @@
 import SwiftUI
 
 struct DisableButton: View {
+    @State private var isButtonDiabled = true
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Button("Tap Me") {
+                print("Button Tapped")
+            }
+            .disabled(isButtonDiabled)
+            
+            Button("\(isButtonDiabled ? "Enabled" : "Disabled") button") {
+                isButtonDiabled.toggle()
+            }
+            .padding()
+        }
     }
 }
 

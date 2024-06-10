@@ -8,8 +8,32 @@
 import SwiftUI
 
 struct ConsistentSwiftUIDesign: View {
+    @State private var isSelected = false
+    @State private var changeColor = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: {
+            isSelected.toggle()
+        }) {
+            Image("TransparentHedgy")
+                .renderingMode(.template)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 200, height: 200)
+                .foregroundColor(isSelected ? .red : .gray)
+        }
+        
+        Image("TransparentHedgy")
+            .renderingMode(.template)
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .frame(width: 200, height: 200)
+            .foregroundColor(changeColor ? .purple : .gray)
+            .onAppear() {
+                withAnimation(.easeInOut(duration: 2).repeatForever(autoreverses: true)) {
+                    changeColor.toggle()
+                }
+            }
     }
 }
 

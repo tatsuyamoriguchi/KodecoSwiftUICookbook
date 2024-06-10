@@ -8,8 +8,16 @@
 import SwiftUI
 
 struct ToggleButton: View {
+    @State private var isOn = false
+    @State private var hello = true
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Toggle(isOn: $isOn) {
+            Text("Switch the state.")
+            
+        }
+        .toggleStyle(.automatic)
+        .padding()
     }
 }
 

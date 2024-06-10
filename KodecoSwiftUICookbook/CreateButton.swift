@@ -9,7 +9,14 @@ import SwiftUI
 
 struct CreateButton: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button("Click Me") {
+            // Action
+        }
+        .font(.headline)
+        .padding()
+        .foregroundColor(.white)
+        .background(.mint)
+        .cornerRadius(15)
     }
 }
 
