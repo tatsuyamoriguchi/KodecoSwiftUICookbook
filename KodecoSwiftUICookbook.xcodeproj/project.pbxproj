@@ -43,6 +43,10 @@
 		8C6402702C19FFDE00171F9D /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C64026F2C19FFDE00171F9D /* SegmentedControl.swift */; };
 		8C6402722C1A01F300171F9D /* AddProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6402712C1A01F300171F9D /* AddProgressView.swift */; };
 		8C6402742C1A035A00171F9D /* CreateColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6402732C1A035A00171F9D /* CreateColorPicker.swift */; };
+		8C6402782C1A431400171F9D /* CreateTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6402772C1A431400171F9D /* CreateTabView.swift */; };
+		8C64027A2C1A44A400171F9D /* CustomizeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6402792C1A44A400171F9D /* CustomizeTabView.swift */; };
+		8C64027C2C1A48E700171F9D /* CustomIconsToTabViewItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C64027B2C1A48E700171F9D /* CustomIconsToTabViewItems.swift */; };
+		8C64027E2C1A4AB900171F9D /* CreateSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C64027D2C1A4AB900171F9D /* CreateSplitView.swift */; };
 		8C69C7042C13742700D5E041 /* ConsistentSwiftUIDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69C7032C13742700D5E041 /* ConsistentSwiftUIDesign.swift */; };
 		8C69C7062C137CD400D5E041 /* CreateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69C7052C137CD400D5E041 /* CreateButton.swift */; };
 		8C69C7082C137EB000D5E041 /* CustomizeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69C7072C137EB000D5E041 /* CustomizeButton.swift */; };
@@ -115,6 +119,10 @@
 		8C64026F2C19FFDE00171F9D /* SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
 		8C6402712C1A01F300171F9D /* AddProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProgressView.swift; sourceTree = "<group>"; };
 		8C6402732C1A035A00171F9D /* CreateColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateColorPicker.swift; sourceTree = "<group>"; };
+		8C6402772C1A431400171F9D /* CreateTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTabView.swift; sourceTree = "<group>"; };
+		8C6402792C1A44A400171F9D /* CustomizeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeTabView.swift; sourceTree = "<group>"; };
+		8C64027B2C1A48E700171F9D /* CustomIconsToTabViewItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIconsToTabViewItems.swift; sourceTree = "<group>"; };
+		8C64027D2C1A4AB900171F9D /* CreateSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSplitView.swift; sourceTree = "<group>"; };
 		8C69C7032C13742700D5E041 /* ConsistentSwiftUIDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsistentSwiftUIDesign.swift; sourceTree = "<group>"; };
 		8C69C7052C137CD400D5E041 /* CreateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateButton.swift; sourceTree = "<group>"; };
 		8C69C7072C137EB000D5E041 /* CustomizeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeButton.swift; sourceTree = "<group>"; };
@@ -249,6 +257,10 @@
 				8C64026F2C19FFDE00171F9D /* SegmentedControl.swift */,
 				8C6402712C1A01F300171F9D /* AddProgressView.swift */,
 				8C6402732C1A035A00171F9D /* CreateColorPicker.swift */,
+				8C6402772C1A431400171F9D /* CreateTabView.swift */,
+				8C6402792C1A44A400171F9D /* CustomizeTabView.swift */,
+				8C64027B2C1A48E700171F9D /* CustomIconsToTabViewItems.swift */,
+				8C64027D2C1A4AB900171F9D /* CreateSplitView.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -368,13 +380,16 @@
 				8C6402742C1A035A00171F9D /* CreateColorPicker.swift in Sources */,
 				8C2AEC462C0CD0D400A80EF4 /* LoadImage.swift in Sources */,
 				8CFECD2A2C175CA100632C90 /* NavigationTitle.swift in Sources */,
+				8C64027C2C1A48E700171F9D /* CustomIconsToTabViewItems.swift in Sources */,
 				8C2AEC482C0CD30000A80EF4 /* AspectRatios.swift in Sources */,
 				8CFECD362C18C36B00632C90 /* ScrollingList.swift in Sources */,
+				8C6402782C1A431400171F9D /* CreateTabView.swift in Sources */,
 				8C6402702C19FFDE00171F9D /* SegmentedControl.swift in Sources */,
 				8CFECD2E2C17C7B600632C90 /* SectionHeaders.swift in Sources */,
 				8C2AEC422C0AE3FB00A80EF4 /* SeureFieldView.swift in Sources */,
 				8C2AEC312C078F8A00A80EF4 /* DynamicTypeTextStyles.swift in Sources */,
 				8C6402722C1A01F300171F9D /* AddProgressView.swift in Sources */,
+				8C64027E2C1A4AB900171F9D /* CreateSplitView.swift in Sources */,
 				8C85E8CE2BFBAFC6005B6201 /* ObservableObject & ObservedObject.swift in Sources */,
 				8C2AEC442C0AE66100A80EF4 /* TextFieldKeyboardType.swift in Sources */,
 				8C2AEC232C03A02200A80EF4 /* EnvironmentValuesSample.swift in Sources */,
@@ -388,6 +403,7 @@
 				8C2AEC2D2C07898C00A80EF4 /* StylingText.swift in Sources */,
 				8C2AEC502C0F843F00A80EF4 /* CustomImageShape.swift in Sources */,
 				8C2AAA682C12239400C7B29C /* BlendTwoImages.swift in Sources */,
+				8C64027A2C1A44A400171F9D /* CustomizeTabView.swift in Sources */,
 				8C69C7142C160D4F00D5E041 /* DisableButton.swift in Sources */,
 				8CFECD2C2C17C2DA00632C90 /* ButtonToNavigationBar.swift in Sources */,
 				8C08BAA12C10C99A00677F91 /* FilterToImage.swift in Sources */,
