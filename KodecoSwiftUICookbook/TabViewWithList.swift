@@ -8,8 +8,28 @@
 import SwiftUI
 
 struct TabViewWithList: View {
+    var animals = ["Lion","Tiger","Elephant", "Leopard"]
+    var plants = ["Rose", "Lily", "Tulip", "Orchid"]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView {
+            List(animals, id: \.self) { animal in
+                Text(animal)
+            }
+            .tabItem {
+                Image(systemName: "hare")
+                Text("Animals")
+            }
+            List(plants, id: \.self) { plant in
+                Text(plant)
+            }
+//            SearchBarInList()
+            .tabItem {
+                Image(systemName: "leaf")
+                Text("Plants")
+                
+            }
+        }
     }
 }
 

@@ -9,7 +9,19 @@ import SwiftUI
 
 struct ButtonToNavigationBar: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            Text("Aloha, Alamoana.")
+                .toolbar {
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        Button(action: {
+                            print("Button Tapped")
+                        }) {
+                            Image(systemName: "gear")
+                        }
+                    }
+                }
+        }
+        
     }
 }
 

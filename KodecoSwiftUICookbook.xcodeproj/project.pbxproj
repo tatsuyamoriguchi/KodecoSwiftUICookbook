@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		8C08BA9F2C10C54500677F91 /* ShadowToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C08BA9E2C10C54500677F91 /* ShadowToImage.swift */; };
 		8C08BAA12C10C99A00677F91 /* FilterToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C08BAA02C10C99A00677F91 /* FilterToImage.swift */; };
+		8C1049362C19470A0065C88C /* FormWithSecitons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1049352C19470A0065C88C /* FormWithSecitons.swift */; };
+		8C1049382C194CC20065C88C /* CreateCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1049372C194CC20065C88C /* CreateCheckBox.swift */; };
+		8C10493A2C19563D0065C88C /* AddStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1049392C19563D0065C88C /* AddStepper.swift */; };
+		8C10493C2C1959020065C88C /* CreatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C10493B2C1959020065C88C /* CreatePicker.swift */; };
 		8C2AAA682C12239400C7B29C /* BlendTwoImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AAA672C12239400C7B29C /* BlendTwoImages.swift */; };
 		8C2AAA6A2C1225F000C7B29C /* AnimatedImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AAA692C1225F000C7B29C /* AnimatedImages.swift */; };
 		8C2AAA6C2C122C7800C7B29C /* SwiftUIPhotosPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AAA6B2C122C7800C7B29C /* SwiftUIPhotosPicker.swift */; };
@@ -60,11 +64,21 @@
 		8CB4F4962BF1191400BA2A90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB4F4952BF1191400BA2A90 /* Assets.xcassets */; };
 		8CB4F4992BF1191400BA2A90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB4F4982BF1191400BA2A90 /* Preview Assets.xcassets */; };
 		8CFECD2A2C175CA100632C90 /* NavigationTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFECD292C175CA100632C90 /* NavigationTitle.swift */; };
+		8CFECD2C2C17C2DA00632C90 /* ButtonToNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFECD2B2C17C2DA00632C90 /* ButtonToNavigationBar.swift */; };
+		8CFECD2E2C17C7B600632C90 /* SectionHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFECD2D2C17C7B600632C90 /* SectionHeaders.swift */; };
+		8CFECD302C17CB9700632C90 /* SearchBarInList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFECD2F2C17CB9600632C90 /* SearchBarInList.swift */; };
+		8CFECD322C18BA6F00632C90 /* SwipeActionsToList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFECD312C18BA6F00632C90 /* SwipeActionsToList.swift */; };
+		8CFECD342C18C0DF00632C90 /* TabViewWithList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFECD332C18C0DF00632C90 /* TabViewWithList.swift */; };
+		8CFECD362C18C36B00632C90 /* ScrollingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFECD352C18C36B00632C90 /* ScrollingList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8C08BA9E2C10C54500677F91 /* ShadowToImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowToImage.swift; sourceTree = "<group>"; };
 		8C08BAA02C10C99A00677F91 /* FilterToImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterToImage.swift; sourceTree = "<group>"; };
+		8C1049352C19470A0065C88C /* FormWithSecitons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormWithSecitons.swift; sourceTree = "<group>"; };
+		8C1049372C194CC20065C88C /* CreateCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCheckBox.swift; sourceTree = "<group>"; };
+		8C1049392C19563D0065C88C /* AddStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStepper.swift; sourceTree = "<group>"; };
+		8C10493B2C1959020065C88C /* CreatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePicker.swift; sourceTree = "<group>"; };
 		8C2AAA672C12239400C7B29C /* BlendTwoImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendTwoImages.swift; sourceTree = "<group>"; };
 		8C2AAA692C1225F000C7B29C /* AnimatedImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedImages.swift; sourceTree = "<group>"; };
 		8C2AAA6B2C122C7800C7B29C /* SwiftUIPhotosPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPhotosPicker.swift; sourceTree = "<group>"; };
@@ -118,6 +132,12 @@
 		8CB4F4952BF1191400BA2A90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CB4F4982BF1191400BA2A90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8CFECD292C175CA100632C90 /* NavigationTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitle.swift; sourceTree = "<group>"; };
+		8CFECD2B2C17C2DA00632C90 /* ButtonToNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonToNavigationBar.swift; sourceTree = "<group>"; };
+		8CFECD2D2C17C7B600632C90 /* SectionHeaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaders.swift; sourceTree = "<group>"; };
+		8CFECD2F2C17CB9600632C90 /* SearchBarInList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarInList.swift; sourceTree = "<group>"; };
+		8CFECD312C18BA6F00632C90 /* SwipeActionsToList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionsToList.swift; sourceTree = "<group>"; };
+		8CFECD332C18C0DF00632C90 /* TabViewWithList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewWithList.swift; sourceTree = "<group>"; };
+		8CFECD352C18C36B00632C90 /* ScrollingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +199,7 @@
 				8C2AEC392C08F28800A80EF4 /* CreateTextField.swift */,
 				8C2AEC412C0AE3FB00A80EF4 /* SeureFieldView.swift */,
 				8C2AEC432C0AE66100A80EF4 /* TextFieldKeyboardType.swift */,
+				8C1049352C19470A0065C88C /* FormWithSecitons.swift */,
 				8C2AEC452C0CD0D400A80EF4 /* LoadImage.swift */,
 				8C2AEC472C0CD30000A80EF4 /* AspectRatios.swift */,
 				8C2AEC492C0CD42300A80EF4 /* CropImage.swift */,
@@ -188,7 +209,11 @@
 				8C08BAA02C10C99A00677F91 /* FilterToImage.swift */,
 				8C2AAA672C12239400C7B29C /* BlendTwoImages.swift */,
 				8C2AAA692C1225F000C7B29C /* AnimatedImages.swift */,
+				8CFECD332C18C0DF00632C90 /* TabViewWithList.swift */,
+				8CFECD352C18C36B00632C90 /* ScrollingList.swift */,
+				8C1049372C194CC20065C88C /* CreateCheckBox.swift */,
 				8C2AAA6B2C122C7800C7B29C /* SwiftUIPhotosPicker.swift */,
+				8C1049392C19563D0065C88C /* AddStepper.swift */,
 				8C69C7032C13742700D5E041 /* ConsistentSwiftUIDesign.swift */,
 				8C69C7052C137CD400D5E041 /* CreateButton.swift */,
 				8C69C7072C137EB000D5E041 /* CustomizeButton.swift */,
@@ -196,6 +221,7 @@
 				8C69C70D2C14CD9E00D5E041 /* ActionToButton.swift */,
 				8C69C70F2C14D06700D5E041 /* ToggleButton.swift */,
 				8C69C7112C160C5400D5E041 /* GroupOfButtons.swift */,
+				8C10493B2C1959020065C88C /* CreatePicker.swift */,
 				8C69C7132C160D4F00D5E041 /* DisableButton.swift */,
 				8C69C7152C1611DA00D5E041 /* IconToButton.swift */,
 				8C69C7172C1612FA00D5E041 /* FullScreenButton.swift */,
@@ -204,6 +230,10 @@
 				8C69C71F2C16859B00D5E041 /* CustomizeListRows.swift */,
 				8C69C7212C16A48000D5E041 /* NvigationToList.swift */,
 				8CFECD292C175CA100632C90 /* NavigationTitle.swift */,
+				8CFECD2B2C17C2DA00632C90 /* ButtonToNavigationBar.swift */,
+				8CFECD2D2C17C7B600632C90 /* SectionHeaders.swift */,
+				8CFECD2F2C17CB9600632C90 /* SearchBarInList.swift */,
+				8CFECD312C18BA6F00632C90 /* SwipeActionsToList.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -294,11 +324,14 @@
 				8CB4F4942BF1191200BA2A90 /* ContentView.swift in Sources */,
 				8C2AEC3A2C08F28800A80EF4 /* CreateTextField.swift in Sources */,
 				8C69C70E2C14CD9E00D5E041 /* ActionToButton.swift in Sources */,
+				8C10493C2C1959020065C88C /* CreatePicker.swift in Sources */,
 				8C85E8D02BFBB520005B6201 /* Environment Objects.swift in Sources */,
 				8C85E8C42BFA6E8A005B6201 /* SwiftUIState.swift in Sources */,
 				8C69C7222C16A48000D5E041 /* NvigationToList.swift in Sources */,
 				8CB4F4922BF1191200BA2A90 /* KodecoSwiftUICookbookApp.swift in Sources */,
+				8CFECD322C18BA6F00632C90 /* SwipeActionsToList.swift in Sources */,
 				8C08BA9F2C10C54500677F91 /* ShadowToImage.swift in Sources */,
+				8C1049362C19470A0065C88C /* FormWithSecitons.swift in Sources */,
 				8CA749C32BF9583200753A6A /* CustomViewModifier.swift in Sources */,
 				8C2AEC2F2C078A8A00A80EF4 /* MultilineTextView.swift in Sources */,
 				8C69C7062C137CD400D5E041 /* CreateButton.swift in Sources */,
@@ -309,12 +342,18 @@
 				8C69C70C2C14C7A600D5E041 /* ImageToButton.swift in Sources */,
 				8C2AAA6A2C1225F000C7B29C /* AnimatedImages.swift in Sources */,
 				8C573DA02BF65F3A00501565 /* MoreSwiftUI.swift in Sources */,
+				8C1049382C194CC20065C88C /* CreateCheckBox.swift in Sources */,
+				8CFECD342C18C0DF00632C90 /* TabViewWithList.swift in Sources */,
+				8C10493A2C19563D0065C88C /* AddStepper.swift in Sources */,
 				8C69C7082C137EB000D5E041 /* CustomizeButton.swift in Sources */,
 				8C573DA42BF7C18400501565 /* Grid.swift in Sources */,
 				8C69C7122C160C5400D5E041 /* GroupOfButtons.swift in Sources */,
+				8CFECD302C17CB9700632C90 /* SearchBarInList.swift in Sources */,
 				8C2AEC462C0CD0D400A80EF4 /* LoadImage.swift in Sources */,
 				8CFECD2A2C175CA100632C90 /* NavigationTitle.swift in Sources */,
 				8C2AEC482C0CD30000A80EF4 /* AspectRatios.swift in Sources */,
+				8CFECD362C18C36B00632C90 /* ScrollingList.swift in Sources */,
+				8CFECD2E2C17C7B600632C90 /* SectionHeaders.swift in Sources */,
 				8C2AEC422C0AE3FB00A80EF4 /* SeureFieldView.swift in Sources */,
 				8C2AEC312C078F8A00A80EF4 /* DynamicTypeTextStyles.swift in Sources */,
 				8C85E8CE2BFBAFC6005B6201 /* ObservableObject & ObservedObject.swift in Sources */,
@@ -330,6 +369,7 @@
 				8C2AEC502C0F843F00A80EF4 /* CustomImageShape.swift in Sources */,
 				8C2AAA682C12239400C7B29C /* BlendTwoImages.swift in Sources */,
 				8C69C7142C160D4F00D5E041 /* DisableButton.swift in Sources */,
+				8CFECD2C2C17C2DA00632C90 /* ButtonToNavigationBar.swift in Sources */,
 				8C08BAA12C10C99A00677F91 /* FilterToImage.swift in Sources */,
 				8C2AEC4E2C0EC3AB00A80EF4 /* SFSymbols.swift in Sources */,
 				8C2AEC332C07918900A80EF4 /* FormatText.swift in Sources */,
