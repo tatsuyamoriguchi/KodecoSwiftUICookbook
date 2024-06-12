@@ -38,6 +38,11 @@
 		8C56A6D72BFFACF300D5AC2B /* AppStorage_SceneStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C56A6D62BFFACF300D5AC2B /* AppStorage_SceneStorage.swift */; };
 		8C573DA02BF65F3A00501565 /* MoreSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C573D9F2BF65F3A00501565 /* MoreSwiftUI.swift */; };
 		8C573DA42BF7C18400501565 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C573DA32BF7C18400501565 /* Grid.swift */; };
+		8C64026C2C19FA4A00171F9D /* CreateDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C64026B2C19FA4A00171F9D /* CreateDatePicker.swift */; };
+		8C64026E2C19FEDE00171F9D /* CreateSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C64026D2C19FEDE00171F9D /* CreateSlider.swift */; };
+		8C6402702C19FFDE00171F9D /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C64026F2C19FFDE00171F9D /* SegmentedControl.swift */; };
+		8C6402722C1A01F300171F9D /* AddProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6402712C1A01F300171F9D /* AddProgressView.swift */; };
+		8C6402742C1A035A00171F9D /* CreateColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6402732C1A035A00171F9D /* CreateColorPicker.swift */; };
 		8C69C7042C13742700D5E041 /* ConsistentSwiftUIDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69C7032C13742700D5E041 /* ConsistentSwiftUIDesign.swift */; };
 		8C69C7062C137CD400D5E041 /* CreateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69C7052C137CD400D5E041 /* CreateButton.swift */; };
 		8C69C7082C137EB000D5E041 /* CustomizeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69C7072C137EB000D5E041 /* CustomizeButton.swift */; };
@@ -105,6 +110,11 @@
 		8C56A6D62BFFACF300D5AC2B /* AppStorage_SceneStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage_SceneStorage.swift; sourceTree = "<group>"; };
 		8C573D9F2BF65F3A00501565 /* MoreSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreSwiftUI.swift; sourceTree = "<group>"; };
 		8C573DA32BF7C18400501565 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		8C64026B2C19FA4A00171F9D /* CreateDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDatePicker.swift; sourceTree = "<group>"; };
+		8C64026D2C19FEDE00171F9D /* CreateSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSlider.swift; sourceTree = "<group>"; };
+		8C64026F2C19FFDE00171F9D /* SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
+		8C6402712C1A01F300171F9D /* AddProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProgressView.swift; sourceTree = "<group>"; };
+		8C6402732C1A035A00171F9D /* CreateColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateColorPicker.swift; sourceTree = "<group>"; };
 		8C69C7032C13742700D5E041 /* ConsistentSwiftUIDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsistentSwiftUIDesign.swift; sourceTree = "<group>"; };
 		8C69C7052C137CD400D5E041 /* CreateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateButton.swift; sourceTree = "<group>"; };
 		8C69C7072C137EB000D5E041 /* CustomizeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeButton.swift; sourceTree = "<group>"; };
@@ -234,6 +244,11 @@
 				8CFECD2D2C17C7B600632C90 /* SectionHeaders.swift */,
 				8CFECD2F2C17CB9600632C90 /* SearchBarInList.swift */,
 				8CFECD312C18BA6F00632C90 /* SwipeActionsToList.swift */,
+				8C64026B2C19FA4A00171F9D /* CreateDatePicker.swift */,
+				8C64026D2C19FEDE00171F9D /* CreateSlider.swift */,
+				8C64026F2C19FFDE00171F9D /* SegmentedControl.swift */,
+				8C6402712C1A01F300171F9D /* AddProgressView.swift */,
+				8C6402732C1A035A00171F9D /* CreateColorPicker.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -333,6 +348,7 @@
 				8C08BA9F2C10C54500677F91 /* ShadowToImage.swift in Sources */,
 				8C1049362C19470A0065C88C /* FormWithSecitons.swift in Sources */,
 				8CA749C32BF9583200753A6A /* CustomViewModifier.swift in Sources */,
+				8C64026C2C19FA4A00171F9D /* CreateDatePicker.swift in Sources */,
 				8C2AEC2F2C078A8A00A80EF4 /* MultilineTextView.swift in Sources */,
 				8C69C7062C137CD400D5E041 /* CreateButton.swift in Sources */,
 				8C69C71E2C167B1900D5E041 /* CreateList.swift in Sources */,
@@ -349,13 +365,16 @@
 				8C573DA42BF7C18400501565 /* Grid.swift in Sources */,
 				8C69C7122C160C5400D5E041 /* GroupOfButtons.swift in Sources */,
 				8CFECD302C17CB9700632C90 /* SearchBarInList.swift in Sources */,
+				8C6402742C1A035A00171F9D /* CreateColorPicker.swift in Sources */,
 				8C2AEC462C0CD0D400A80EF4 /* LoadImage.swift in Sources */,
 				8CFECD2A2C175CA100632C90 /* NavigationTitle.swift in Sources */,
 				8C2AEC482C0CD30000A80EF4 /* AspectRatios.swift in Sources */,
 				8CFECD362C18C36B00632C90 /* ScrollingList.swift in Sources */,
+				8C6402702C19FFDE00171F9D /* SegmentedControl.swift in Sources */,
 				8CFECD2E2C17C7B600632C90 /* SectionHeaders.swift in Sources */,
 				8C2AEC422C0AE3FB00A80EF4 /* SeureFieldView.swift in Sources */,
 				8C2AEC312C078F8A00A80EF4 /* DynamicTypeTextStyles.swift in Sources */,
+				8C6402722C1A01F300171F9D /* AddProgressView.swift in Sources */,
 				8C85E8CE2BFBAFC6005B6201 /* ObservableObject & ObservedObject.swift in Sources */,
 				8C2AEC442C0AE66100A80EF4 /* TextFieldKeyboardType.swift in Sources */,
 				8C2AEC232C03A02200A80EF4 /* EnvironmentValuesSample.swift in Sources */,
@@ -364,6 +383,7 @@
 				8C56A6D72BFFACF300D5AC2B /* AppStorage_SceneStorage.swift in Sources */,
 				8CA749C52BF962FC00753A6A /* CustomShape.swift in Sources */,
 				8C2AEC4A2C0CD42300A80EF4 /* CropImage.swift in Sources */,
+				8C64026E2C19FEDE00171F9D /* CreateSlider.swift in Sources */,
 				8C2AEC252C06381E00A80EF4 /* BestPracticeForStateManagement.swift in Sources */,
 				8C2AEC2D2C07898C00A80EF4 /* StylingText.swift in Sources */,
 				8C2AEC502C0F843F00A80EF4 /* CustomImageShape.swift in Sources */,
