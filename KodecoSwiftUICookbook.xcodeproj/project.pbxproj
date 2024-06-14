@@ -33,6 +33,13 @@
 		8C2AEC4A2C0CD42300A80EF4 /* CropImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AEC492C0CD42300A80EF4 /* CropImage.swift */; };
 		8C2AEC4E2C0EC3AB00A80EF4 /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AEC4D2C0EC3AB00A80EF4 /* SFSymbols.swift */; };
 		8C2AEC502C0F843F00A80EF4 /* CustomImageShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AEC4F2C0F843F00A80EF4 /* CustomImageShape.swift */; };
+		8C3D5BC92C1BA51000B06F51 /* PresentModalViewfromTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D5BC82C1BA51000B06F51 /* PresentModalViewfromTabView.swift */; };
+		8C3D5BCB2C1BA78200B06F51 /* SwitchTabsProgrammatically.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D5BCA2C1BA78200B06F51 /* SwitchTabsProgrammatically.swift */; };
+		8C3D5BCD2C1BA9C500B06F51 /* HideTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D5BCC2C1BA9C500B06F51 /* HideTabView.swift */; };
+		8C3D5BCF2C1BACA100B06F51 /* TabViewtoNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D5BCE2C1BACA100B06F51 /* TabViewtoNavigationView.swift */; };
+		8C3D5BD12C1C94F600B06F51 /* AnimateProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D5BD02C1C94F600B06F51 /* AnimateProgressBar.swift */; };
+		8C3D5BD32C1C996400B06F51 /* SpinningActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D5BD22C1C996400B06F51 /* SpinningActivityIndicator.swift */; };
+		8C3D5BD52C1C9AD900B06F51 /* CustomizeProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D5BD42C1C9AD900B06F51 /* CustomizeProgressIndicator.swift */; };
 		8C44919C2BF507930005C1C2 /* RegistrationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C44919B2BF507930005C1C2 /* RegistrationForm.swift */; };
 		8C56A6D52BFFA56300D5AC2B /* StateManagementWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C56A6D42BFFA56300D5AC2B /* StateManagementWithCombine.swift */; };
 		8C56A6D72BFFACF300D5AC2B /* AppStorage_SceneStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C56A6D62BFFACF300D5AC2B /* AppStorage_SceneStorage.swift */; };
@@ -111,6 +118,13 @@
 		8C2AEC492C0CD42300A80EF4 /* CropImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropImage.swift; sourceTree = "<group>"; };
 		8C2AEC4D2C0EC3AB00A80EF4 /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
 		8C2AEC4F2C0F843F00A80EF4 /* CustomImageShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageShape.swift; sourceTree = "<group>"; };
+		8C3D5BC82C1BA51000B06F51 /* PresentModalViewfromTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentModalViewfromTabView.swift; sourceTree = "<group>"; };
+		8C3D5BCA2C1BA78200B06F51 /* SwitchTabsProgrammatically.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTabsProgrammatically.swift; sourceTree = "<group>"; };
+		8C3D5BCC2C1BA9C500B06F51 /* HideTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideTabView.swift; sourceTree = "<group>"; };
+		8C3D5BCE2C1BACA100B06F51 /* TabViewtoNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewtoNavigationView.swift; sourceTree = "<group>"; };
+		8C3D5BD02C1C94F600B06F51 /* AnimateProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateProgressBar.swift; sourceTree = "<group>"; };
+		8C3D5BD22C1C996400B06F51 /* SpinningActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinningActivityIndicator.swift; sourceTree = "<group>"; };
+		8C3D5BD42C1C9AD900B06F51 /* CustomizeProgressIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeProgressIndicator.swift; sourceTree = "<group>"; };
 		8C44919B2BF507930005C1C2 /* RegistrationForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationForm.swift; sourceTree = "<group>"; };
 		8C56A6D42BFFA56300D5AC2B /* StateManagementWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateManagementWithCombine.swift; sourceTree = "<group>"; };
 		8C56A6D62BFFACF300D5AC2B /* AppStorage_SceneStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage_SceneStorage.swift; sourceTree = "<group>"; };
@@ -267,6 +281,13 @@
 				8C64027D2C1A4AB900171F9D /* CreateSplitView.swift */,
 				8CE526212C1B3FF900496A97 /* CustomizeSplitView.swift */,
 				8CE526232C1B47AD00496A97 /* DetailViewToSplitView.swift */,
+				8C3D5BC82C1BA51000B06F51 /* PresentModalViewfromTabView.swift */,
+				8C3D5BCA2C1BA78200B06F51 /* SwitchTabsProgrammatically.swift */,
+				8C3D5BCC2C1BA9C500B06F51 /* HideTabView.swift */,
+				8C3D5BCE2C1BACA100B06F51 /* TabViewtoNavigationView.swift */,
+				8C3D5BD02C1C94F600B06F51 /* AnimateProgressBar.swift */,
+				8C3D5BD22C1C996400B06F51 /* SpinningActivityIndicator.swift */,
+				8C3D5BD42C1C9AD900B06F51 /* CustomizeProgressIndicator.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -350,6 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C3D5BD52C1C9AD900B06F51 /* CustomizeProgressIndicator.swift in Sources */,
 				8C69C7102C14D06700D5E041 /* ToggleButton.swift in Sources */,
 				8C2AAA6C2C122C7800C7B29C /* SwiftUIPhotosPicker.swift in Sources */,
 				8C69C71A2C16146400D5E041 /* AdvancedButtonStyling.swift in Sources */,
@@ -370,6 +392,7 @@
 				8C2AEC2F2C078A8A00A80EF4 /* MultilineTextView.swift in Sources */,
 				8C69C7062C137CD400D5E041 /* CreateButton.swift in Sources */,
 				8C69C71E2C167B1900D5E041 /* CreateList.swift in Sources */,
+				8C3D5BD12C1C94F600B06F51 /* AnimateProgressBar.swift in Sources */,
 				8C85E8C62BFA73B2005B6201 /* SwiftUIBinding.swift in Sources */,
 				8C69C7042C13742700D5E041 /* ConsistentSwiftUIDesign.swift in Sources */,
 				8C69C7182C1612FA00D5E041 /* FullScreenButton.swift in Sources */,
@@ -388,10 +411,13 @@
 				8CFECD2A2C175CA100632C90 /* NavigationTitle.swift in Sources */,
 				8C64027C2C1A48E700171F9D /* CustomIconsToTabViewItems.swift in Sources */,
 				8C2AEC482C0CD30000A80EF4 /* AspectRatios.swift in Sources */,
+				8C3D5BCF2C1BACA100B06F51 /* TabViewtoNavigationView.swift in Sources */,
 				8CFECD362C18C36B00632C90 /* ScrollingList.swift in Sources */,
 				8C6402782C1A431400171F9D /* CreateTabView.swift in Sources */,
 				8C6402702C19FFDE00171F9D /* SegmentedControl.swift in Sources */,
 				8CFECD2E2C17C7B600632C90 /* SectionHeaders.swift in Sources */,
+				8C3D5BCD2C1BA9C500B06F51 /* HideTabView.swift in Sources */,
+				8C3D5BD32C1C996400B06F51 /* SpinningActivityIndicator.swift in Sources */,
 				8C2AEC422C0AE3FB00A80EF4 /* SeureFieldView.swift in Sources */,
 				8C2AEC312C078F8A00A80EF4 /* DynamicTypeTextStyles.swift in Sources */,
 				8C6402722C1A01F300171F9D /* AddProgressView.swift in Sources */,
@@ -413,8 +439,10 @@
 				8C69C7142C160D4F00D5E041 /* DisableButton.swift in Sources */,
 				8CE526242C1B47AD00496A97 /* DetailViewToSplitView.swift in Sources */,
 				8CFECD2C2C17C2DA00632C90 /* ButtonToNavigationBar.swift in Sources */,
+				8C3D5BCB2C1BA78200B06F51 /* SwitchTabsProgrammatically.swift in Sources */,
 				8C08BAA12C10C99A00677F91 /* FilterToImage.swift in Sources */,
 				8C2AEC4E2C0EC3AB00A80EF4 /* SFSymbols.swift in Sources */,
+				8C3D5BC92C1BA51000B06F51 /* PresentModalViewfromTabView.swift in Sources */,
 				8C2AEC332C07918900A80EF4 /* FormatText.swift in Sources */,
 				8C69C7202C16859B00D5E041 /* CustomizeListRows.swift in Sources */,
 				8C2AEC352C08EA7000A80EF4 /* CustomFonts.swift in Sources */,
