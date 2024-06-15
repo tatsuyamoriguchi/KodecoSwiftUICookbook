@@ -40,6 +40,11 @@
 		8C3D5BD12C1C94F600B06F51 /* AnimateProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D5BD02C1C94F600B06F51 /* AnimateProgressBar.swift */; };
 		8C3D5BD32C1C996400B06F51 /* SpinningActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D5BD22C1C996400B06F51 /* SpinningActivityIndicator.swift */; };
 		8C3D5BD52C1C9AD900B06F51 /* CustomizeProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D5BD42C1C9AD900B06F51 /* CustomizeProgressIndicator.swift */; };
+		8C3D5BD72C1D496C00B06F51 /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D5BD62C1D496C00B06F51 /* CircularProgressBar.swift */; };
+		8C3D5BD92C1DE43000B06F51 /* DeterminateProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D5BD82C1DE43000B06F51 /* DeterminateProgressBar.swift */; };
+		8C3D5BDB2C1DE8DC00B06F51 /* IndeterminateProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D5BDA2C1DE8DC00B06F51 /* IndeterminateProgress.swift */; };
+		8C3D5BDD2C1DEAF900B06F51 /* ProgresViewToNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D5BDC2C1DEAF900B06F51 /* ProgresViewToNavigationBar.swift */; };
+		8C3D5BDF2C1DED8600B06F51 /* CustomSegmentedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D5BDE2C1DED8600B06F51 /* CustomSegmentedProgressBar.swift */; };
 		8C44919C2BF507930005C1C2 /* RegistrationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C44919B2BF507930005C1C2 /* RegistrationForm.swift */; };
 		8C56A6D52BFFA56300D5AC2B /* StateManagementWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C56A6D42BFFA56300D5AC2B /* StateManagementWithCombine.swift */; };
 		8C56A6D72BFFACF300D5AC2B /* AppStorage_SceneStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C56A6D62BFFACF300D5AC2B /* AppStorage_SceneStorage.swift */; };
@@ -125,6 +130,11 @@
 		8C3D5BD02C1C94F600B06F51 /* AnimateProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateProgressBar.swift; sourceTree = "<group>"; };
 		8C3D5BD22C1C996400B06F51 /* SpinningActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinningActivityIndicator.swift; sourceTree = "<group>"; };
 		8C3D5BD42C1C9AD900B06F51 /* CustomizeProgressIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeProgressIndicator.swift; sourceTree = "<group>"; };
+		8C3D5BD62C1D496C00B06F51 /* CircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
+		8C3D5BD82C1DE43000B06F51 /* DeterminateProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeterminateProgressBar.swift; sourceTree = "<group>"; };
+		8C3D5BDA2C1DE8DC00B06F51 /* IndeterminateProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndeterminateProgress.swift; sourceTree = "<group>"; };
+		8C3D5BDC2C1DEAF900B06F51 /* ProgresViewToNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgresViewToNavigationBar.swift; sourceTree = "<group>"; };
+		8C3D5BDE2C1DED8600B06F51 /* CustomSegmentedProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedProgressBar.swift; sourceTree = "<group>"; };
 		8C44919B2BF507930005C1C2 /* RegistrationForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationForm.swift; sourceTree = "<group>"; };
 		8C56A6D42BFFA56300D5AC2B /* StateManagementWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateManagementWithCombine.swift; sourceTree = "<group>"; };
 		8C56A6D62BFFACF300D5AC2B /* AppStorage_SceneStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage_SceneStorage.swift; sourceTree = "<group>"; };
@@ -288,6 +298,11 @@
 				8C3D5BD02C1C94F600B06F51 /* AnimateProgressBar.swift */,
 				8C3D5BD22C1C996400B06F51 /* SpinningActivityIndicator.swift */,
 				8C3D5BD42C1C9AD900B06F51 /* CustomizeProgressIndicator.swift */,
+				8C3D5BD62C1D496C00B06F51 /* CircularProgressBar.swift */,
+				8C3D5BD82C1DE43000B06F51 /* DeterminateProgressBar.swift */,
+				8C3D5BDA2C1DE8DC00B06F51 /* IndeterminateProgress.swift */,
+				8C3D5BDC2C1DEAF900B06F51 /* ProgresViewToNavigationBar.swift */,
+				8C3D5BDE2C1DED8600B06F51 /* CustomSegmentedProgressBar.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -399,13 +414,17 @@
 				8C69C70C2C14C7A600D5E041 /* ImageToButton.swift in Sources */,
 				8C2AAA6A2C1225F000C7B29C /* AnimatedImages.swift in Sources */,
 				8C573DA02BF65F3A00501565 /* MoreSwiftUI.swift in Sources */,
+				8C3D5BDB2C1DE8DC00B06F51 /* IndeterminateProgress.swift in Sources */,
 				8C1049382C194CC20065C88C /* CreateCheckBox.swift in Sources */,
 				8CFECD342C18C0DF00632C90 /* TabViewWithList.swift in Sources */,
 				8C10493A2C19563D0065C88C /* AddStepper.swift in Sources */,
+				8C3D5BDD2C1DEAF900B06F51 /* ProgresViewToNavigationBar.swift in Sources */,
+				8C3D5BDF2C1DED8600B06F51 /* CustomSegmentedProgressBar.swift in Sources */,
 				8C69C7082C137EB000D5E041 /* CustomizeButton.swift in Sources */,
 				8C573DA42BF7C18400501565 /* Grid.swift in Sources */,
 				8C69C7122C160C5400D5E041 /* GroupOfButtons.swift in Sources */,
 				8CFECD302C17CB9700632C90 /* SearchBarInList.swift in Sources */,
+				8C3D5BD92C1DE43000B06F51 /* DeterminateProgressBar.swift in Sources */,
 				8C6402742C1A035A00171F9D /* CreateColorPicker.swift in Sources */,
 				8C2AEC462C0CD0D400A80EF4 /* LoadImage.swift in Sources */,
 				8CFECD2A2C175CA100632C90 /* NavigationTitle.swift in Sources */,
@@ -444,6 +463,7 @@
 				8C2AEC4E2C0EC3AB00A80EF4 /* SFSymbols.swift in Sources */,
 				8C3D5BC92C1BA51000B06F51 /* PresentModalViewfromTabView.swift in Sources */,
 				8C2AEC332C07918900A80EF4 /* FormatText.swift in Sources */,
+				8C3D5BD72C1D496C00B06F51 /* CircularProgressBar.swift in Sources */,
 				8C69C7202C16859B00D5E041 /* CustomizeListRows.swift in Sources */,
 				8C2AEC352C08EA7000A80EF4 /* CustomFonts.swift in Sources */,
 				8CE526222C1B3FF900496A97 /* CustomizeSplitView.swift in Sources */,
