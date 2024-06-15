@@ -84,6 +84,7 @@
 		8CB4F4942BF1191200BA2A90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB4F4932BF1191200BA2A90 /* ContentView.swift */; };
 		8CB4F4962BF1191400BA2A90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB4F4952BF1191400BA2A90 /* Assets.xcassets */; };
 		8CB4F4992BF1191400BA2A90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB4F4982BF1191400BA2A90 /* Preview Assets.xcassets */; };
+		8CC751182C1E29B5002E73E6 /* CustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC751172C1E29B5002E73E6 /* CustomProgressView.swift */; };
 		8CE526222C1B3FF900496A97 /* CustomizeSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE526212C1B3FF900496A97 /* CustomizeSplitView.swift */; };
 		8CE526242C1B47AD00496A97 /* DetailViewToSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE526232C1B47AD00496A97 /* DetailViewToSplitView.swift */; };
 		8CFECD2A2C175CA100632C90 /* NavigationTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFECD292C175CA100632C90 /* NavigationTitle.swift */; };
@@ -175,6 +176,7 @@
 		8CB4F4932BF1191200BA2A90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8CB4F4952BF1191400BA2A90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CB4F4982BF1191400BA2A90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8CC751172C1E29B5002E73E6 /* CustomProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressView.swift; sourceTree = "<group>"; };
 		8CE526212C1B3FF900496A97 /* CustomizeSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeSplitView.swift; sourceTree = "<group>"; };
 		8CE526232C1B47AD00496A97 /* DetailViewToSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewToSplitView.swift; sourceTree = "<group>"; };
 		8CFECD292C175CA100632C90 /* NavigationTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitle.swift; sourceTree = "<group>"; };
@@ -303,6 +305,7 @@
 				8C3D5BDA2C1DE8DC00B06F51 /* IndeterminateProgress.swift */,
 				8C3D5BDC2C1DEAF900B06F51 /* ProgresViewToNavigationBar.swift */,
 				8C3D5BDE2C1DED8600B06F51 /* CustomSegmentedProgressBar.swift */,
+				8CC751172C1E29B5002E73E6 /* CustomProgressView.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -412,6 +415,7 @@
 				8C69C7042C13742700D5E041 /* ConsistentSwiftUIDesign.swift in Sources */,
 				8C69C7182C1612FA00D5E041 /* FullScreenButton.swift in Sources */,
 				8C69C70C2C14C7A600D5E041 /* ImageToButton.swift in Sources */,
+				8CC751182C1E29B5002E73E6 /* CustomProgressView.swift in Sources */,
 				8C2AAA6A2C1225F000C7B29C /* AnimatedImages.swift in Sources */,
 				8C573DA02BF65F3A00501565 /* MoreSwiftUI.swift in Sources */,
 				8C3D5BDB2C1DE8DC00B06F51 /* IndeterminateProgress.swift in Sources */,
