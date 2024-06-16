@@ -9,11 +9,12 @@ import SwiftUI
 
 struct ViewThatFitsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        MoonPhaseView(phase: "Waxing Creschent", image: Image( systemName: "moonphase.waxing.crescent"))
+            .frame(maxWidth: 200)
     }
 }
 
-struct MonnPhaseView: View {
+struct MoonPhaseView: View {
     var phase: String
     var image: Image
     

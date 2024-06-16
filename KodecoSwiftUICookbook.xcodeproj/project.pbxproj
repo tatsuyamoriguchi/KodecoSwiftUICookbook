@@ -33,6 +33,9 @@
 		8C2AEC4A2C0CD42300A80EF4 /* CropImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AEC492C0CD42300A80EF4 /* CropImage.swift */; };
 		8C2AEC4E2C0EC3AB00A80EF4 /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AEC4D2C0EC3AB00A80EF4 /* SFSymbols.swift */; };
 		8C2AEC502C0F843F00A80EF4 /* CustomImageShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AEC4F2C0F843F00A80EF4 /* CustomImageShape.swift */; };
+		8C3B780B2C1F3533000643C9 /* LazyVGridLazyHGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3B780A2C1F3533000643C9 /* LazyVGridLazyHGrid.swift */; };
+		8C3B780D2C1F3BAF000643C9 /* SwiftUIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3B780C2C1F3BAF000643C9 /* SwiftUIScrollView.swift */; };
+		8C3B780F2C1F3EE4000643C9 /* ZStackVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3B780E2C1F3EE4000643C9 /* ZStackVStack.swift */; };
 		8C3D5BC92C1BA51000B06F51 /* PresentModalViewfromTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D5BC82C1BA51000B06F51 /* PresentModalViewfromTabView.swift */; };
 		8C3D5BCB2C1BA78200B06F51 /* SwitchTabsProgrammatically.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D5BCA2C1BA78200B06F51 /* SwitchTabsProgrammatically.swift */; };
 		8C3D5BCD2C1BA9C500B06F51 /* HideTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D5BCC2C1BA9C500B06F51 /* HideTabView.swift */; };
@@ -85,6 +88,8 @@
 		8CB4F4962BF1191400BA2A90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB4F4952BF1191400BA2A90 /* Assets.xcassets */; };
 		8CB4F4992BF1191400BA2A90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB4F4982BF1191400BA2A90 /* Preview Assets.xcassets */; };
 		8CC751182C1E29B5002E73E6 /* CustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC751172C1E29B5002E73E6 /* CustomProgressView.swift */; };
+		8CC7511C2C1E30D3002E73E6 /* FramesAndAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC7511B2C1E30D3002E73E6 /* FramesAndAlignment.swift */; };
+		8CC7511E2C1E33DF002E73E6 /* ViewThatFitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC7511D2C1E33DF002E73E6 /* ViewThatFitsView.swift */; };
 		8CE526222C1B3FF900496A97 /* CustomizeSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE526212C1B3FF900496A97 /* CustomizeSplitView.swift */; };
 		8CE526242C1B47AD00496A97 /* DetailViewToSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE526232C1B47AD00496A97 /* DetailViewToSplitView.swift */; };
 		8CFECD2A2C175CA100632C90 /* NavigationTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFECD292C175CA100632C90 /* NavigationTitle.swift */; };
@@ -124,6 +129,9 @@
 		8C2AEC492C0CD42300A80EF4 /* CropImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropImage.swift; sourceTree = "<group>"; };
 		8C2AEC4D2C0EC3AB00A80EF4 /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
 		8C2AEC4F2C0F843F00A80EF4 /* CustomImageShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageShape.swift; sourceTree = "<group>"; };
+		8C3B780A2C1F3533000643C9 /* LazyVGridLazyHGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridLazyHGrid.swift; sourceTree = "<group>"; };
+		8C3B780C2C1F3BAF000643C9 /* SwiftUIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIScrollView.swift; sourceTree = "<group>"; };
+		8C3B780E2C1F3EE4000643C9 /* ZStackVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackVStack.swift; sourceTree = "<group>"; };
 		8C3D5BC82C1BA51000B06F51 /* PresentModalViewfromTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentModalViewfromTabView.swift; sourceTree = "<group>"; };
 		8C3D5BCA2C1BA78200B06F51 /* SwitchTabsProgrammatically.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTabsProgrammatically.swift; sourceTree = "<group>"; };
 		8C3D5BCC2C1BA9C500B06F51 /* HideTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideTabView.swift; sourceTree = "<group>"; };
@@ -177,6 +185,8 @@
 		8CB4F4952BF1191400BA2A90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CB4F4982BF1191400BA2A90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8CC751172C1E29B5002E73E6 /* CustomProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressView.swift; sourceTree = "<group>"; };
+		8CC7511B2C1E30D3002E73E6 /* FramesAndAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramesAndAlignment.swift; sourceTree = "<group>"; };
+		8CC7511D2C1E33DF002E73E6 /* ViewThatFitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitsView.swift; sourceTree = "<group>"; };
 		8CE526212C1B3FF900496A97 /* CustomizeSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeSplitView.swift; sourceTree = "<group>"; };
 		8CE526232C1B47AD00496A97 /* DetailViewToSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewToSplitView.swift; sourceTree = "<group>"; };
 		8CFECD292C175CA100632C90 /* NavigationTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitle.swift; sourceTree = "<group>"; };
@@ -306,6 +316,11 @@
 				8C3D5BDC2C1DEAF900B06F51 /* ProgresViewToNavigationBar.swift */,
 				8C3D5BDE2C1DED8600B06F51 /* CustomSegmentedProgressBar.swift */,
 				8CC751172C1E29B5002E73E6 /* CustomProgressView.swift */,
+				8CC7511B2C1E30D3002E73E6 /* FramesAndAlignment.swift */,
+				8CC7511D2C1E33DF002E73E6 /* ViewThatFitsView.swift */,
+				8C3B780A2C1F3533000643C9 /* LazyVGridLazyHGrid.swift */,
+				8C3B780C2C1F3BAF000643C9 /* SwiftUIScrollView.swift */,
+				8C3B780E2C1F3EE4000643C9 /* ZStackVStack.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -411,6 +426,7 @@
 				8C69C7062C137CD400D5E041 /* CreateButton.swift in Sources */,
 				8C69C71E2C167B1900D5E041 /* CreateList.swift in Sources */,
 				8C3D5BD12C1C94F600B06F51 /* AnimateProgressBar.swift in Sources */,
+				8CC7511C2C1E30D3002E73E6 /* FramesAndAlignment.swift in Sources */,
 				8C85E8C62BFA73B2005B6201 /* SwiftUIBinding.swift in Sources */,
 				8C69C7042C13742700D5E041 /* ConsistentSwiftUIDesign.swift in Sources */,
 				8C69C7182C1612FA00D5E041 /* FullScreenButton.swift in Sources */,
@@ -433,12 +449,15 @@
 				8C2AEC462C0CD0D400A80EF4 /* LoadImage.swift in Sources */,
 				8CFECD2A2C175CA100632C90 /* NavigationTitle.swift in Sources */,
 				8C64027C2C1A48E700171F9D /* CustomIconsToTabViewItems.swift in Sources */,
+				8C3B780D2C1F3BAF000643C9 /* SwiftUIScrollView.swift in Sources */,
 				8C2AEC482C0CD30000A80EF4 /* AspectRatios.swift in Sources */,
 				8C3D5BCF2C1BACA100B06F51 /* TabViewtoNavigationView.swift in Sources */,
 				8CFECD362C18C36B00632C90 /* ScrollingList.swift in Sources */,
 				8C6402782C1A431400171F9D /* CreateTabView.swift in Sources */,
+				8C3B780B2C1F3533000643C9 /* LazyVGridLazyHGrid.swift in Sources */,
 				8C6402702C19FFDE00171F9D /* SegmentedControl.swift in Sources */,
 				8CFECD2E2C17C7B600632C90 /* SectionHeaders.swift in Sources */,
+				8C3B780F2C1F3EE4000643C9 /* ZStackVStack.swift in Sources */,
 				8C3D5BCD2C1BA9C500B06F51 /* HideTabView.swift in Sources */,
 				8C3D5BD32C1C996400B06F51 /* SpinningActivityIndicator.swift in Sources */,
 				8C2AEC422C0AE3FB00A80EF4 /* SeureFieldView.swift in Sources */,
@@ -451,6 +470,7 @@
 				8C2AEC2B2C0788DD00A80EF4 /* TextView.swift in Sources */,
 				8C69C7162C1611DA00D5E041 /* IconToButton.swift in Sources */,
 				8C56A6D72BFFACF300D5AC2B /* AppStorage_SceneStorage.swift in Sources */,
+				8CC7511E2C1E33DF002E73E6 /* ViewThatFitsView.swift in Sources */,
 				8CA749C52BF962FC00753A6A /* CustomShape.swift in Sources */,
 				8C2AEC4A2C0CD42300A80EF4 /* CropImage.swift in Sources */,
 				8C64026E2C19FEDE00171F9D /* CreateSlider.swift in Sources */,
