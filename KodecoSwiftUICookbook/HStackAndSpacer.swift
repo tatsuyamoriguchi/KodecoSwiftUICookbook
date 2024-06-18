@@ -9,8 +9,28 @@ import SwiftUI
 
 struct HStackAndSpacer: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Image(systemName: "ant.circle.fill")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 50)
+            Text("Cute Ant")
+                .font(.title)
+                .padding(.leading, 10)
+
+            Spacer()
+
+            Image(systemName: "ladybug")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 50)
+            Text("Cheerful Ladybug")
+                .font(.title)
+                .padding(.leading, 10)
+        }
+        .padding()
     }
+    
 }
 
 #Preview {

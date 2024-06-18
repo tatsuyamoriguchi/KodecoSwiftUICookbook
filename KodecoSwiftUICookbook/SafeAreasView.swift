@@ -9,7 +9,24 @@ import SwiftUI
 
 struct SafeAreasView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Image("ocean-view")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .edgesIgnoringSafeArea(.all)
+            
+            VStack {
+                Text("Welcome to Beach Paradise")
+                    .font(.title)
+                    .fontWeight(.light)
+                    .foregroundStyle(.white)
+                    .padding()
+                    .background(Color.black.opacity(0.7))
+                    .cornerRadius(10)
+                Spacer()
+            }
+            .padding()
+        }
     }
 }
 

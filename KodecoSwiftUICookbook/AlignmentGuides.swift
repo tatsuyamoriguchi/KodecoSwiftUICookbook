@@ -7,9 +7,29 @@
 
 import SwiftUI
 
+struct CircleAlignment: AlignmentID {
+    static func defaultValue(in context: ViewDimensions) -> CGFloat {
+        return context[VerticalAlignment.center]
+    }
+}
+
+extension VerticalAlignment {
+    static let circleAlignment = VerticalAlignment(CircleAlignment.self)
+}
+
+
 struct AlignmentGuides: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack(alignment: .circleAlignment, content: {
+            ForEach(0..<5) { index in
+                Circle()
+                    .frame(width: 50, height: 50)
+                    .alignmentGuide(.circleAlignment, computeValue: { dimension in
+                        CGFloat(index * 30)
+                    })
+            }
+        })
+        
     }
 }
 

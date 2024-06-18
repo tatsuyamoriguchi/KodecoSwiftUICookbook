@@ -1,5 +1,5 @@
 //
-//  GeometryReader.swift
+//  GeometryReaderView.swift
 //  KodecoSwiftUICookbook
 //
 //  Created by Tatsuya Moriguchi on 6/17/24.
@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct GeometryReader: View {
+struct GeometryReaderView: View {
     var body: some View {
         GeometryReader { geometry in
             VStack {
-                ForEach(-..<10) { i in
+                ForEach(0..<10) { i in
                     Rectangle()
                         .fill(.blue)
                         .frame(width: geometry.size.width * CGFloat(i+1)/10
@@ -23,5 +23,5 @@ struct GeometryReader: View {
 }
 
 #Preview {
-    GeometryReader()
+    GeometryReaderView()
 }
