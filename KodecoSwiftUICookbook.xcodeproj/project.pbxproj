@@ -89,6 +89,8 @@
 		8C85E8D22BFD0496005B6201 /* StateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85E8D12BFD0496005B6201 /* StateObject.swift */; };
 		8CA749C32BF9583200753A6A /* CustomViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA749C22BF9583200753A6A /* CustomViewModifier.swift */; };
 		8CA749C52BF962FC00753A6A /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA749C42BF962FC00753A6A /* CustomShape.swift */; };
+		8CAD5CF42C24AAD500BFCC4D /* RepeatingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD5CF32C24AAD500BFCC4D /* RepeatingAnimation.swift */; };
+		8CAD5CF62C24AC8A00BFCC4D /* ChainMultipleAnimations .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD5CF52C24AC8900BFCC4D /* ChainMultipleAnimations .swift */; };
 		8CB4F4922BF1191200BA2A90 /* KodecoSwiftUICookbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB4F4912BF1191200BA2A90 /* KodecoSwiftUICookbookApp.swift */; };
 		8CB4F4942BF1191200BA2A90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB4F4932BF1191200BA2A90 /* ContentView.swift */; };
 		8CB4F4962BF1191400BA2A90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB4F4952BF1191400BA2A90 /* Assets.xcassets */; };
@@ -103,6 +105,7 @@
 		8CDC12022C20C49B0052A33F /* SafeAreasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDC12012C20C49B0052A33F /* SafeAreasView.swift */; };
 		8CE526222C1B3FF900496A97 /* CustomizeSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE526212C1B3FF900496A97 /* CustomizeSplitView.swift */; };
 		8CE526242C1B47AD00496A97 /* DetailViewToSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE526232C1B47AD00496A97 /* DetailViewToSplitView.swift */; };
+		8CEB62562C24A7B4004146AD /* DelayedAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEB62552C24A7B4004146AD /* DelayedAnimation.swift */; };
 		8CFECD2A2C175CA100632C90 /* NavigationTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFECD292C175CA100632C90 /* NavigationTitle.swift */; };
 		8CFECD2C2C17C2DA00632C90 /* ButtonToNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFECD2B2C17C2DA00632C90 /* ButtonToNavigationBar.swift */; };
 		8CFECD2E2C17C7B600632C90 /* SectionHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFECD2D2C17C7B600632C90 /* SectionHeaders.swift */; };
@@ -196,6 +199,8 @@
 		8C85E8D12BFD0496005B6201 /* StateObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObject.swift; sourceTree = "<group>"; };
 		8CA749C22BF9583200753A6A /* CustomViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewModifier.swift; sourceTree = "<group>"; };
 		8CA749C42BF962FC00753A6A /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
+		8CAD5CF32C24AAD500BFCC4D /* RepeatingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingAnimation.swift; sourceTree = "<group>"; };
+		8CAD5CF52C24AC8900BFCC4D /* ChainMultipleAnimations .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChainMultipleAnimations .swift"; sourceTree = "<group>"; };
 		8CB4F48E2BF1191200BA2A90 /* KodecoSwiftUICookbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KodecoSwiftUICookbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB4F4912BF1191200BA2A90 /* KodecoSwiftUICookbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KodecoSwiftUICookbookApp.swift; sourceTree = "<group>"; };
 		8CB4F4932BF1191200BA2A90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -211,6 +216,7 @@
 		8CDC12012C20C49B0052A33F /* SafeAreasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreasView.swift; sourceTree = "<group>"; };
 		8CE526212C1B3FF900496A97 /* CustomizeSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeSplitView.swift; sourceTree = "<group>"; };
 		8CE526232C1B47AD00496A97 /* DetailViewToSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewToSplitView.swift; sourceTree = "<group>"; };
+		8CEB62552C24A7B4004146AD /* DelayedAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayedAnimation.swift; sourceTree = "<group>"; };
 		8CFECD292C175CA100632C90 /* NavigationTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitle.swift; sourceTree = "<group>"; };
 		8CFECD2B2C17C2DA00632C90 /* ButtonToNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonToNavigationBar.swift; sourceTree = "<group>"; };
 		8CFECD2D2C17C7B600632C90 /* SectionHeaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaders.swift; sourceTree = "<group>"; };
@@ -354,6 +360,9 @@
 				8C3A09162C232CED00871DBA /* AnimateViewsRotation.swift */,
 				8C3A09182C232F6300871DBA /* AnimateViewsSize.swift */,
 				8C3A091A2C23315300871DBA /* SprintAnimation.swift */,
+				8CEB62552C24A7B4004146AD /* DelayedAnimation.swift */,
+				8CAD5CF32C24AAD500BFCC4D /* RepeatingAnimation.swift */,
+				8CAD5CF52C24AC8900BFCC4D /* ChainMultipleAnimations .swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -461,6 +470,7 @@
 				8CA749C32BF9583200753A6A /* CustomViewModifier.swift in Sources */,
 				8C64026C2C19FA4A00171F9D /* CreateDatePicker.swift in Sources */,
 				8C2AEC2F2C078A8A00A80EF4 /* MultilineTextView.swift in Sources */,
+				8CEB62562C24A7B4004146AD /* DelayedAnimation.swift in Sources */,
 				8C69C7062C137CD400D5E041 /* CreateButton.swift in Sources */,
 				8C69C71E2C167B1900D5E041 /* CreateList.swift in Sources */,
 				8C3D5BD12C1C94F600B06F51 /* AnimateProgressBar.swift in Sources */,
@@ -475,6 +485,7 @@
 				8C573DA02BF65F3A00501565 /* MoreSwiftUI.swift in Sources */,
 				8C3D5BDB2C1DE8DC00B06F51 /* IndeterminateProgress.swift in Sources */,
 				8C1049382C194CC20065C88C /* CreateCheckBox.swift in Sources */,
+				8CAD5CF62C24AC8A00BFCC4D /* ChainMultipleAnimations .swift in Sources */,
 				8CFECD342C18C0DF00632C90 /* TabViewWithList.swift in Sources */,
 				8C10493A2C19563D0065C88C /* AddStepper.swift in Sources */,
 				8C3D5BDD2C1DEAF900B06F51 /* ProgresViewToNavigationBar.swift in Sources */,
@@ -530,6 +541,7 @@
 				8C08BAA12C10C99A00677F91 /* FilterToImage.swift in Sources */,
 				8C2AEC4E2C0EC3AB00A80EF4 /* SFSymbols.swift in Sources */,
 				8C3D5BC92C1BA51000B06F51 /* PresentModalViewfromTabView.swift in Sources */,
+				8CAD5CF42C24AAD500BFCC4D /* RepeatingAnimation.swift in Sources */,
 				8C2AEC332C07918900A80EF4 /* FormatText.swift in Sources */,
 				8C3D5BD72C1D496C00B06F51 /* CircularProgressBar.swift in Sources */,
 				8C69C7202C16859B00D5E041 /* CustomizeListRows.swift in Sources */,
