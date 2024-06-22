@@ -105,6 +105,9 @@
 		8CDC11FE2C20BA8E0052A33F /* PaddingSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDC11FD2C20BA8E0052A33F /* PaddingSpacing.swift */; };
 		8CDC12002C20C20C0052A33F /* AlignmentGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDC11FF2C20C20C0052A33F /* AlignmentGuides.swift */; };
 		8CDC12022C20C49B0052A33F /* SafeAreasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDC12012C20C49B0052A33F /* SafeAreasView.swift */; };
+		8CE003BB2C2722A8001FF8F3 /* DetectingTaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE003BA2C2722A8001FF8F3 /* DetectingTaps.swift */; };
+		8CE003BD2C272492001FF8F3 /* LongPressGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE003BC2C272492001FF8F3 /* LongPressGestures.swift */; };
+		8CE003BF2C27264E001FF8F3 /* DraggingGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE003BE2C27264E001FF8F3 /* DraggingGestures.swift */; };
 		8CE526222C1B3FF900496A97 /* CustomizeSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE526212C1B3FF900496A97 /* CustomizeSplitView.swift */; };
 		8CE526242C1B47AD00496A97 /* DetailViewToSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE526232C1B47AD00496A97 /* DetailViewToSplitView.swift */; };
 		8CEB62562C24A7B4004146AD /* DelayedAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEB62552C24A7B4004146AD /* DelayedAnimation.swift */; };
@@ -218,6 +221,9 @@
 		8CDC11FD2C20BA8E0052A33F /* PaddingSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingSpacing.swift; sourceTree = "<group>"; };
 		8CDC11FF2C20C20C0052A33F /* AlignmentGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuides.swift; sourceTree = "<group>"; };
 		8CDC12012C20C49B0052A33F /* SafeAreasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreasView.swift; sourceTree = "<group>"; };
+		8CE003BA2C2722A8001FF8F3 /* DetectingTaps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectingTaps.swift; sourceTree = "<group>"; };
+		8CE003BC2C272492001FF8F3 /* LongPressGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestures.swift; sourceTree = "<group>"; };
+		8CE003BE2C27264E001FF8F3 /* DraggingGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggingGestures.swift; sourceTree = "<group>"; };
 		8CE526212C1B3FF900496A97 /* CustomizeSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeSplitView.swift; sourceTree = "<group>"; };
 		8CE526232C1B47AD00496A97 /* DetailViewToSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewToSplitView.swift; sourceTree = "<group>"; };
 		8CEB62552C24A7B4004146AD /* DelayedAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayedAnimation.swift; sourceTree = "<group>"; };
@@ -369,6 +375,9 @@
 				8CAD5CF52C24AC8900BFCC4D /* ChainMultipleAnimations .swift */,
 				8C3E3AEF2C25EC0100741473 /* AnimateBindingValues.swift */,
 				8C3E3AF12C25F99C00741473 /* AnimateViewTransitions.swift */,
+				8CE003BA2C2722A8001FF8F3 /* DetectingTaps.swift */,
+				8CE003BC2C272492001FF8F3 /* LongPressGestures.swift */,
+				8CE003BE2C27264E001FF8F3 /* DraggingGestures.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -454,6 +463,7 @@
 			files = (
 				8C3D5BD52C1C9AD900B06F51 /* CustomizeProgressIndicator.swift in Sources */,
 				8C69C7102C14D06700D5E041 /* ToggleButton.swift in Sources */,
+				8CE003BF2C27264E001FF8F3 /* DraggingGestures.swift in Sources */,
 				8C3A09172C232CED00871DBA /* AnimateViewsRotation.swift in Sources */,
 				8C2AAA6C2C122C7800C7B29C /* SwiftUIPhotosPicker.swift in Sources */,
 				8C69C71A2C16146400D5E041 /* AdvancedButtonStyling.swift in Sources */,
@@ -496,6 +506,7 @@
 				8CFECD342C18C0DF00632C90 /* TabViewWithList.swift in Sources */,
 				8C10493A2C19563D0065C88C /* AddStepper.swift in Sources */,
 				8C3D5BDD2C1DEAF900B06F51 /* ProgresViewToNavigationBar.swift in Sources */,
+				8CE003BD2C272492001FF8F3 /* LongPressGestures.swift in Sources */,
 				8C3D5BDF2C1DED8600B06F51 /* CustomSegmentedProgressBar.swift in Sources */,
 				8C69C7082C137EB000D5E041 /* CustomizeButton.swift in Sources */,
 				8C573DA42BF7C18400501565 /* Grid.swift in Sources */,
@@ -503,6 +514,7 @@
 				8C3A09152C21DFCC00871DBA /* AnimateViewsPosition.swift in Sources */,
 				8C69C7122C160C5400D5E041 /* GroupOfButtons.swift in Sources */,
 				8CFECD302C17CB9700632C90 /* SearchBarInList.swift in Sources */,
+				8CE003BB2C2722A8001FF8F3 /* DetectingTaps.swift in Sources */,
 				8C3D5BD92C1DE43000B06F51 /* DeterminateProgressBar.swift in Sources */,
 				8C6402742C1A035A00171F9D /* CreateColorPicker.swift in Sources */,
 				8C2AEC462C0CD0D400A80EF4 /* LoadImage.swift in Sources */,
