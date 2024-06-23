@@ -61,6 +61,9 @@
 		8C56A6D72BFFACF300D5AC2B /* AppStorage_SceneStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C56A6D62BFFACF300D5AC2B /* AppStorage_SceneStorage.swift */; };
 		8C573DA02BF65F3A00501565 /* MoreSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C573D9F2BF65F3A00501565 /* MoreSwiftUI.swift */; };
 		8C573DA42BF7C18400501565 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C573DA32BF7C18400501565 /* Grid.swift */; };
+		8C5E220A2C288F3A00CCE092 /* SwipeToDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5E22092C288F3A00CCE092 /* SwipeToDelete.swift */; };
+		8C5E220C2C2891C800CCE092 /* RotatingViewsWithGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5E220B2C2891C800CCE092 /* RotatingViewsWithGestures.swift */; };
+		8C5E220E2C28962700CCE092 /* PinchToZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5E220D2C28962700CCE092 /* PinchToZoom.swift */; };
 		8C64026C2C19FA4A00171F9D /* CreateDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C64026B2C19FA4A00171F9D /* CreateDatePicker.swift */; };
 		8C64026E2C19FEDE00171F9D /* CreateSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C64026D2C19FEDE00171F9D /* CreateSlider.swift */; };
 		8C6402702C19FFDE00171F9D /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C64026F2C19FFDE00171F9D /* SegmentedControl.swift */; };
@@ -176,6 +179,9 @@
 		8C56A6D62BFFACF300D5AC2B /* AppStorage_SceneStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage_SceneStorage.swift; sourceTree = "<group>"; };
 		8C573D9F2BF65F3A00501565 /* MoreSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreSwiftUI.swift; sourceTree = "<group>"; };
 		8C573DA32BF7C18400501565 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		8C5E22092C288F3A00CCE092 /* SwipeToDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeToDelete.swift; sourceTree = "<group>"; };
+		8C5E220B2C2891C800CCE092 /* RotatingViewsWithGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingViewsWithGestures.swift; sourceTree = "<group>"; };
+		8C5E220D2C28962700CCE092 /* PinchToZoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchToZoom.swift; sourceTree = "<group>"; };
 		8C64026B2C19FA4A00171F9D /* CreateDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDatePicker.swift; sourceTree = "<group>"; };
 		8C64026D2C19FEDE00171F9D /* CreateSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSlider.swift; sourceTree = "<group>"; };
 		8C64026F2C19FFDE00171F9D /* SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
@@ -378,6 +384,9 @@
 				8CE003BA2C2722A8001FF8F3 /* DetectingTaps.swift */,
 				8CE003BC2C272492001FF8F3 /* LongPressGestures.swift */,
 				8CE003BE2C27264E001FF8F3 /* DraggingGestures.swift */,
+				8C5E22092C288F3A00CCE092 /* SwipeToDelete.swift */,
+				8C5E220B2C2891C800CCE092 /* RotatingViewsWithGestures.swift */,
+				8C5E220D2C28962700CCE092 /* PinchToZoom.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -473,12 +482,15 @@
 				8C2AEC3A2C08F28800A80EF4 /* CreateTextField.swift in Sources */,
 				8C3A09192C232F6300871DBA /* AnimateViewsSize.swift in Sources */,
 				8C69C70E2C14CD9E00D5E041 /* ActionToButton.swift in Sources */,
+				8C5E220C2C2891C800CCE092 /* RotatingViewsWithGestures.swift in Sources */,
 				8C10493C2C1959020065C88C /* CreatePicker.swift in Sources */,
+				8C5E220E2C28962700CCE092 /* PinchToZoom.swift in Sources */,
 				8C3A091B2C23315300871DBA /* SprintAnimation.swift in Sources */,
 				8CDC12022C20C49B0052A33F /* SafeAreasView.swift in Sources */,
 				8C85E8D02BFBB520005B6201 /* Environment Objects.swift in Sources */,
 				8C3E3AF02C25EC0100741473 /* AnimateBindingValues.swift in Sources */,
 				8C85E8C42BFA6E8A005B6201 /* SwiftUIState.swift in Sources */,
+				8C5E220A2C288F3A00CCE092 /* SwipeToDelete.swift in Sources */,
 				8C69C7222C16A48000D5E041 /* NvigationToList.swift in Sources */,
 				8CB4F4922BF1191200BA2A90 /* KodecoSwiftUICookbookApp.swift in Sources */,
 				8CFECD322C18BA6F00632C90 /* SwipeActionsToList.swift in Sources */,
