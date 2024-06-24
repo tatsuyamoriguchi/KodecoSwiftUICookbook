@@ -114,6 +114,7 @@
 		8CE526222C1B3FF900496A97 /* CustomizeSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE526212C1B3FF900496A97 /* CustomizeSplitView.swift */; };
 		8CE526242C1B47AD00496A97 /* DetailViewToSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE526232C1B47AD00496A97 /* DetailViewToSplitView.swift */; };
 		8CEB62562C24A7B4004146AD /* DelayedAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEB62552C24A7B4004146AD /* DelayedAnimation.swift */; };
+		8CF80A3B2C29C183008F3683 /* GesturePriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF80A3A2C29C183008F3683 /* GesturePriority.swift */; };
 		8CFECD2A2C175CA100632C90 /* NavigationTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFECD292C175CA100632C90 /* NavigationTitle.swift */; };
 		8CFECD2C2C17C2DA00632C90 /* ButtonToNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFECD2B2C17C2DA00632C90 /* ButtonToNavigationBar.swift */; };
 		8CFECD2E2C17C7B600632C90 /* SectionHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFECD2D2C17C7B600632C90 /* SectionHeaders.swift */; };
@@ -233,6 +234,7 @@
 		8CE526212C1B3FF900496A97 /* CustomizeSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeSplitView.swift; sourceTree = "<group>"; };
 		8CE526232C1B47AD00496A97 /* DetailViewToSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewToSplitView.swift; sourceTree = "<group>"; };
 		8CEB62552C24A7B4004146AD /* DelayedAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayedAnimation.swift; sourceTree = "<group>"; };
+		8CF80A3A2C29C183008F3683 /* GesturePriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturePriority.swift; sourceTree = "<group>"; };
 		8CFECD292C175CA100632C90 /* NavigationTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitle.swift; sourceTree = "<group>"; };
 		8CFECD2B2C17C2DA00632C90 /* ButtonToNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonToNavigationBar.swift; sourceTree = "<group>"; };
 		8CFECD2D2C17C7B600632C90 /* SectionHeaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaders.swift; sourceTree = "<group>"; };
@@ -387,6 +389,7 @@
 				8C5E22092C288F3A00CCE092 /* SwipeToDelete.swift */,
 				8C5E220B2C2891C800CCE092 /* RotatingViewsWithGestures.swift */,
 				8C5E220D2C28962700CCE092 /* PinchToZoom.swift */,
+				8CF80A3A2C29C183008F3683 /* GesturePriority.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -519,6 +522,7 @@
 				8C10493A2C19563D0065C88C /* AddStepper.swift in Sources */,
 				8C3D5BDD2C1DEAF900B06F51 /* ProgresViewToNavigationBar.swift in Sources */,
 				8CE003BD2C272492001FF8F3 /* LongPressGestures.swift in Sources */,
+				8CF80A3B2C29C183008F3683 /* GesturePriority.swift in Sources */,
 				8C3D5BDF2C1DED8600B06F51 /* CustomSegmentedProgressBar.swift in Sources */,
 				8C69C7082C137EB000D5E041 /* CustomizeButton.swift in Sources */,
 				8C573DA42BF7C18400501565 /* Grid.swift in Sources */,
