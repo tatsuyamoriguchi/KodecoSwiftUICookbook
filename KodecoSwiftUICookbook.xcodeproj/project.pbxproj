@@ -54,6 +54,8 @@
 		8C3D5BDB2C1DE8DC00B06F51 /* IndeterminateProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D5BDA2C1DE8DC00B06F51 /* IndeterminateProgress.swift */; };
 		8C3D5BDD2C1DEAF900B06F51 /* ProgresViewToNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D5BDC2C1DEAF900B06F51 /* ProgresViewToNavigationBar.swift */; };
 		8C3D5BDF2C1DED8600B06F51 /* CustomSegmentedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D5BDE2C1DED8600B06F51 /* CustomSegmentedProgressBar.swift */; };
+		8C3E31962C2BB94F0043422E /* ExclusiveGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3E31952C2BB94F0043422E /* ExclusiveGestures.swift */; };
+		8C3E31982C2BC00F0043422E /* SimultaneousGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3E31972C2BC00F0043422E /* SimultaneousGestures.swift */; };
 		8C3E3AF02C25EC0100741473 /* AnimateBindingValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3E3AEF2C25EC0100741473 /* AnimateBindingValues.swift */; };
 		8C3E3AF22C25F99C00741473 /* AnimateViewTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3E3AF12C25F99C00741473 /* AnimateViewTransitions.swift */; };
 		8C44919C2BF507930005C1C2 /* RegistrationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C44919B2BF507930005C1C2 /* RegistrationForm.swift */; };
@@ -103,6 +105,10 @@
 		8CC751182C1E29B5002E73E6 /* CustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC751172C1E29B5002E73E6 /* CustomProgressView.swift */; };
 		8CC7511C2C1E30D3002E73E6 /* FramesAndAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC7511B2C1E30D3002E73E6 /* FramesAndAlignment.swift */; };
 		8CC7511E2C1E33DF002E73E6 /* ViewThatFitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC7511D2C1E33DF002E73E6 /* ViewThatFitsView.swift */; };
+		8CDBE2C72C2C64B6007F3DB8 /* CreateATextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBE2C62C2C64B6007F3DB8 /* CreateATextField.swift */; };
+		8CDBE2C92C2C667B007F3DB8 /* CreateTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBE2C82C2C667B007F3DB8 /* CreateTextEditor.swift */; };
+		8CDBE2CB2C2C679A007F3DB8 /* ScrollableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBE2CA2C2C679A007F3DB8 /* ScrollableTextField.swift */; };
+		8CDBE2CD2C2C6AB7007F3DB8 /* TextFieldWithOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBE2CC2C2C6AB7007F3DB8 /* TextFieldWithOptional.swift */; };
 		8CDC11FA2C20B7E80052A33F /* HStackAndSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDC11F92C20B7E80052A33F /* HStackAndSpacer.swift */; };
 		8CDC11FC2C20B8E40052A33F /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDC11FB2C20B8E40052A33F /* GeometryReaderView.swift */; };
 		8CDC11FE2C20BA8E0052A33F /* PaddingSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDC11FD2C20BA8E0052A33F /* PaddingSpacing.swift */; };
@@ -115,6 +121,7 @@
 		8CE526242C1B47AD00496A97 /* DetailViewToSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE526232C1B47AD00496A97 /* DetailViewToSplitView.swift */; };
 		8CEB62562C24A7B4004146AD /* DelayedAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEB62552C24A7B4004146AD /* DelayedAnimation.swift */; };
 		8CF80A3B2C29C183008F3683 /* GesturePriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF80A3A2C29C183008F3683 /* GesturePriority.swift */; };
+		8CF80A3D2C29C6F6008F3683 /* SequencingGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF80A3C2C29C6F6008F3683 /* SequencingGestures.swift */; };
 		8CFECD2A2C175CA100632C90 /* NavigationTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFECD292C175CA100632C90 /* NavigationTitle.swift */; };
 		8CFECD2C2C17C2DA00632C90 /* ButtonToNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFECD2B2C17C2DA00632C90 /* ButtonToNavigationBar.swift */; };
 		8CFECD2E2C17C7B600632C90 /* SectionHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFECD2D2C17C7B600632C90 /* SectionHeaders.swift */; };
@@ -173,6 +180,8 @@
 		8C3D5BDA2C1DE8DC00B06F51 /* IndeterminateProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndeterminateProgress.swift; sourceTree = "<group>"; };
 		8C3D5BDC2C1DEAF900B06F51 /* ProgresViewToNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgresViewToNavigationBar.swift; sourceTree = "<group>"; };
 		8C3D5BDE2C1DED8600B06F51 /* CustomSegmentedProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedProgressBar.swift; sourceTree = "<group>"; };
+		8C3E31952C2BB94F0043422E /* ExclusiveGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExclusiveGestures.swift; sourceTree = "<group>"; };
+		8C3E31972C2BC00F0043422E /* SimultaneousGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimultaneousGestures.swift; sourceTree = "<group>"; };
 		8C3E3AEF2C25EC0100741473 /* AnimateBindingValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateBindingValues.swift; sourceTree = "<group>"; };
 		8C3E3AF12C25F99C00741473 /* AnimateViewTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateViewTransitions.swift; sourceTree = "<group>"; };
 		8C44919B2BF507930005C1C2 /* RegistrationForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationForm.swift; sourceTree = "<group>"; };
@@ -223,6 +232,10 @@
 		8CC751172C1E29B5002E73E6 /* CustomProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressView.swift; sourceTree = "<group>"; };
 		8CC7511B2C1E30D3002E73E6 /* FramesAndAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramesAndAlignment.swift; sourceTree = "<group>"; };
 		8CC7511D2C1E33DF002E73E6 /* ViewThatFitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitsView.swift; sourceTree = "<group>"; };
+		8CDBE2C62C2C64B6007F3DB8 /* CreateATextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateATextField.swift; sourceTree = "<group>"; };
+		8CDBE2C82C2C667B007F3DB8 /* CreateTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTextEditor.swift; sourceTree = "<group>"; };
+		8CDBE2CA2C2C679A007F3DB8 /* ScrollableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableTextField.swift; sourceTree = "<group>"; };
+		8CDBE2CC2C2C6AB7007F3DB8 /* TextFieldWithOptional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWithOptional.swift; sourceTree = "<group>"; };
 		8CDC11F92C20B7E80052A33F /* HStackAndSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackAndSpacer.swift; sourceTree = "<group>"; };
 		8CDC11FB2C20B8E40052A33F /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
 		8CDC11FD2C20BA8E0052A33F /* PaddingSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingSpacing.swift; sourceTree = "<group>"; };
@@ -235,6 +248,7 @@
 		8CE526232C1B47AD00496A97 /* DetailViewToSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewToSplitView.swift; sourceTree = "<group>"; };
 		8CEB62552C24A7B4004146AD /* DelayedAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayedAnimation.swift; sourceTree = "<group>"; };
 		8CF80A3A2C29C183008F3683 /* GesturePriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturePriority.swift; sourceTree = "<group>"; };
+		8CF80A3C2C29C6F6008F3683 /* SequencingGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequencingGestures.swift; sourceTree = "<group>"; };
 		8CFECD292C175CA100632C90 /* NavigationTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitle.swift; sourceTree = "<group>"; };
 		8CFECD2B2C17C2DA00632C90 /* ButtonToNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonToNavigationBar.swift; sourceTree = "<group>"; };
 		8CFECD2D2C17C7B600632C90 /* SectionHeaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaders.swift; sourceTree = "<group>"; };
@@ -390,6 +404,13 @@
 				8C5E220B2C2891C800CCE092 /* RotatingViewsWithGestures.swift */,
 				8C5E220D2C28962700CCE092 /* PinchToZoom.swift */,
 				8CF80A3A2C29C183008F3683 /* GesturePriority.swift */,
+				8CF80A3C2C29C6F6008F3683 /* SequencingGestures.swift */,
+				8C3E31952C2BB94F0043422E /* ExclusiveGestures.swift */,
+				8C3E31972C2BC00F0043422E /* SimultaneousGestures.swift */,
+				8CDBE2C62C2C64B6007F3DB8 /* CreateATextField.swift */,
+				8CDBE2C82C2C667B007F3DB8 /* CreateTextEditor.swift */,
+				8CDBE2CA2C2C679A007F3DB8 /* ScrollableTextField.swift */,
+				8CDBE2CC2C2C6AB7007F3DB8 /* TextFieldWithOptional.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -474,17 +495,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C3D5BD52C1C9AD900B06F51 /* CustomizeProgressIndicator.swift in Sources */,
+				8CDBE2C92C2C667B007F3DB8 /* CreateTextEditor.swift in Sources */,
 				8C69C7102C14D06700D5E041 /* ToggleButton.swift in Sources */,
 				8CE003BF2C27264E001FF8F3 /* DraggingGestures.swift in Sources */,
 				8C3A09172C232CED00871DBA /* AnimateViewsRotation.swift in Sources */,
 				8C2AAA6C2C122C7800C7B29C /* SwiftUIPhotosPicker.swift in Sources */,
 				8C69C71A2C16146400D5E041 /* AdvancedButtonStyling.swift in Sources */,
 				8CDC12002C20C20C0052A33F /* AlignmentGuides.swift in Sources */,
+				8CDBE2C72C2C64B6007F3DB8 /* CreateATextField.swift in Sources */,
 				8C85E8D22BFD0496005B6201 /* StateObject.swift in Sources */,
 				8CB4F4942BF1191200BA2A90 /* ContentView.swift in Sources */,
 				8C2AEC3A2C08F28800A80EF4 /* CreateTextField.swift in Sources */,
 				8C3A09192C232F6300871DBA /* AnimateViewsSize.swift in Sources */,
 				8C69C70E2C14CD9E00D5E041 /* ActionToButton.swift in Sources */,
+				8CF80A3D2C29C6F6008F3683 /* SequencingGestures.swift in Sources */,
 				8C5E220C2C2891C800CCE092 /* RotatingViewsWithGestures.swift in Sources */,
 				8C10493C2C1959020065C88C /* CreatePicker.swift in Sources */,
 				8C5E220E2C28962700CCE092 /* PinchToZoom.swift in Sources */,
@@ -500,6 +524,7 @@
 				8C08BA9F2C10C54500677F91 /* ShadowToImage.swift in Sources */,
 				8C1049362C19470A0065C88C /* FormWithSecitons.swift in Sources */,
 				8CA749C32BF9583200753A6A /* CustomViewModifier.swift in Sources */,
+				8CDBE2CB2C2C679A007F3DB8 /* ScrollableTextField.swift in Sources */,
 				8C64026C2C19FA4A00171F9D /* CreateDatePicker.swift in Sources */,
 				8C2AEC2F2C078A8A00A80EF4 /* MultilineTextView.swift in Sources */,
 				8CEB62562C24A7B4004146AD /* DelayedAnimation.swift in Sources */,
@@ -545,7 +570,9 @@
 				8C3B780B2C1F3533000643C9 /* LazyVGridLazyHGrid.swift in Sources */,
 				8C6402702C19FFDE00171F9D /* SegmentedControl.swift in Sources */,
 				8CFECD2E2C17C7B600632C90 /* SectionHeaders.swift in Sources */,
+				8CDBE2CD2C2C6AB7007F3DB8 /* TextFieldWithOptional.swift in Sources */,
 				8C3B780F2C1F3EE4000643C9 /* ZStackVStack.swift in Sources */,
+				8C3E31982C2BC00F0043422E /* SimultaneousGestures.swift in Sources */,
 				8C3D5BCD2C1BA9C500B06F51 /* HideTabView.swift in Sources */,
 				8C3D5BD32C1C996400B06F51 /* SpinningActivityIndicator.swift in Sources */,
 				8C2AEC422C0AE3FB00A80EF4 /* SeureFieldView.swift in Sources */,
@@ -584,6 +611,7 @@
 				8C2AEC352C08EA7000A80EF4 /* CustomFonts.swift in Sources */,
 				8CE526222C1B3FF900496A97 /* CustomizeSplitView.swift in Sources */,
 				8C56A6D52BFFA56300D5AC2B /* StateManagementWithCombine.swift in Sources */,
+				8C3E31962C2BB94F0043422E /* ExclusiveGestures.swift in Sources */,
 				8C44919C2BF507930005C1C2 /* RegistrationForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
