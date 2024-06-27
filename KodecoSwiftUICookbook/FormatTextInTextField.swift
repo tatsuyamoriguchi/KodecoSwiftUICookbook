@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct FormatTextInTextField: View {
+    @State private var name: String = ""
+    @State private var email: String = ""
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 16, content: {
+            TextField("Enter Full Name", text: $name)
+                .autocapitalization(.words)
+                .textContentType(.name)
+                .padding()
+            TextField("Enter Email Address", text: $email)
+                .autocapitalization(.none)
+                .keyboardType(.emailAddress)
+                .textContentType(.emailAddress)
+                .padding()
+        })
+        .padding()
     }
 }
 

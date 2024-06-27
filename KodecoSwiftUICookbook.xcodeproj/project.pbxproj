@@ -109,6 +109,8 @@
 		8CDBE2C92C2C667B007F3DB8 /* CreateTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBE2C82C2C667B007F3DB8 /* CreateTextEditor.swift */; };
 		8CDBE2CB2C2C679A007F3DB8 /* ScrollableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBE2CA2C2C679A007F3DB8 /* ScrollableTextField.swift */; };
 		8CDBE2CD2C2C6AB7007F3DB8 /* TextFieldWithOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBE2CC2C2C6AB7007F3DB8 /* TextFieldWithOptional.swift */; };
+		8CDBE2CF2C2DB5F9007F3DB8 /* FormatTextInTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBE2CE2C2DB5F9007F3DB8 /* FormatTextInTextField.swift */; };
+		8CDBE2D32C2DC117007F3DB8 /* StyleTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBE2D22C2DC117007F3DB8 /* StyleTextField.swift */; };
 		8CDC11FA2C20B7E80052A33F /* HStackAndSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDC11F92C20B7E80052A33F /* HStackAndSpacer.swift */; };
 		8CDC11FC2C20B8E40052A33F /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDC11FB2C20B8E40052A33F /* GeometryReaderView.swift */; };
 		8CDC11FE2C20BA8E0052A33F /* PaddingSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDC11FD2C20BA8E0052A33F /* PaddingSpacing.swift */; };
@@ -236,6 +238,8 @@
 		8CDBE2C82C2C667B007F3DB8 /* CreateTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTextEditor.swift; sourceTree = "<group>"; };
 		8CDBE2CA2C2C679A007F3DB8 /* ScrollableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableTextField.swift; sourceTree = "<group>"; };
 		8CDBE2CC2C2C6AB7007F3DB8 /* TextFieldWithOptional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWithOptional.swift; sourceTree = "<group>"; };
+		8CDBE2CE2C2DB5F9007F3DB8 /* FormatTextInTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatTextInTextField.swift; sourceTree = "<group>"; };
+		8CDBE2D22C2DC117007F3DB8 /* StyleTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleTextField.swift; sourceTree = "<group>"; };
 		8CDC11F92C20B7E80052A33F /* HStackAndSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackAndSpacer.swift; sourceTree = "<group>"; };
 		8CDC11FB2C20B8E40052A33F /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
 		8CDC11FD2C20BA8E0052A33F /* PaddingSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingSpacing.swift; sourceTree = "<group>"; };
@@ -411,6 +415,8 @@
 				8CDBE2C82C2C667B007F3DB8 /* CreateTextEditor.swift */,
 				8CDBE2CA2C2C679A007F3DB8 /* ScrollableTextField.swift */,
 				8CDBE2CC2C2C6AB7007F3DB8 /* TextFieldWithOptional.swift */,
+				8CDBE2CE2C2DB5F9007F3DB8 /* FormatTextInTextField.swift */,
+				8CDBE2D22C2DC117007F3DB8 /* StyleTextField.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -506,6 +512,7 @@
 				8C85E8D22BFD0496005B6201 /* StateObject.swift in Sources */,
 				8CB4F4942BF1191200BA2A90 /* ContentView.swift in Sources */,
 				8C2AEC3A2C08F28800A80EF4 /* CreateTextField.swift in Sources */,
+				8CDBE2CF2C2DB5F9007F3DB8 /* FormatTextInTextField.swift in Sources */,
 				8C3A09192C232F6300871DBA /* AnimateViewsSize.swift in Sources */,
 				8C69C70E2C14CD9E00D5E041 /* ActionToButton.swift in Sources */,
 				8CF80A3D2C29C6F6008F3683 /* SequencingGestures.swift in Sources */,
@@ -543,6 +550,7 @@
 				8C3D5BDB2C1DE8DC00B06F51 /* IndeterminateProgress.swift in Sources */,
 				8C1049382C194CC20065C88C /* CreateCheckBox.swift in Sources */,
 				8CAD5CF62C24AC8A00BFCC4D /* ChainMultipleAnimations .swift in Sources */,
+				8CDBE2D32C2DC117007F3DB8 /* StyleTextField.swift in Sources */,
 				8CFECD342C18C0DF00632C90 /* TabViewWithList.swift in Sources */,
 				8C10493A2C19563D0065C88C /* AddStepper.swift in Sources */,
 				8C3D5BDD2C1DEAF900B06F51 /* ProgresViewToNavigationBar.swift in Sources */,

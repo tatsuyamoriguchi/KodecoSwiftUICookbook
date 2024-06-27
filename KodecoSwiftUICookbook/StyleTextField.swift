@@ -8,8 +8,16 @@
 import SwiftUI
 
 struct StyleTextField: View {
+    @State private var inputText: String = ""
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TextField("Enter Text", text: $inputText)
+            .font(.title)
+            .foregroundColor(.purple)
+            .padding()
+            .background(.yellow.opacity(0.2))
+//            .cornerRadius(10)
+            .textFieldStyle(.roundedBorder)
     }
 }
 
