@@ -111,6 +111,9 @@
 		8CDBE2CD2C2C6AB7007F3DB8 /* TextFieldWithOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBE2CC2C2C6AB7007F3DB8 /* TextFieldWithOptional.swift */; };
 		8CDBE2CF2C2DB5F9007F3DB8 /* FormatTextInTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBE2CE2C2DB5F9007F3DB8 /* FormatTextInTextField.swift */; };
 		8CDBE2D32C2DC117007F3DB8 /* StyleTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBE2D22C2DC117007F3DB8 /* StyleTextField.swift */; };
+		8CDBE2D52C2F0BED007F3DB8 /* SecureFieldTextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBE2D42C2F0BED007F3DB8 /* SecureFieldTextInput.swift */; };
+		8CDBE2D72C2F0DCA007F3DB8 /* StyleTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBE2D62C2F0DCA007F3DB8 /* StyleTextEditor.swift */; };
+		8CDBE2D92C2F1050007F3DB8 /* FindAndReplaceToTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBE2D82C2F1050007F3DB8 /* FindAndReplaceToTextEditor.swift */; };
 		8CDC11FA2C20B7E80052A33F /* HStackAndSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDC11F92C20B7E80052A33F /* HStackAndSpacer.swift */; };
 		8CDC11FC2C20B8E40052A33F /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDC11FB2C20B8E40052A33F /* GeometryReaderView.swift */; };
 		8CDC11FE2C20BA8E0052A33F /* PaddingSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDC11FD2C20BA8E0052A33F /* PaddingSpacing.swift */; };
@@ -240,6 +243,9 @@
 		8CDBE2CC2C2C6AB7007F3DB8 /* TextFieldWithOptional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWithOptional.swift; sourceTree = "<group>"; };
 		8CDBE2CE2C2DB5F9007F3DB8 /* FormatTextInTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatTextInTextField.swift; sourceTree = "<group>"; };
 		8CDBE2D22C2DC117007F3DB8 /* StyleTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleTextField.swift; sourceTree = "<group>"; };
+		8CDBE2D42C2F0BED007F3DB8 /* SecureFieldTextInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldTextInput.swift; sourceTree = "<group>"; };
+		8CDBE2D62C2F0DCA007F3DB8 /* StyleTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleTextEditor.swift; sourceTree = "<group>"; };
+		8CDBE2D82C2F1050007F3DB8 /* FindAndReplaceToTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAndReplaceToTextEditor.swift; sourceTree = "<group>"; };
 		8CDC11F92C20B7E80052A33F /* HStackAndSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackAndSpacer.swift; sourceTree = "<group>"; };
 		8CDC11FB2C20B8E40052A33F /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
 		8CDC11FD2C20BA8E0052A33F /* PaddingSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingSpacing.swift; sourceTree = "<group>"; };
@@ -417,6 +423,9 @@
 				8CDBE2CC2C2C6AB7007F3DB8 /* TextFieldWithOptional.swift */,
 				8CDBE2CE2C2DB5F9007F3DB8 /* FormatTextInTextField.swift */,
 				8CDBE2D22C2DC117007F3DB8 /* StyleTextField.swift */,
+				8CDBE2D42C2F0BED007F3DB8 /* SecureFieldTextInput.swift */,
+				8CDBE2D62C2F0DCA007F3DB8 /* StyleTextEditor.swift */,
+				8CDBE2D82C2F1050007F3DB8 /* FindAndReplaceToTextEditor.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -555,6 +564,7 @@
 				8C10493A2C19563D0065C88C /* AddStepper.swift in Sources */,
 				8C3D5BDD2C1DEAF900B06F51 /* ProgresViewToNavigationBar.swift in Sources */,
 				8CE003BD2C272492001FF8F3 /* LongPressGestures.swift in Sources */,
+				8CDBE2D52C2F0BED007F3DB8 /* SecureFieldTextInput.swift in Sources */,
 				8CF80A3B2C29C183008F3683 /* GesturePriority.swift in Sources */,
 				8C3D5BDF2C1DED8600B06F51 /* CustomSegmentedProgressBar.swift in Sources */,
 				8C69C7082C137EB000D5E041 /* CustomizeButton.swift in Sources */,
@@ -568,6 +578,7 @@
 				8C6402742C1A035A00171F9D /* CreateColorPicker.swift in Sources */,
 				8C2AEC462C0CD0D400A80EF4 /* LoadImage.swift in Sources */,
 				8CFECD2A2C175CA100632C90 /* NavigationTitle.swift in Sources */,
+				8CDBE2D72C2F0DCA007F3DB8 /* StyleTextEditor.swift in Sources */,
 				8C64027C2C1A48E700171F9D /* CustomIconsToTabViewItems.swift in Sources */,
 				8C3E3AF22C25F99C00741473 /* AnimateViewTransitions.swift in Sources */,
 				8C3B780D2C1F3BAF000643C9 /* SwiftUIScrollView.swift in Sources */,
@@ -618,6 +629,7 @@
 				8C69C7202C16859B00D5E041 /* CustomizeListRows.swift in Sources */,
 				8C2AEC352C08EA7000A80EF4 /* CustomFonts.swift in Sources */,
 				8CE526222C1B3FF900496A97 /* CustomizeSplitView.swift in Sources */,
+				8CDBE2D92C2F1050007F3DB8 /* FindAndReplaceToTextEditor.swift in Sources */,
 				8C56A6D52BFFA56300D5AC2B /* StateManagementWithCombine.swift in Sources */,
 				8C3E31962C2BB94F0043422E /* ExclusiveGestures.swift in Sources */,
 				8C44919C2BF507930005C1C2 /* RegistrationForm.swift in Sources */,
