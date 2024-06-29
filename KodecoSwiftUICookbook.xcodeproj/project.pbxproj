@@ -94,6 +94,7 @@
 		8C85E8CE2BFBAFC6005B6201 /* ObservableObject & ObservedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85E8CD2BFBAFC6005B6201 /* ObservableObject & ObservedObject.swift */; };
 		8C85E8D02BFBB520005B6201 /* Environment Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85E8CF2BFBB520005B6201 /* Environment Objects.swift */; };
 		8C85E8D22BFD0496005B6201 /* StateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85E8D12BFD0496005B6201 /* StateObject.swift */; };
+		8CA39B912C2FC68A002221B6 /* DismissKeyboardOnScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA39B902C2FC68A002221B6 /* DismissKeyboardOnScroll.swift */; };
 		8CA749C32BF9583200753A6A /* CustomViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA749C22BF9583200753A6A /* CustomViewModifier.swift */; };
 		8CA749C52BF962FC00753A6A /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA749C42BF962FC00753A6A /* CustomShape.swift */; };
 		8CAD5CF42C24AAD500BFCC4D /* RepeatingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD5CF32C24AAD500BFCC4D /* RepeatingAnimation.swift */; };
@@ -225,6 +226,7 @@
 		8C85E8CD2BFBAFC6005B6201 /* ObservableObject & ObservedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableObject & ObservedObject.swift"; sourceTree = "<group>"; };
 		8C85E8CF2BFBB520005B6201 /* Environment Objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Environment Objects.swift"; sourceTree = "<group>"; };
 		8C85E8D12BFD0496005B6201 /* StateObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObject.swift; sourceTree = "<group>"; };
+		8CA39B902C2FC68A002221B6 /* DismissKeyboardOnScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissKeyboardOnScroll.swift; sourceTree = "<group>"; };
 		8CA749C22BF9583200753A6A /* CustomViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewModifier.swift; sourceTree = "<group>"; };
 		8CA749C42BF962FC00753A6A /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 		8CAD5CF32C24AAD500BFCC4D /* RepeatingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingAnimation.swift; sourceTree = "<group>"; };
@@ -426,6 +428,7 @@
 				8CDBE2D42C2F0BED007F3DB8 /* SecureFieldTextInput.swift */,
 				8CDBE2D62C2F0DCA007F3DB8 /* StyleTextEditor.swift */,
 				8CDBE2D82C2F1050007F3DB8 /* FindAndReplaceToTextEditor.swift */,
+				8CA39B902C2FC68A002221B6 /* DismissKeyboardOnScroll.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -604,6 +607,7 @@
 				8CDC11FC2C20B8E40052A33F /* GeometryReaderView.swift in Sources */,
 				8C2AEC2B2C0788DD00A80EF4 /* TextView.swift in Sources */,
 				8C69C7162C1611DA00D5E041 /* IconToButton.swift in Sources */,
+				8CA39B912C2FC68A002221B6 /* DismissKeyboardOnScroll.swift in Sources */,
 				8C56A6D72BFFACF300D5AC2B /* AppStorage_SceneStorage.swift in Sources */,
 				8CC7511E2C1E33DF002E73E6 /* ViewThatFitsView.swift in Sources */,
 				8CA749C52BF962FC00753A6A /* CustomShape.swift in Sources */,
