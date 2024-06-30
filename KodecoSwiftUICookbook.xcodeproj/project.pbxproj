@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8C08BA9F2C10C54500677F91 /* ShadowToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C08BA9E2C10C54500677F91 /* ShadowToImage.swift */; };
 		8C08BAA12C10C99A00677F91 /* FilterToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C08BAA02C10C99A00677F91 /* FilterToImage.swift */; };
+		8C0B55102C31AE7900BFAFE9 /* ConfigureModalViewHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0B550F2C31AE7900BFAFE9 /* ConfigureModalViewHeight.swift */; };
+		8C0B55122C31B17E00BFAFE9 /* ListToModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0B55112C31B17E00BFAFE9 /* ListToModal.swift */; };
 		8C1049362C19470A0065C88C /* FormWithSecitons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1049352C19470A0065C88C /* FormWithSecitons.swift */; };
 		8C1049382C194CC20065C88C /* CreateCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1049372C194CC20065C88C /* CreateCheckBox.swift */; };
 		8C10493A2C19563D0065C88C /* AddStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1049392C19563D0065C88C /* AddStepper.swift */; };
@@ -94,6 +96,8 @@
 		8C85E8CE2BFBAFC6005B6201 /* ObservableObject & ObservedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85E8CD2BFBAFC6005B6201 /* ObservableObject & ObservedObject.swift */; };
 		8C85E8D02BFBB520005B6201 /* Environment Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85E8CF2BFBB520005B6201 /* Environment Objects.swift */; };
 		8C85E8D22BFD0496005B6201 /* StateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85E8D12BFD0496005B6201 /* StateObject.swift */; };
+		8C99998D2C30A4A0002A0720 /* FullScreenModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C99998C2C30A4A0002A0720 /* FullScreenModalView.swift */; };
+		8C99998F2C30A6DF002A0720 /* CreatePopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C99998E2C30A6DF002A0720 /* CreatePopover.swift */; };
 		8CA39B912C2FC68A002221B6 /* DismissKeyboardOnScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA39B902C2FC68A002221B6 /* DismissKeyboardOnScroll.swift */; };
 		8CA749C32BF9583200753A6A /* CustomViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA749C22BF9583200753A6A /* CustomViewModifier.swift */; };
 		8CA749C52BF962FC00753A6A /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA749C42BF962FC00753A6A /* CustomShape.swift */; };
@@ -143,6 +147,8 @@
 /* Begin PBXFileReference section */
 		8C08BA9E2C10C54500677F91 /* ShadowToImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowToImage.swift; sourceTree = "<group>"; };
 		8C08BAA02C10C99A00677F91 /* FilterToImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterToImage.swift; sourceTree = "<group>"; };
+		8C0B550F2C31AE7900BFAFE9 /* ConfigureModalViewHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureModalViewHeight.swift; sourceTree = "<group>"; };
+		8C0B55112C31B17E00BFAFE9 /* ListToModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListToModal.swift; sourceTree = "<group>"; };
 		8C1049352C19470A0065C88C /* FormWithSecitons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormWithSecitons.swift; sourceTree = "<group>"; };
 		8C1049372C194CC20065C88C /* CreateCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCheckBox.swift; sourceTree = "<group>"; };
 		8C1049392C19563D0065C88C /* AddStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStepper.swift; sourceTree = "<group>"; };
@@ -229,6 +235,8 @@
 		8C85E8CD2BFBAFC6005B6201 /* ObservableObject & ObservedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableObject & ObservedObject.swift"; sourceTree = "<group>"; };
 		8C85E8CF2BFBB520005B6201 /* Environment Objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Environment Objects.swift"; sourceTree = "<group>"; };
 		8C85E8D12BFD0496005B6201 /* StateObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObject.swift; sourceTree = "<group>"; };
+		8C99998C2C30A4A0002A0720 /* FullScreenModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenModalView.swift; sourceTree = "<group>"; };
+		8C99998E2C30A6DF002A0720 /* CreatePopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePopover.swift; sourceTree = "<group>"; };
 		8CA39B902C2FC68A002221B6 /* DismissKeyboardOnScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissKeyboardOnScroll.swift; sourceTree = "<group>"; };
 		8CA749C22BF9583200753A6A /* CustomViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewModifier.swift; sourceTree = "<group>"; };
 		8CA749C42BF962FC00753A6A /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
@@ -438,6 +446,10 @@
 				8CEA48CB2C305AD000E5F251 /* CreateModalView.swift */,
 				8CEA48CD2C305C4500E5F251 /* DismissModalView.swift */,
 				8CEA48CF2C30636800E5F251 /* PassDataToModalView.swift */,
+				8C99998C2C30A4A0002A0720 /* FullScreenModalView.swift */,
+				8C99998E2C30A6DF002A0720 /* CreatePopover.swift */,
+				8C0B550F2C31AE7900BFAFE9 /* ConfigureModalViewHeight.swift */,
+				8C0B55112C31B17E00BFAFE9 /* ListToModal.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -548,6 +560,7 @@
 				8C3E3AF02C25EC0100741473 /* AnimateBindingValues.swift in Sources */,
 				8C85E8C42BFA6E8A005B6201 /* SwiftUIState.swift in Sources */,
 				8C5E220A2C288F3A00CCE092 /* SwipeToDelete.swift in Sources */,
+				8C99998D2C30A4A0002A0720 /* FullScreenModalView.swift in Sources */,
 				8C69C7222C16A48000D5E041 /* NvigationToList.swift in Sources */,
 				8CB4F4922BF1191200BA2A90 /* KodecoSwiftUICookbookApp.swift in Sources */,
 				8CFECD322C18BA6F00632C90 /* SwipeActionsToList.swift in Sources */,
@@ -564,6 +577,7 @@
 				8CC7511C2C1E30D3002E73E6 /* FramesAndAlignment.swift in Sources */,
 				8C85E8C62BFA73B2005B6201 /* SwiftUIBinding.swift in Sources */,
 				8C3A09132C21DBC500871DBA /* AnimateViewsOpacity.swift in Sources */,
+				8C0B55122C31B17E00BFAFE9 /* ListToModal.swift in Sources */,
 				8C69C7042C13742700D5E041 /* ConsistentSwiftUIDesign.swift in Sources */,
 				8C69C7182C1612FA00D5E041 /* FullScreenButton.swift in Sources */,
 				8C69C70C2C14C7A600D5E041 /* ImageToButton.swift in Sources */,
@@ -585,10 +599,12 @@
 				8C573DA42BF7C18400501565 /* Grid.swift in Sources */,
 				8C3A09112C21D8DA00871DBA /* DeclareAnimation.swift in Sources */,
 				8C3A09152C21DFCC00871DBA /* AnimateViewsPosition.swift in Sources */,
+				8C99998F2C30A6DF002A0720 /* CreatePopover.swift in Sources */,
 				8C69C7122C160C5400D5E041 /* GroupOfButtons.swift in Sources */,
 				8CFECD302C17CB9700632C90 /* SearchBarInList.swift in Sources */,
 				8CE003BB2C2722A8001FF8F3 /* DetectingTaps.swift in Sources */,
 				8C3D5BD92C1DE43000B06F51 /* DeterminateProgressBar.swift in Sources */,
+				8C0B55102C31AE7900BFAFE9 /* ConfigureModalViewHeight.swift in Sources */,
 				8C6402742C1A035A00171F9D /* CreateColorPicker.swift in Sources */,
 				8C2AEC462C0CD0D400A80EF4 /* LoadImage.swift in Sources */,
 				8CFECD2A2C175CA100632C90 /* NavigationTitle.swift in Sources */,

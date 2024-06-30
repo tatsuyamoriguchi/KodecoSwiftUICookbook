@@ -7,12 +7,38 @@
 
 import SwiftUI
 
+
 struct FullScreenModalView: View {
+    @Environment(\.dismiss) var dismiss
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("This is a full-screen modal view.")
+            Button("Dismiss") {
+                dismiss()
+            }
+            .foregroundStyle(Color.orange)
+            .padding()
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(.blue)
+        .edgesIgnoringSafeArea(.all)
+    }
+}
+
+struct MainView: View {
+    @State private var isShowingModal = false
+    
+    var body: some View {
+        Button("Show Modal") {
+            isShowingModal = true
+        }
+        .fullScreenCover(isPresented: $isShowingModal, content: {
+            FullScreenModalView()
+        })
     }
 }
 
 #Preview {
-    FullScreenModalView()
+    MainView()
 }
