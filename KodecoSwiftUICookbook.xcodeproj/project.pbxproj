@@ -35,6 +35,9 @@
 		8C2AEC4A2C0CD42300A80EF4 /* CropImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AEC492C0CD42300A80EF4 /* CropImage.swift */; };
 		8C2AEC4E2C0EC3AB00A80EF4 /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AEC4D2C0EC3AB00A80EF4 /* SFSymbols.swift */; };
 		8C2AEC502C0F843F00A80EF4 /* CustomImageShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AEC4F2C0F843F00A80EF4 /* CustomImageShape.swift */; };
+		8C2B26BA2C31F02E00D5AFCA /* CustomizeCornerRadiusModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B26B92C31F02E00D5AFCA /* CustomizeCornerRadiusModal.swift */; };
+		8C2B26BC2C31F50900D5AFCA /* CustomBackgroundForModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B26BB2C31F50900D5AFCA /* CustomBackgroundForModal.swift */; };
+		8C2B26BE2C31F7EE00D5AFCA /* ControlInteractionwithViewBehindModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B26BD2C31F7EE00D5AFCA /* ControlInteractionwithViewBehindModal.swift */; };
 		8C3A09112C21D8DA00871DBA /* DeclareAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3A09102C21D8DA00871DBA /* DeclareAnimation.swift */; };
 		8C3A09132C21DBC500871DBA /* AnimateViewsOpacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3A09122C21DBC500871DBA /* AnimateViewsOpacity.swift */; };
 		8C3A09152C21DFCC00871DBA /* AnimateViewsPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3A09142C21DFCC00871DBA /* AnimateViewsPosition.swift */; };
@@ -174,6 +177,9 @@
 		8C2AEC492C0CD42300A80EF4 /* CropImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropImage.swift; sourceTree = "<group>"; };
 		8C2AEC4D2C0EC3AB00A80EF4 /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
 		8C2AEC4F2C0F843F00A80EF4 /* CustomImageShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageShape.swift; sourceTree = "<group>"; };
+		8C2B26B92C31F02E00D5AFCA /* CustomizeCornerRadiusModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeCornerRadiusModal.swift; sourceTree = "<group>"; };
+		8C2B26BB2C31F50900D5AFCA /* CustomBackgroundForModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundForModal.swift; sourceTree = "<group>"; };
+		8C2B26BD2C31F7EE00D5AFCA /* ControlInteractionwithViewBehindModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlInteractionwithViewBehindModal.swift; sourceTree = "<group>"; };
 		8C3A09102C21D8DA00871DBA /* DeclareAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeclareAnimation.swift; sourceTree = "<group>"; };
 		8C3A09122C21DBC500871DBA /* AnimateViewsOpacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateViewsOpacity.swift; sourceTree = "<group>"; };
 		8C3A09142C21DFCC00871DBA /* AnimateViewsPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateViewsPosition.swift; sourceTree = "<group>"; };
@@ -450,6 +456,9 @@
 				8C99998E2C30A6DF002A0720 /* CreatePopover.swift */,
 				8C0B550F2C31AE7900BFAFE9 /* ConfigureModalViewHeight.swift */,
 				8C0B55112C31B17E00BFAFE9 /* ListToModal.swift */,
+				8C2B26B92C31F02E00D5AFCA /* CustomizeCornerRadiusModal.swift */,
+				8C2B26BB2C31F50900D5AFCA /* CustomBackgroundForModal.swift */,
+				8C2B26BD2C31F7EE00D5AFCA /* ControlInteractionwithViewBehindModal.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -548,6 +557,7 @@
 				8C2AEC3A2C08F28800A80EF4 /* CreateTextField.swift in Sources */,
 				8CDBE2CF2C2DB5F9007F3DB8 /* FormatTextInTextField.swift in Sources */,
 				8C3A09192C232F6300871DBA /* AnimateViewsSize.swift in Sources */,
+				8C2B26BE2C31F7EE00D5AFCA /* ControlInteractionwithViewBehindModal.swift in Sources */,
 				8C69C70E2C14CD9E00D5E041 /* ActionToButton.swift in Sources */,
 				8CF80A3D2C29C6F6008F3683 /* SequencingGestures.swift in Sources */,
 				8C5E220C2C2891C800CCE092 /* RotatingViewsWithGestures.swift in Sources */,
@@ -601,6 +611,7 @@
 				8C3A09152C21DFCC00871DBA /* AnimateViewsPosition.swift in Sources */,
 				8C99998F2C30A6DF002A0720 /* CreatePopover.swift in Sources */,
 				8C69C7122C160C5400D5E041 /* GroupOfButtons.swift in Sources */,
+				8C2B26BC2C31F50900D5AFCA /* CustomBackgroundForModal.swift in Sources */,
 				8CFECD302C17CB9700632C90 /* SearchBarInList.swift in Sources */,
 				8CE003BB2C2722A8001FF8F3 /* DetectingTaps.swift in Sources */,
 				8C3D5BD92C1DE43000B06F51 /* DeterminateProgressBar.swift in Sources */,
@@ -635,6 +646,7 @@
 				8CDC11FC2C20B8E40052A33F /* GeometryReaderView.swift in Sources */,
 				8C2AEC2B2C0788DD00A80EF4 /* TextView.swift in Sources */,
 				8C69C7162C1611DA00D5E041 /* IconToButton.swift in Sources */,
+				8C2B26BA2C31F02E00D5AFCA /* CustomizeCornerRadiusModal.swift in Sources */,
 				8CA39B912C2FC68A002221B6 /* DismissKeyboardOnScroll.swift in Sources */,
 				8C56A6D72BFFACF300D5AC2B /* AppStorage_SceneStorage.swift in Sources */,
 				8CC7511E2C1E33DF002E73E6 /* ViewThatFitsView.swift in Sources */,
