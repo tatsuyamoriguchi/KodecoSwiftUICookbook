@@ -116,6 +116,16 @@
 		8CC751182C1E29B5002E73E6 /* CustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC751172C1E29B5002E73E6 /* CustomProgressView.swift */; };
 		8CC7511C2C1E30D3002E73E6 /* FramesAndAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC7511B2C1E30D3002E73E6 /* FramesAndAlignment.swift */; };
 		8CC7511E2C1E33DF002E73E6 /* ViewThatFitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC7511D2C1E33DF002E73E6 /* ViewThatFitsView.swift */; };
+		8CCE8E102C3345C60013F14F /* CreateAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCE8E0F2C3345C60013F14F /* CreateAudioPlayer.swift */; };
+		8CCE8E1C2C334C0A0013F14F /* flyerattack.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CCE8E132C334C0A0013F14F /* flyerattack.wav */; };
+		8CCE8E1D2C334C0A0013F14F /* PocketCyclopsLvl1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8CCE8E142C334C0A0013F14F /* PocketCyclopsLvl1.mp3 */; };
+		8CCE8E1E2C334C0A0013F14F /* bounce.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CCE8E152C334C0A0013F14F /* bounce.wav */; };
+		8CCE8E1F2C334C0A0013F14F /* button.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CCE8E162C334C0A0013F14F /* button.wav */; };
+		8CCE8E202C334C0A0013F14F /* BookTrailer.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 8CCE8E172C334C0A0013F14F /* BookTrailer.m4v */; };
+		8CCE8E212C334C0A0013F14F /* crawler_die.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CCE8E182C334C0A0013F14F /* crawler_die.wav */; };
+		8CCE8E222C334C0A0013F14F /* flyerdie.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CCE8E192C334C0A0013F14F /* flyerdie.wav */; };
+		8CCE8E232C334C0A0013F14F /* flyercloseeye.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CCE8E1A2C334C0A0013F14F /* flyercloseeye.wav */; };
+		8CCE8E242C334C0A0013F14F /* crawler_jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CCE8E1B2C334C0A0013F14F /* crawler_jump.wav */; };
 		8CDBE2C72C2C64B6007F3DB8 /* CreateATextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBE2C62C2C64B6007F3DB8 /* CreateATextField.swift */; };
 		8CDBE2C92C2C667B007F3DB8 /* CreateTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBE2C82C2C667B007F3DB8 /* CreateTextEditor.swift */; };
 		8CDBE2CB2C2C679A007F3DB8 /* ScrollableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBE2CA2C2C679A007F3DB8 /* ScrollableTextField.swift */; };
@@ -262,6 +272,16 @@
 		8CC751172C1E29B5002E73E6 /* CustomProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressView.swift; sourceTree = "<group>"; };
 		8CC7511B2C1E30D3002E73E6 /* FramesAndAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramesAndAlignment.swift; sourceTree = "<group>"; };
 		8CC7511D2C1E33DF002E73E6 /* ViewThatFitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitsView.swift; sourceTree = "<group>"; };
+		8CCE8E0F2C3345C60013F14F /* CreateAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAudioPlayer.swift; sourceTree = "<group>"; };
+		8CCE8E132C334C0A0013F14F /* flyerattack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = flyerattack.wav; path = "../../../../../Downloads/Adding Audio & Video in SwiftUI assets/flyerattack.wav"; sourceTree = "<group>"; };
+		8CCE8E142C334C0A0013F14F /* PocketCyclopsLvl1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = PocketCyclopsLvl1.mp3; path = "../../../../../Downloads/Adding Audio & Video in SwiftUI assets/PocketCyclopsLvl1.mp3"; sourceTree = "<group>"; };
+		8CCE8E152C334C0A0013F14F /* bounce.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bounce.wav; path = "../../../../../Downloads/Adding Audio & Video in SwiftUI assets/bounce.wav"; sourceTree = "<group>"; };
+		8CCE8E162C334C0A0013F14F /* button.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = button.wav; path = "../../../../../Downloads/Adding Audio & Video in SwiftUI assets/button.wav"; sourceTree = "<group>"; };
+		8CCE8E172C334C0A0013F14F /* BookTrailer.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; name = BookTrailer.m4v; path = "../../../../../Downloads/Adding Audio & Video in SwiftUI assets/BookTrailer.m4v"; sourceTree = "<group>"; };
+		8CCE8E182C334C0A0013F14F /* crawler_die.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = crawler_die.wav; path = "../../../../../Downloads/Adding Audio & Video in SwiftUI assets/crawler_die.wav"; sourceTree = "<group>"; };
+		8CCE8E192C334C0A0013F14F /* flyerdie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = flyerdie.wav; path = "../../../../../Downloads/Adding Audio & Video in SwiftUI assets/flyerdie.wav"; sourceTree = "<group>"; };
+		8CCE8E1A2C334C0A0013F14F /* flyercloseeye.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = flyercloseeye.wav; path = "../../../../../Downloads/Adding Audio & Video in SwiftUI assets/flyercloseeye.wav"; sourceTree = "<group>"; };
+		8CCE8E1B2C334C0A0013F14F /* crawler_jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = crawler_jump.wav; path = "../../../../../Downloads/Adding Audio & Video in SwiftUI assets/crawler_jump.wav"; sourceTree = "<group>"; };
 		8CDBE2C62C2C64B6007F3DB8 /* CreateATextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateATextField.swift; sourceTree = "<group>"; };
 		8CDBE2C82C2C667B007F3DB8 /* CreateTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTextEditor.swift; sourceTree = "<group>"; };
 		8CDBE2CA2C2C679A007F3DB8 /* ScrollableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableTextField.swift; sourceTree = "<group>"; };
@@ -468,6 +488,8 @@
 				8C2B26BF2C32FA7A00D5AFCA /* CreateAlert.swift */,
 				8C2B26C12C32FE9B00D5AFCA /* HandleErrorsWithAlert.swift */,
 				8C2B26C32C3304C600D5AFCA /* PresentConfirmationDialog.swift */,
+				8CCE8E0F2C3345C60013F14F /* CreateAudioPlayer.swift */,
+				8CCE8E112C334BA40013F14F /* sound */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -478,6 +500,22 @@
 				8CB4F4982BF1191400BA2A90 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8CCE8E112C334BA40013F14F /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				8CCE8E172C334C0A0013F14F /* BookTrailer.m4v */,
+				8CCE8E152C334C0A0013F14F /* bounce.wav */,
+				8CCE8E162C334C0A0013F14F /* button.wav */,
+				8CCE8E182C334C0A0013F14F /* crawler_die.wav */,
+				8CCE8E1B2C334C0A0013F14F /* crawler_jump.wav */,
+				8CCE8E132C334C0A0013F14F /* flyerattack.wav */,
+				8CCE8E1A2C334C0A0013F14F /* flyercloseeye.wav */,
+				8CCE8E192C334C0A0013F14F /* flyerdie.wav */,
+				8CCE8E142C334C0A0013F14F /* PocketCyclopsLvl1.mp3 */,
+			);
+			path = sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -538,9 +576,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CCE8E222C334C0A0013F14F /* flyerdie.wav in Resources */,
 				8CB4F4992BF1191400BA2A90 /* Preview Assets.xcassets in Resources */,
+				8CCE8E232C334C0A0013F14F /* flyercloseeye.wav in Resources */,
+				8CCE8E242C334C0A0013F14F /* crawler_jump.wav in Resources */,
+				8CCE8E1C2C334C0A0013F14F /* flyerattack.wav in Resources */,
+				8CCE8E202C334C0A0013F14F /* BookTrailer.m4v in Resources */,
 				8C2AEC372C08EC4B00A80EF4 /* RussoOne-Regular.ttf in Resources */,
+				8CCE8E212C334C0A0013F14F /* crawler_die.wav in Resources */,
 				8CB4F4962BF1191400BA2A90 /* Assets.xcassets in Resources */,
+				8CCE8E1F2C334C0A0013F14F /* button.wav in Resources */,
+				8CCE8E1E2C334C0A0013F14F /* bounce.wav in Resources */,
+				8CCE8E1D2C334C0A0013F14F /* PocketCyclopsLvl1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -639,6 +686,7 @@
 				8C2B26C22C32FE9B00D5AFCA /* HandleErrorsWithAlert.swift in Sources */,
 				8C6402782C1A431400171F9D /* CreateTabView.swift in Sources */,
 				8C3B780B2C1F3533000643C9 /* LazyVGridLazyHGrid.swift in Sources */,
+				8CCE8E102C3345C60013F14F /* CreateAudioPlayer.swift in Sources */,
 				8CEA48D02C30636800E5F251 /* PassDataToModalView.swift in Sources */,
 				8C6402702C19FFDE00171F9D /* SegmentedControl.swift in Sources */,
 				8CFECD2E2C17C7B600632C90 /* SectionHeaders.swift in Sources */,
