@@ -73,6 +73,8 @@
 		8C4B01DB2C359DFF0072EEFC /* SoundEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4B01DA2C359DFF0072EEFC /* SoundEffects.swift */; };
 		8C4B01DD2C35A34B0072EEFC /* VideoStreaming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4B01DC2C35A34B0072EEFC /* VideoStreaming.swift */; };
 		8C4B01DF2C35A6EE0072EEFC /* AnimatedVisualizationsForAudioVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4B01DE2C35A6EE0072EEFC /* AnimatedVisualizationsForAudioVideo.swift */; };
+		8C4B01E32C35E42D0072EEFC /* CaptionsSubtitlesToVideos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4B01E22C35E42D0072EEFC /* CaptionsSubtitlesToVideos.swift */; };
+		8C4B01E52C35ECEE0072EEFC /* HandlingErrorsExceptionsWhilePlayingAudioVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4B01E42C35ECEE0072EEFC /* HandlingErrorsExceptionsWhilePlayingAudioVideo.swift */; };
 		8C56A6D52BFFA56300D5AC2B /* StateManagementWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C56A6D42BFFA56300D5AC2B /* StateManagementWithCombine.swift */; };
 		8C56A6D72BFFACF300D5AC2B /* AppStorage_SceneStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C56A6D62BFFACF300D5AC2B /* AppStorage_SceneStorage.swift */; };
 		8C573DA02BF65F3A00501565 /* MoreSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C573D9F2BF65F3A00501565 /* MoreSwiftUI.swift */; };
@@ -235,6 +237,8 @@
 		8C4B01DA2C359DFF0072EEFC /* SoundEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffects.swift; sourceTree = "<group>"; };
 		8C4B01DC2C35A34B0072EEFC /* VideoStreaming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoStreaming.swift; sourceTree = "<group>"; };
 		8C4B01DE2C35A6EE0072EEFC /* AnimatedVisualizationsForAudioVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedVisualizationsForAudioVideo.swift; sourceTree = "<group>"; };
+		8C4B01E22C35E42D0072EEFC /* CaptionsSubtitlesToVideos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionsSubtitlesToVideos.swift; sourceTree = "<group>"; };
+		8C4B01E42C35ECEE0072EEFC /* HandlingErrorsExceptionsWhilePlayingAudioVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandlingErrorsExceptionsWhilePlayingAudioVideo.swift; sourceTree = "<group>"; };
 		8C56A6D42BFFA56300D5AC2B /* StateManagementWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateManagementWithCombine.swift; sourceTree = "<group>"; };
 		8C56A6D62BFFACF300D5AC2B /* AppStorage_SceneStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage_SceneStorage.swift; sourceTree = "<group>"; };
 		8C573D9F2BF65F3A00501565 /* MoreSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreSwiftUI.swift; sourceTree = "<group>"; };
@@ -511,6 +515,8 @@
 				8C4B01DA2C359DFF0072EEFC /* SoundEffects.swift */,
 				8C4B01DC2C35A34B0072EEFC /* VideoStreaming.swift */,
 				8C4B01DE2C35A6EE0072EEFC /* AnimatedVisualizationsForAudioVideo.swift */,
+				8C4B01E22C35E42D0072EEFC /* CaptionsSubtitlesToVideos.swift */,
+				8C4B01E42C35ECEE0072EEFC /* HandlingErrorsExceptionsWhilePlayingAudioVideo.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -624,6 +630,7 @@
 				8CDBE2C92C2C667B007F3DB8 /* CreateTextEditor.swift in Sources */,
 				8C69C7102C14D06700D5E041 /* ToggleButton.swift in Sources */,
 				8CE003BF2C27264E001FF8F3 /* DraggingGestures.swift in Sources */,
+				8C4B01E52C35ECEE0072EEFC /* HandlingErrorsExceptionsWhilePlayingAudioVideo.swift in Sources */,
 				8C3A09172C232CED00871DBA /* AnimateViewsRotation.swift in Sources */,
 				8C2AAA6C2C122C7800C7B29C /* SwiftUIPhotosPicker.swift in Sources */,
 				8C69C71A2C16146400D5E041 /* AdvancedButtonStyling.swift in Sources */,
@@ -710,6 +717,7 @@
 				8CFECD362C18C36B00632C90 /* ScrollingList.swift in Sources */,
 				8C2B26C22C32FE9B00D5AFCA /* HandleErrorsWithAlert.swift in Sources */,
 				8C6402782C1A431400171F9D /* CreateTabView.swift in Sources */,
+				8C4B01E32C35E42D0072EEFC /* CaptionsSubtitlesToVideos.swift in Sources */,
 				8C3B780B2C1F3533000643C9 /* LazyVGridLazyHGrid.swift in Sources */,
 				8CCE8E102C3345C60013F14F /* CreateAudioPlayer.swift in Sources */,
 				8CEA48D02C30636800E5F251 /* PassDataToModalView.swift in Sources */,
