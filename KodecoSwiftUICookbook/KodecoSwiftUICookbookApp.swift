@@ -27,12 +27,12 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 }
 
 struct KodecoSwiftUICookbookApp: App {
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+//    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
 
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            AudioVideoInBackground()
+            ListToModal()
 
         }
     }

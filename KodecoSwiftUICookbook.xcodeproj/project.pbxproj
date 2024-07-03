@@ -15,6 +15,7 @@
 		8C1049382C194CC20065C88C /* CreateCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1049372C194CC20065C88C /* CreateCheckBox.swift */; };
 		8C10493A2C19563D0065C88C /* AddStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1049392C19563D0065C88C /* AddStepper.swift */; };
 		8C10493C2C1959020065C88C /* CreatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C10493B2C1959020065C88C /* CreatePicker.swift */; };
+		8C14B4EB2C35014D0007D76A /* RecordingAudioVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C14B4EA2C35014D0007D76A /* RecordingAudioVideo.swift */; };
 		8C22862B2C344E8A0011BE64 /* CreateVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C22862A2C344E8A0011BE64 /* CreateVideoPlayer.swift */; };
 		8C22862D2C3452E20011BE64 /* CustomizingAudioVideoPlayback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C22862C2C3452E20011BE64 /* CustomizingAudioVideoPlayback.swift */; };
 		8C2AAA682C12239400C7B29C /* BlendTwoImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AAA672C12239400C7B29C /* BlendTwoImages.swift */; };
@@ -172,6 +173,7 @@
 		8C1049372C194CC20065C88C /* CreateCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCheckBox.swift; sourceTree = "<group>"; };
 		8C1049392C19563D0065C88C /* AddStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStepper.swift; sourceTree = "<group>"; };
 		8C10493B2C1959020065C88C /* CreatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePicker.swift; sourceTree = "<group>"; };
+		8C14B4EA2C35014D0007D76A /* RecordingAudioVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingAudioVideo.swift; sourceTree = "<group>"; };
 		8C22862A2C344E8A0011BE64 /* CreateVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateVideoPlayer.swift; sourceTree = "<group>"; };
 		8C22862C2C3452E20011BE64 /* CustomizingAudioVideoPlayback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingAudioVideoPlayback.swift; sourceTree = "<group>"; };
 		8C2AAA672C12239400C7B29C /* BlendTwoImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendTwoImages.swift; sourceTree = "<group>"; };
@@ -381,6 +383,7 @@
 				8C2AEC392C08F28800A80EF4 /* CreateTextField.swift */,
 				8C2AEC412C0AE3FB00A80EF4 /* SeureFieldView.swift */,
 				8C2AEC432C0AE66100A80EF4 /* TextFieldKeyboardType.swift */,
+				8C1049392C19563D0065C88C /* AddStepper.swift */,
 				8C1049352C19470A0065C88C /* FormWithSecitons.swift */,
 				8C2AEC452C0CD0D400A80EF4 /* LoadImage.swift */,
 				8C2AEC472C0CD30000A80EF4 /* AspectRatios.swift */,
@@ -395,7 +398,6 @@
 				8CFECD352C18C36B00632C90 /* ScrollingList.swift */,
 				8C1049372C194CC20065C88C /* CreateCheckBox.swift */,
 				8C2AAA6B2C122C7800C7B29C /* SwiftUIPhotosPicker.swift */,
-				8C1049392C19563D0065C88C /* AddStepper.swift */,
 				8C69C7032C13742700D5E041 /* ConsistentSwiftUIDesign.swift */,
 				8C69C7052C137CD400D5E041 /* CreateButton.swift */,
 				8C69C7072C137EB000D5E041 /* CustomizeButton.swift */,
@@ -499,6 +501,7 @@
 				8C22862A2C344E8A0011BE64 /* CreateVideoPlayer.swift */,
 				8C22862C2C3452E20011BE64 /* CustomizingAudioVideoPlayback.swift */,
 				8CC697BA2C34CD6800F534FE /* AudioVideoInBackground.swift */,
+				8C14B4EA2C35014D0007D76A /* RecordingAudioVideo.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -700,6 +703,7 @@
 				8C3B780B2C1F3533000643C9 /* LazyVGridLazyHGrid.swift in Sources */,
 				8CCE8E102C3345C60013F14F /* CreateAudioPlayer.swift in Sources */,
 				8CEA48D02C30636800E5F251 /* PassDataToModalView.swift in Sources */,
+				8C14B4EB2C35014D0007D76A /* RecordingAudioVideo.swift in Sources */,
 				8C6402702C19FFDE00171F9D /* SegmentedControl.swift in Sources */,
 				8CFECD2E2C17C7B600632C90 /* SectionHeaders.swift in Sources */,
 				8CDBE2CD2C2C6AB7007F3DB8 /* TextFieldWithOptional.swift in Sources */,
