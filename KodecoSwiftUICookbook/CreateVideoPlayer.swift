@@ -6,10 +6,27 @@
 //
 
 import SwiftUI
+import AVKit
 
+struct VideoPlayerView: View {
+    // Create a URL for the video file in your app bundle.
+    let videoURL: URL? = Bundle.main.url(forResource: "BookTrailer", withExtension: "m4v")
+    
+    var body: some View {
+        VStack {
+            if let url = videoURL {
+                VideoPlayer(player: AVPlayer(url: url))
+            } else {
+                Text("Video not found")
+            }
+        }
+    }
+}
+
+// Isn't this redundant??? Why another layer of view?
 struct CreateVideoPlayer: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VideoPlayerView()
     }
 }
 

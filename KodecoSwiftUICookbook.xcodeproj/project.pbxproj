@@ -15,6 +15,8 @@
 		8C1049382C194CC20065C88C /* CreateCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1049372C194CC20065C88C /* CreateCheckBox.swift */; };
 		8C10493A2C19563D0065C88C /* AddStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1049392C19563D0065C88C /* AddStepper.swift */; };
 		8C10493C2C1959020065C88C /* CreatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C10493B2C1959020065C88C /* CreatePicker.swift */; };
+		8C22862B2C344E8A0011BE64 /* CreateVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C22862A2C344E8A0011BE64 /* CreateVideoPlayer.swift */; };
+		8C22862D2C3452E20011BE64 /* CustomizingAudioVideoPlayback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C22862C2C3452E20011BE64 /* CustomizingAudioVideoPlayback.swift */; };
 		8C2AAA682C12239400C7B29C /* BlendTwoImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AAA672C12239400C7B29C /* BlendTwoImages.swift */; };
 		8C2AAA6A2C1225F000C7B29C /* AnimatedImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AAA692C1225F000C7B29C /* AnimatedImages.swift */; };
 		8C2AAA6C2C122C7800C7B29C /* SwiftUIPhotosPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AAA6B2C122C7800C7B29C /* SwiftUIPhotosPicker.swift */; };
@@ -113,6 +115,7 @@
 		8CB4F4942BF1191200BA2A90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB4F4932BF1191200BA2A90 /* ContentView.swift */; };
 		8CB4F4962BF1191400BA2A90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB4F4952BF1191400BA2A90 /* Assets.xcassets */; };
 		8CB4F4992BF1191400BA2A90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB4F4982BF1191400BA2A90 /* Preview Assets.xcassets */; };
+		8CC697BB2C34CD6800F534FE /* AudioVideoInBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC697BA2C34CD6800F534FE /* AudioVideoInBackground.swift */; };
 		8CC751182C1E29B5002E73E6 /* CustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC751172C1E29B5002E73E6 /* CustomProgressView.swift */; };
 		8CC7511C2C1E30D3002E73E6 /* FramesAndAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC7511B2C1E30D3002E73E6 /* FramesAndAlignment.swift */; };
 		8CC7511E2C1E33DF002E73E6 /* ViewThatFitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC7511D2C1E33DF002E73E6 /* ViewThatFitsView.swift */; };
@@ -169,6 +172,8 @@
 		8C1049372C194CC20065C88C /* CreateCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCheckBox.swift; sourceTree = "<group>"; };
 		8C1049392C19563D0065C88C /* AddStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStepper.swift; sourceTree = "<group>"; };
 		8C10493B2C1959020065C88C /* CreatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePicker.swift; sourceTree = "<group>"; };
+		8C22862A2C344E8A0011BE64 /* CreateVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateVideoPlayer.swift; sourceTree = "<group>"; };
+		8C22862C2C3452E20011BE64 /* CustomizingAudioVideoPlayback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingAudioVideoPlayback.swift; sourceTree = "<group>"; };
 		8C2AAA672C12239400C7B29C /* BlendTwoImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendTwoImages.swift; sourceTree = "<group>"; };
 		8C2AAA692C1225F000C7B29C /* AnimatedImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedImages.swift; sourceTree = "<group>"; };
 		8C2AAA6B2C122C7800C7B29C /* SwiftUIPhotosPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPhotosPicker.swift; sourceTree = "<group>"; };
@@ -269,6 +274,7 @@
 		8CB4F4932BF1191200BA2A90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8CB4F4952BF1191400BA2A90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CB4F4982BF1191400BA2A90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8CC697BA2C34CD6800F534FE /* AudioVideoInBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioVideoInBackground.swift; sourceTree = "<group>"; };
 		8CC751172C1E29B5002E73E6 /* CustomProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressView.swift; sourceTree = "<group>"; };
 		8CC7511B2C1E30D3002E73E6 /* FramesAndAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramesAndAlignment.swift; sourceTree = "<group>"; };
 		8CC7511D2C1E33DF002E73E6 /* ViewThatFitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitsView.swift; sourceTree = "<group>"; };
@@ -490,6 +496,9 @@
 				8C2B26C32C3304C600D5AFCA /* PresentConfirmationDialog.swift */,
 				8CCE8E0F2C3345C60013F14F /* CreateAudioPlayer.swift */,
 				8CCE8E112C334BA40013F14F /* sound */,
+				8C22862A2C344E8A0011BE64 /* CreateVideoPlayer.swift */,
+				8C22862C2C3452E20011BE64 /* CustomizingAudioVideoPlayback.swift */,
+				8CC697BA2C34CD6800F534FE /* AudioVideoInBackground.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -646,6 +655,7 @@
 				8C3A09132C21DBC500871DBA /* AnimateViewsOpacity.swift in Sources */,
 				8C0B55122C31B17E00BFAFE9 /* ListToModal.swift in Sources */,
 				8C69C7042C13742700D5E041 /* ConsistentSwiftUIDesign.swift in Sources */,
+				8C22862D2C3452E20011BE64 /* CustomizingAudioVideoPlayback.swift in Sources */,
 				8C69C7182C1612FA00D5E041 /* FullScreenButton.swift in Sources */,
 				8C69C70C2C14C7A600D5E041 /* ImageToButton.swift in Sources */,
 				8CC751182C1E29B5002E73E6 /* CustomProgressView.swift in Sources */,
@@ -664,6 +674,8 @@
 				8C3D5BDF2C1DED8600B06F51 /* CustomSegmentedProgressBar.swift in Sources */,
 				8C69C7082C137EB000D5E041 /* CustomizeButton.swift in Sources */,
 				8C573DA42BF7C18400501565 /* Grid.swift in Sources */,
+				8CC697BB2C34CD6800F534FE /* AudioVideoInBackground.swift in Sources */,
+				8C22862B2C344E8A0011BE64 /* CreateVideoPlayer.swift in Sources */,
 				8C3A09112C21D8DA00871DBA /* DeclareAnimation.swift in Sources */,
 				8C3A09152C21DFCC00871DBA /* AnimateViewsPosition.swift in Sources */,
 				8C99998F2C30A6DF002A0720 /* CreatePopover.swift in Sources */,
@@ -879,6 +891,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -911,6 +924,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
