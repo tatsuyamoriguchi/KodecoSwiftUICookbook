@@ -8,8 +8,23 @@
 import SwiftUI
 
 struct VoiceOver2: View {
+    @State private var isDarkMode = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {        
+            Button(action:  {
+                isDarkMode.toggle()
+            }) {
+                Image(systemName: isDarkMode ? "sun.max.fill" : "moon.fill")
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .background(isDarkMode ? Color.black : Color.white)
+                    .foregroundStyle(isDarkMode ? Color.white : Color.black)
+                    .cornerRadius(50)
+                    .edgesIgnoringSafeArea(.all)
+            }
+            .accessibilityLabel(Text("Toggle dark mode. Currently, Dark Mode is \(isDarkMode ? "enabled" : "disabled")."))
+                
+        }
     }
 }
 

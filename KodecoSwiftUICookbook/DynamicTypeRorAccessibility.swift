@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct DynamicTypeRorAccessibility: View {
+    @Environment(\.sizeCategory) var sizeCategory
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            if sizeCategory >= .accessibilityMedium {
+                Text("You have selected a larger text size.")
+                    .padding()
+            } else {
+                Text("The text size is set to a regular value.")
+                    .padding()
+            }
+        }
     }
 }
 
