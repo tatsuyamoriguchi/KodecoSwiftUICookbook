@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  KodecoSwiftUICookbook
+
+  Created by Tatsuya Moriguchi on 7/12/24.
+  
+*/
+
+"hello_world" = "Bonjour tout le monde";
