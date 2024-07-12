@@ -52,6 +52,7 @@
 		8C3963B12C4081180082910F /* NavigateWithAccessibilityRotors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3963B02C4081180082910F /* NavigateWithAccessibilityRotors.swift */; };
 		8C3963B32C4193600082910F /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3963B22C4193600082910F /* LocalizedString.swift */; };
 		8C3963B62C4193E50082910F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C3963B42C4193E50082910F /* Localizable.strings */; };
+		8C3963B92C419A830082910F /* UsersLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3963B82C419A830082910F /* UsersLanguage.swift */; };
 		8C3A09112C21D8DA00871DBA /* DeclareAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3A09102C21D8DA00871DBA /* DeclareAnimation.swift */; };
 		8C3A09132C21DBC500871DBA /* AnimateViewsOpacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3A09122C21DBC500871DBA /* AnimateViewsOpacity.swift */; };
 		8C3A09152C21DFCC00871DBA /* AnimateViewsPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3A09142C21DFCC00871DBA /* AnimateViewsPosition.swift */; };
@@ -230,6 +231,7 @@
 		8C3963B22C4193600082910F /* LocalizedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedString.swift; sourceTree = "<group>"; };
 		8C3963B52C4193E50082910F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8C3963B72C4194900082910F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8C3963B82C419A830082910F /* UsersLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersLanguage.swift; sourceTree = "<group>"; };
 		8C3A09102C21D8DA00871DBA /* DeclareAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeclareAnimation.swift; sourceTree = "<group>"; };
 		8C3A09122C21DBC500871DBA /* AnimateViewsOpacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateViewsOpacity.swift; sourceTree = "<group>"; };
 		8C3A09142C21DFCC00871DBA /* AnimateViewsPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateViewsPosition.swift; sourceTree = "<group>"; };
@@ -557,6 +559,7 @@
 				8C3963B02C4081180082910F /* NavigateWithAccessibilityRotors.swift */,
 				8C3963B22C4193600082910F /* LocalizedString.swift */,
 				8C3963B42C4193E50082910F /* Localizable.strings */,
+				8C3963B82C419A830082910F /* UsersLanguage.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -701,6 +704,7 @@
 				8C85E8C42BFA6E8A005B6201 /* SwiftUIState.swift in Sources */,
 				8C5E220A2C288F3A00CCE092 /* SwipeToDelete.swift in Sources */,
 				8C99998D2C30A4A0002A0720 /* FullScreenModalView.swift in Sources */,
+				8C3963B92C419A830082910F /* UsersLanguage.swift in Sources */,
 				8C69C7222C16A48000D5E041 /* NvigationToList.swift in Sources */,
 				8CB4F4922BF1191200BA2A90 /* KodecoSwiftUICookbookApp.swift in Sources */,
 				8CFECD322C18BA6F00632C90 /* SwipeActionsToList.swift in Sources */,
