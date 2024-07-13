@@ -114,6 +114,8 @@
 		8C69C71E2C167B1900D5E041 /* CreateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69C71D2C167B1900D5E041 /* CreateList.swift */; };
 		8C69C7202C16859B00D5E041 /* CustomizeListRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69C71F2C16859B00D5E041 /* CustomizeListRows.swift */; };
 		8C69C7222C16A48000D5E041 /* NvigationToList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69C7212C16A48000D5E041 /* NvigationToList.swift */; };
+		8C7286322C42CE7D006E5722 /* StringInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7286312C42CE7D006E5722 /* StringInterpolation.swift */; };
+		8C7286352C42D1B4006E5722 /* LocalizeDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7286342C42D1B4006E5722 /* LocalizeDate.swift */; };
 		8C85E8C42BFA6E8A005B6201 /* SwiftUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85E8C32BFA6E8A005B6201 /* SwiftUIState.swift */; };
 		8C85E8C62BFA73B2005B6201 /* SwiftUIBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85E8C52BFA73B2005B6201 /* SwiftUIBinding.swift */; };
 		8C85E8CE2BFBAFC6005B6201 /* ObservableObject & ObservedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85E8CD2BFBAFC6005B6201 /* ObservableObject & ObservedObject.swift */; };
@@ -293,6 +295,9 @@
 		8C69C71D2C167B1900D5E041 /* CreateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateList.swift; sourceTree = "<group>"; };
 		8C69C71F2C16859B00D5E041 /* CustomizeListRows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeListRows.swift; sourceTree = "<group>"; };
 		8C69C7212C16A48000D5E041 /* NvigationToList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NvigationToList.swift; sourceTree = "<group>"; };
+		8C7286312C42CE7D006E5722 /* StringInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringInterpolation.swift; sourceTree = "<group>"; };
+		8C7286332C42CFCA006E5722 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8C7286342C42D1B4006E5722 /* LocalizeDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizeDate.swift; sourceTree = "<group>"; };
 		8C85E8C32BFA6E8A005B6201 /* SwiftUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIState.swift; sourceTree = "<group>"; };
 		8C85E8C52BFA73B2005B6201 /* SwiftUIBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBinding.swift; sourceTree = "<group>"; };
 		8C85E8CD2BFBAFC6005B6201 /* ObservableObject & ObservedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableObject & ObservedObject.swift"; sourceTree = "<group>"; };
@@ -560,6 +565,8 @@
 				8C3963B22C4193600082910F /* LocalizedString.swift */,
 				8C3963B42C4193E50082910F /* Localizable.strings */,
 				8C3963B82C419A830082910F /* UsersLanguage.swift */,
+				8C7286312C42CE7D006E5722 /* StringInterpolation.swift */,
+				8C7286342C42D1B4006E5722 /* LocalizeDate.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -631,6 +638,7 @@
 				en,
 				Base,
 				fr,
+				ar,
 			);
 			mainGroup = 8CB4F4852BF1191200BA2A90;
 			productRefGroup = 8CB4F48F2BF1191200BA2A90 /* Products */;
@@ -799,6 +807,7 @@
 				8C2B26BA2C31F02E00D5AFCA /* CustomizeCornerRadiusModal.swift in Sources */,
 				8CA39B912C2FC68A002221B6 /* DismissKeyboardOnScroll.swift in Sources */,
 				8C56A6D72BFFACF300D5AC2B /* AppStorage_SceneStorage.swift in Sources */,
+				8C7286322C42CE7D006E5722 /* StringInterpolation.swift in Sources */,
 				8CC7511E2C1E33DF002E73E6 /* ViewThatFitsView.swift in Sources */,
 				8CA749C52BF962FC00753A6A /* CustomShape.swift in Sources */,
 				8C3963AD2C3EFE9B0082910F /* ControlActivationPointsForAccessibility.swift in Sources */,
@@ -810,6 +819,7 @@
 				8C2AEC2D2C07898C00A80EF4 /* StylingText.swift in Sources */,
 				8C2AEC502C0F843F00A80EF4 /* CustomImageShape.swift in Sources */,
 				8C2AAA682C12239400C7B29C /* BlendTwoImages.swift in Sources */,
+				8C7286352C42D1B4006E5722 /* LocalizeDate.swift in Sources */,
 				8C64027A2C1A44A400171F9D /* CustomizeTabView.swift in Sources */,
 				8C69C7142C160D4F00D5E041 /* DisableButton.swift in Sources */,
 				8CE526242C1B47AD00496A97 /* DetailViewToSplitView.swift in Sources */,
@@ -842,6 +852,7 @@
 			children = (
 				8C3963B52C4193E50082910F /* en */,
 				8C3963B72C4194900082910F /* fr */,
+				8C7286332C42CFCA006E5722 /* ar */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

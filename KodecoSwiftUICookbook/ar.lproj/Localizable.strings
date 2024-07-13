@@ -7,5 +7,4 @@
 */
 
 "hello_world" = "Hello, World!";
-"Copying %d files" = "Copying %d files";
-
+"Copying %d files" = "جاري نسخ %d ملفات";
