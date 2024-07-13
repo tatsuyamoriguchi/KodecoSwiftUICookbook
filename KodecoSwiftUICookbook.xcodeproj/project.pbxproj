@@ -116,6 +116,7 @@
 		8C69C7222C16A48000D5E041 /* NvigationToList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69C7212C16A48000D5E041 /* NvigationToList.swift */; };
 		8C7286322C42CE7D006E5722 /* StringInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7286312C42CE7D006E5722 /* StringInterpolation.swift */; };
 		8C7286352C42D1B4006E5722 /* LocalizeDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7286342C42D1B4006E5722 /* LocalizeDate.swift */; };
+		8C7286372C42D736006E5722 /* LocalizeNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7286362C42D736006E5722 /* LocalizeNumbers.swift */; };
 		8C85E8C42BFA6E8A005B6201 /* SwiftUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85E8C32BFA6E8A005B6201 /* SwiftUIState.swift */; };
 		8C85E8C62BFA73B2005B6201 /* SwiftUIBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85E8C52BFA73B2005B6201 /* SwiftUIBinding.swift */; };
 		8C85E8CE2BFBAFC6005B6201 /* ObservableObject & ObservedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85E8CD2BFBAFC6005B6201 /* ObservableObject & ObservedObject.swift */; };
@@ -298,6 +299,7 @@
 		8C7286312C42CE7D006E5722 /* StringInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringInterpolation.swift; sourceTree = "<group>"; };
 		8C7286332C42CFCA006E5722 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8C7286342C42D1B4006E5722 /* LocalizeDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizeDate.swift; sourceTree = "<group>"; };
+		8C7286362C42D736006E5722 /* LocalizeNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizeNumbers.swift; sourceTree = "<group>"; };
 		8C85E8C32BFA6E8A005B6201 /* SwiftUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIState.swift; sourceTree = "<group>"; };
 		8C85E8C52BFA73B2005B6201 /* SwiftUIBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBinding.swift; sourceTree = "<group>"; };
 		8C85E8CD2BFBAFC6005B6201 /* ObservableObject & ObservedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableObject & ObservedObject.swift"; sourceTree = "<group>"; };
@@ -567,6 +569,7 @@
 				8C3963B82C419A830082910F /* UsersLanguage.swift */,
 				8C7286312C42CE7D006E5722 /* StringInterpolation.swift */,
 				8C7286342C42D1B4006E5722 /* LocalizeDate.swift */,
+				8C7286362C42D736006E5722 /* LocalizeNumbers.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -749,6 +752,7 @@
 				8CE003BD2C272492001FF8F3 /* LongPressGestures.swift in Sources */,
 				8CDBE2D52C2F0BED007F3DB8 /* SecureFieldTextInput.swift in Sources */,
 				8CF80A3B2C29C183008F3683 /* GesturePriority.swift in Sources */,
+				8C7286372C42D736006E5722 /* LocalizeNumbers.swift in Sources */,
 				8C3D5BDF2C1DED8600B06F51 /* CustomSegmentedProgressBar.swift in Sources */,
 				8C69C7082C137EB000D5E041 /* CustomizeButton.swift in Sources */,
 				8C573DA42BF7C18400501565 /* Grid.swift in Sources */,
