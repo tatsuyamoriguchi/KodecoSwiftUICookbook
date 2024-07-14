@@ -179,6 +179,8 @@
 		8CF80A3D2C29C6F6008F3683 /* SequencingGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF80A3C2C29C6F6008F3683 /* SequencingGestures.swift */; };
 		8CFC09F72C443FD800EB0AEA /* TestLocalizedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC09F62C443FD800EB0AEA /* TestLocalizedApp.swift */; };
 		8CFC09F92C44459300EB0AEA /* LocalizeImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC09F82C44459300EB0AEA /* LocalizeImages.swift */; };
+		8CFC09FB2C444F2D00EB0AEA /* RTLLanguages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC09FA2C444F2D00EB0AEA /* RTLLanguages.swift */; };
+		8CFC09FD2C4451E900EB0AEA /* LocalizeAccessibilityLabelsAndHints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC09FC2C4451E900EB0AEA /* LocalizeAccessibilityLabelsAndHints.swift */; };
 		8CFECD2A2C175CA100632C90 /* NavigationTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFECD292C175CA100632C90 /* NavigationTitle.swift */; };
 		8CFECD2C2C17C2DA00632C90 /* ButtonToNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFECD2B2C17C2DA00632C90 /* ButtonToNavigationBar.swift */; };
 		8CFECD2E2C17C7B600632C90 /* SectionHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFECD2D2C17C7B600632C90 /* SectionHeaders.swift */; };
@@ -365,6 +367,8 @@
 		8CF80A3C2C29C6F6008F3683 /* SequencingGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequencingGestures.swift; sourceTree = "<group>"; };
 		8CFC09F62C443FD800EB0AEA /* TestLocalizedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLocalizedApp.swift; sourceTree = "<group>"; };
 		8CFC09F82C44459300EB0AEA /* LocalizeImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizeImages.swift; sourceTree = "<group>"; };
+		8CFC09FA2C444F2D00EB0AEA /* RTLLanguages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTLLanguages.swift; sourceTree = "<group>"; };
+		8CFC09FC2C4451E900EB0AEA /* LocalizeAccessibilityLabelsAndHints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizeAccessibilityLabelsAndHints.swift; sourceTree = "<group>"; };
 		8CFECD292C175CA100632C90 /* NavigationTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitle.swift; sourceTree = "<group>"; };
 		8CFECD2B2C17C2DA00632C90 /* ButtonToNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonToNavigationBar.swift; sourceTree = "<group>"; };
 		8CFECD2D2C17C7B600632C90 /* SectionHeaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaders.swift; sourceTree = "<group>"; };
@@ -576,6 +580,8 @@
 				8C7286362C42D736006E5722 /* LocalizeNumbers.swift */,
 				8CFC09F62C443FD800EB0AEA /* TestLocalizedApp.swift */,
 				8CFC09F82C44459300EB0AEA /* LocalizeImages.swift */,
+				8CFC09FA2C444F2D00EB0AEA /* RTLLanguages.swift */,
+				8CFC09FC2C4451E900EB0AEA /* LocalizeAccessibilityLabelsAndHints.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -690,6 +696,7 @@
 				8CEA48CC2C305AD000E5F251 /* CreateModalView.swift in Sources */,
 				8C3D5BD52C1C9AD900B06F51 /* CustomizeProgressIndicator.swift in Sources */,
 				8CDBE2C92C2C667B007F3DB8 /* CreateTextEditor.swift in Sources */,
+				8CFC09FD2C4451E900EB0AEA /* LocalizeAccessibilityLabelsAndHints.swift in Sources */,
 				8C69C7102C14D06700D5E041 /* ToggleButton.swift in Sources */,
 				8CE003BF2C27264E001FF8F3 /* DraggingGestures.swift in Sources */,
 				8C4B01E52C35ECEE0072EEFC /* HandlingErrorsExceptionsWhilePlayingAudioVideo.swift in Sources */,
@@ -698,6 +705,7 @@
 				8C2AAA6C2C122C7800C7B29C /* SwiftUIPhotosPicker.swift in Sources */,
 				8C69C71A2C16146400D5E041 /* AdvancedButtonStyling.swift in Sources */,
 				8C2B26C42C3304C600D5AFCA /* PresentConfirmationDialog.swift in Sources */,
+				8CFC09FB2C444F2D00EB0AEA /* RTLLanguages.swift in Sources */,
 				8CDC12002C20C20C0052A33F /* AlignmentGuides.swift in Sources */,
 				8CDBE2C72C2C64B6007F3DB8 /* CreateATextField.swift in Sources */,
 				8C85E8D22BFD0496005B6201 /* StateObject.swift in Sources */,

@@ -8,3 +8,5 @@
 
 "hello_world" = "Hello, World!";
 "Copying %d files" = "جاري نسخ %d ملفات";
+"Selection Picker" = "منتقي التحديد";
+"Select an option" = "حدد اختيارا";
