@@ -177,6 +177,8 @@
 		8CEB62562C24A7B4004146AD /* DelayedAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEB62552C24A7B4004146AD /* DelayedAnimation.swift */; };
 		8CF80A3B2C29C183008F3683 /* GesturePriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF80A3A2C29C183008F3683 /* GesturePriority.swift */; };
 		8CF80A3D2C29C6F6008F3683 /* SequencingGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF80A3C2C29C6F6008F3683 /* SequencingGestures.swift */; };
+		8CFC09F72C443FD800EB0AEA /* TestLocalizedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC09F62C443FD800EB0AEA /* TestLocalizedApp.swift */; };
+		8CFC09F92C44459300EB0AEA /* LocalizeImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC09F82C44459300EB0AEA /* LocalizeImages.swift */; };
 		8CFECD2A2C175CA100632C90 /* NavigationTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFECD292C175CA100632C90 /* NavigationTitle.swift */; };
 		8CFECD2C2C17C2DA00632C90 /* ButtonToNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFECD2B2C17C2DA00632C90 /* ButtonToNavigationBar.swift */; };
 		8CFECD2E2C17C7B600632C90 /* SectionHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFECD2D2C17C7B600632C90 /* SectionHeaders.swift */; };
@@ -361,6 +363,8 @@
 		8CEB62552C24A7B4004146AD /* DelayedAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayedAnimation.swift; sourceTree = "<group>"; };
 		8CF80A3A2C29C183008F3683 /* GesturePriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturePriority.swift; sourceTree = "<group>"; };
 		8CF80A3C2C29C6F6008F3683 /* SequencingGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequencingGestures.swift; sourceTree = "<group>"; };
+		8CFC09F62C443FD800EB0AEA /* TestLocalizedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLocalizedApp.swift; sourceTree = "<group>"; };
+		8CFC09F82C44459300EB0AEA /* LocalizeImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizeImages.swift; sourceTree = "<group>"; };
 		8CFECD292C175CA100632C90 /* NavigationTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitle.swift; sourceTree = "<group>"; };
 		8CFECD2B2C17C2DA00632C90 /* ButtonToNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonToNavigationBar.swift; sourceTree = "<group>"; };
 		8CFECD2D2C17C7B600632C90 /* SectionHeaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaders.swift; sourceTree = "<group>"; };
@@ -570,6 +574,8 @@
 				8C7286312C42CE7D006E5722 /* StringInterpolation.swift */,
 				8C7286342C42D1B4006E5722 /* LocalizeDate.swift */,
 				8C7286362C42D736006E5722 /* LocalizeNumbers.swift */,
+				8CFC09F62C443FD800EB0AEA /* TestLocalizedApp.swift */,
+				8CFC09F82C44459300EB0AEA /* LocalizeImages.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -831,6 +837,7 @@
 				8CFECD2C2C17C2DA00632C90 /* ButtonToNavigationBar.swift in Sources */,
 				8C4B01DF2C35A6EE0072EEFC /* AnimatedVisualizationsForAudioVideo.swift in Sources */,
 				8C3D5BCB2C1BA78200B06F51 /* SwitchTabsProgrammatically.swift in Sources */,
+				8CFC09F92C44459300EB0AEA /* LocalizeImages.swift in Sources */,
 				8C08BAA12C10C99A00677F91 /* FilterToImage.swift in Sources */,
 				8C2AEC4E2C0EC3AB00A80EF4 /* SFSymbols.swift in Sources */,
 				8C3D5BC92C1BA51000B06F51 /* PresentModalViewfromTabView.swift in Sources */,
@@ -840,6 +847,7 @@
 				8C3D5BD72C1D496C00B06F51 /* CircularProgressBar.swift in Sources */,
 				8C69C7202C16859B00D5E041 /* CustomizeListRows.swift in Sources */,
 				8C2AEC352C08EA7000A80EF4 /* CustomFonts.swift in Sources */,
+				8CFC09F72C443FD800EB0AEA /* TestLocalizedApp.swift in Sources */,
 				8CE526222C1B3FF900496A97 /* CustomizeSplitView.swift in Sources */,
 				8CDBE2D92C2F1050007F3DB8 /* FindAndReplaceToTextEditor.swift in Sources */,
 				8C56A6D52BFFA56300D5AC2B /* StateManagementWithCombine.swift in Sources */,
