@@ -11,6 +11,9 @@
 		8C08BAA12C10C99A00677F91 /* FilterToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C08BAA02C10C99A00677F91 /* FilterToImage.swift */; };
 		8C0B55102C31AE7900BFAFE9 /* ConfigureModalViewHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0B550F2C31AE7900BFAFE9 /* ConfigureModalViewHeight.swift */; };
 		8C0B55122C31B17E00BFAFE9 /* ListToModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0B55112C31B17E00BFAFE9 /* ListToModal.swift */; };
+		8C0D3DE32C45871800D3A3A1 /* DynamicTypeforMultilingualText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D3DE22C45871800D3A3A1 /* DynamicTypeforMultilingualText.swift */; };
+		8C0D3DE52C45895C00D3A3A1 /* Building&Running.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D3DE42C45895B00D3A3A1 /* Building&Running.swift */; };
+		8C0D3DE72C458F2800D3A3A1 /* AddingLaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D3DE62C458F2800D3A3A1 /* AddingLaunchScreen.swift */; };
 		8C1049362C19470A0065C88C /* FormWithSecitons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1049352C19470A0065C88C /* FormWithSecitons.swift */; };
 		8C1049382C194CC20065C88C /* CreateCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1049372C194CC20065C88C /* CreateCheckBox.swift */; };
 		8C10493A2C19563D0065C88C /* AddStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1049392C19563D0065C88C /* AddStepper.swift */; };
@@ -195,6 +198,9 @@
 		8C08BAA02C10C99A00677F91 /* FilterToImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterToImage.swift; sourceTree = "<group>"; };
 		8C0B550F2C31AE7900BFAFE9 /* ConfigureModalViewHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureModalViewHeight.swift; sourceTree = "<group>"; };
 		8C0B55112C31B17E00BFAFE9 /* ListToModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListToModal.swift; sourceTree = "<group>"; };
+		8C0D3DE22C45871800D3A3A1 /* DynamicTypeforMultilingualText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTypeforMultilingualText.swift; sourceTree = "<group>"; };
+		8C0D3DE42C45895B00D3A3A1 /* Building&Running.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Building&Running.swift"; sourceTree = "<group>"; };
+		8C0D3DE62C458F2800D3A3A1 /* AddingLaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingLaunchScreen.swift; sourceTree = "<group>"; };
 		8C1049352C19470A0065C88C /* FormWithSecitons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormWithSecitons.swift; sourceTree = "<group>"; };
 		8C1049372C194CC20065C88C /* CreateCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCheckBox.swift; sourceTree = "<group>"; };
 		8C1049392C19563D0065C88C /* AddStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStepper.swift; sourceTree = "<group>"; };
@@ -582,6 +588,9 @@
 				8CFC09F82C44459300EB0AEA /* LocalizeImages.swift */,
 				8CFC09FA2C444F2D00EB0AEA /* RTLLanguages.swift */,
 				8CFC09FC2C4451E900EB0AEA /* LocalizeAccessibilityLabelsAndHints.swift */,
+				8C0D3DE22C45871800D3A3A1 /* DynamicTypeforMultilingualText.swift */,
+				8C0D3DE42C45895B00D3A3A1 /* Building&Running.swift */,
+				8C0D3DE62C458F2800D3A3A1 /* AddingLaunchScreen.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -705,6 +714,7 @@
 				8C2AAA6C2C122C7800C7B29C /* SwiftUIPhotosPicker.swift in Sources */,
 				8C69C71A2C16146400D5E041 /* AdvancedButtonStyling.swift in Sources */,
 				8C2B26C42C3304C600D5AFCA /* PresentConfirmationDialog.swift in Sources */,
+				8C0D3DE52C45895C00D3A3A1 /* Building&Running.swift in Sources */,
 				8CFC09FB2C444F2D00EB0AEA /* RTLLanguages.swift in Sources */,
 				8CDC12002C20C20C0052A33F /* AlignmentGuides.swift in Sources */,
 				8CDBE2C72C2C64B6007F3DB8 /* CreateATextField.swift in Sources */,
@@ -796,6 +806,7 @@
 				8CFECD362C18C36B00632C90 /* ScrollingList.swift in Sources */,
 				8C2B26C22C32FE9B00D5AFCA /* HandleErrorsWithAlert.swift in Sources */,
 				8C6402782C1A431400171F9D /* CreateTabView.swift in Sources */,
+				8C0D3DE32C45871800D3A3A1 /* DynamicTypeforMultilingualText.swift in Sources */,
 				8C4B01E32C35E42D0072EEFC /* CaptionsSubtitlesToVideos.swift in Sources */,
 				8C3B780B2C1F3533000643C9 /* LazyVGridLazyHGrid.swift in Sources */,
 				8CCE8E102C3345C60013F14F /* CreateAudioPlayer.swift in Sources */,
@@ -849,6 +860,7 @@
 				8C08BAA12C10C99A00677F91 /* FilterToImage.swift in Sources */,
 				8C2AEC4E2C0EC3AB00A80EF4 /* SFSymbols.swift in Sources */,
 				8C3D5BC92C1BA51000B06F51 /* PresentModalViewfromTabView.swift in Sources */,
+				8C0D3DE72C458F2800D3A3A1 /* AddingLaunchScreen.swift in Sources */,
 				8CAD5CF42C24AAD500BFCC4D /* RepeatingAnimation.swift in Sources */,
 				8C4B01DB2C359DFF0072EEFC /* SoundEffects.swift in Sources */,
 				8C2AEC332C07918900A80EF4 /* FormatText.swift in Sources */,
@@ -1015,7 +1027,6 @@
 				INFOPLIST_FILE = KodecoSwiftUICookbook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
@@ -1048,7 +1059,6 @@
 				INFOPLIST_FILE = KodecoSwiftUICookbook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
