@@ -14,6 +14,8 @@
 		8C0D3DE32C45871800D3A3A1 /* DynamicTypeforMultilingualText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D3DE22C45871800D3A3A1 /* DynamicTypeforMultilingualText.swift */; };
 		8C0D3DE52C45895C00D3A3A1 /* Building&Running.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D3DE42C45895B00D3A3A1 /* Building&Running.swift */; };
 		8C0D3DE72C458F2800D3A3A1 /* AddingLaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D3DE62C458F2800D3A3A1 /* AddingLaunchScreen.swift */; };
+		8C0D3DE92C45925600D3A3A1 /* AppPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D3DE82C45925600D3A3A1 /* AppPermissions.swift */; };
+		8C0D3DEB2C45964A00D3A3A1 /* DebuggingSwiftUICode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D3DEA2C45964A00D3A3A1 /* DebuggingSwiftUICode.swift */; };
 		8C1049362C19470A0065C88C /* FormWithSecitons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1049352C19470A0065C88C /* FormWithSecitons.swift */; };
 		8C1049382C194CC20065C88C /* CreateCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1049372C194CC20065C88C /* CreateCheckBox.swift */; };
 		8C10493A2C19563D0065C88C /* AddStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1049392C19563D0065C88C /* AddStepper.swift */; };
@@ -201,6 +203,8 @@
 		8C0D3DE22C45871800D3A3A1 /* DynamicTypeforMultilingualText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTypeforMultilingualText.swift; sourceTree = "<group>"; };
 		8C0D3DE42C45895B00D3A3A1 /* Building&Running.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Building&Running.swift"; sourceTree = "<group>"; };
 		8C0D3DE62C458F2800D3A3A1 /* AddingLaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingLaunchScreen.swift; sourceTree = "<group>"; };
+		8C0D3DE82C45925600D3A3A1 /* AppPermissions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPermissions.swift; sourceTree = "<group>"; };
+		8C0D3DEA2C45964A00D3A3A1 /* DebuggingSwiftUICode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingSwiftUICode.swift; sourceTree = "<group>"; };
 		8C1049352C19470A0065C88C /* FormWithSecitons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormWithSecitons.swift; sourceTree = "<group>"; };
 		8C1049372C194CC20065C88C /* CreateCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCheckBox.swift; sourceTree = "<group>"; };
 		8C1049392C19563D0065C88C /* AddStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStepper.swift; sourceTree = "<group>"; };
@@ -591,6 +595,8 @@
 				8C0D3DE22C45871800D3A3A1 /* DynamicTypeforMultilingualText.swift */,
 				8C0D3DE42C45895B00D3A3A1 /* Building&Running.swift */,
 				8C0D3DE62C458F2800D3A3A1 /* AddingLaunchScreen.swift */,
+				8C0D3DE82C45925600D3A3A1 /* AppPermissions.swift */,
+				8C0D3DEA2C45964A00D3A3A1 /* DebuggingSwiftUICode.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -704,6 +710,7 @@
 			files = (
 				8CEA48CC2C305AD000E5F251 /* CreateModalView.swift in Sources */,
 				8C3D5BD52C1C9AD900B06F51 /* CustomizeProgressIndicator.swift in Sources */,
+				8C0D3DEB2C45964A00D3A3A1 /* DebuggingSwiftUICode.swift in Sources */,
 				8CDBE2C92C2C667B007F3DB8 /* CreateTextEditor.swift in Sources */,
 				8CFC09FD2C4451E900EB0AEA /* LocalizeAccessibilityLabelsAndHints.swift in Sources */,
 				8C69C7102C14D06700D5E041 /* ToggleButton.swift in Sources */,
@@ -714,6 +721,7 @@
 				8C2AAA6C2C122C7800C7B29C /* SwiftUIPhotosPicker.swift in Sources */,
 				8C69C71A2C16146400D5E041 /* AdvancedButtonStyling.swift in Sources */,
 				8C2B26C42C3304C600D5AFCA /* PresentConfirmationDialog.swift in Sources */,
+				8C0D3DE92C45925600D3A3A1 /* AppPermissions.swift in Sources */,
 				8C0D3DE52C45895C00D3A3A1 /* Building&Running.swift in Sources */,
 				8CFC09FB2C444F2D00EB0AEA /* RTLLanguages.swift in Sources */,
 				8CDC12002C20C20C0052A33F /* AlignmentGuides.swift in Sources */,

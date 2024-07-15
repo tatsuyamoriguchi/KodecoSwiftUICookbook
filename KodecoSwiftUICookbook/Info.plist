@@ -15,5 +15,7 @@
 		<key>UIImageName</key>
 		<string>launch-logo</string>
 	</dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This is a test. Allow this app to access Photos library.</string>
 </dict>
 </plist>
