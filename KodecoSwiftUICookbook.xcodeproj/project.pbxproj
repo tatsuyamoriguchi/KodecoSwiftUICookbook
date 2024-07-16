@@ -23,6 +23,8 @@
 		8C14B4EB2C35014D0007D76A /* RecordingAudioVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C14B4EA2C35014D0007D76A /* RecordingAudioVideo.swift */; };
 		8C22862B2C344E8A0011BE64 /* CreateVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C22862A2C344E8A0011BE64 /* CreateVideoPlayer.swift */; };
 		8C22862D2C3452E20011BE64 /* CustomizingAudioVideoPlayback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C22862C2C3452E20011BE64 /* CustomizingAudioVideoPlayback.swift */; };
+		8C273DAE2C46F0A4001D7410 /* ConsoleToDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C273DAD2C46F0A4001D7410 /* ConsoleToDebug.swift */; };
+		8C273DB02C46F641001D7410 /* SwiftUIPreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C273DAF2C46F641001D7410 /* SwiftUIPreviews.swift */; };
 		8C2AAA682C12239400C7B29C /* BlendTwoImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AAA672C12239400C7B29C /* BlendTwoImages.swift */; };
 		8C2AAA6A2C1225F000C7B29C /* AnimatedImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AAA692C1225F000C7B29C /* AnimatedImages.swift */; };
 		8C2AAA6C2C122C7800C7B29C /* SwiftUIPhotosPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AAA6B2C122C7800C7B29C /* SwiftUIPhotosPicker.swift */; };
@@ -212,6 +214,8 @@
 		8C14B4EA2C35014D0007D76A /* RecordingAudioVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingAudioVideo.swift; sourceTree = "<group>"; };
 		8C22862A2C344E8A0011BE64 /* CreateVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateVideoPlayer.swift; sourceTree = "<group>"; };
 		8C22862C2C3452E20011BE64 /* CustomizingAudioVideoPlayback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingAudioVideoPlayback.swift; sourceTree = "<group>"; };
+		8C273DAD2C46F0A4001D7410 /* ConsoleToDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleToDebug.swift; sourceTree = "<group>"; };
+		8C273DAF2C46F641001D7410 /* SwiftUIPreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPreviews.swift; sourceTree = "<group>"; };
 		8C2AAA672C12239400C7B29C /* BlendTwoImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendTwoImages.swift; sourceTree = "<group>"; };
 		8C2AAA692C1225F000C7B29C /* AnimatedImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedImages.swift; sourceTree = "<group>"; };
 		8C2AAA6B2C122C7800C7B29C /* SwiftUIPhotosPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPhotosPicker.swift; sourceTree = "<group>"; };
@@ -597,6 +601,8 @@
 				8C0D3DE62C458F2800D3A3A1 /* AddingLaunchScreen.swift */,
 				8C0D3DE82C45925600D3A3A1 /* AppPermissions.swift */,
 				8C0D3DEA2C45964A00D3A3A1 /* DebuggingSwiftUICode.swift */,
+				8C273DAD2C46F0A4001D7410 /* ConsoleToDebug.swift */,
+				8C273DAF2C46F641001D7410 /* SwiftUIPreviews.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -736,6 +742,7 @@
 				8C69C70E2C14CD9E00D5E041 /* ActionToButton.swift in Sources */,
 				8CF80A3D2C29C6F6008F3683 /* SequencingGestures.swift in Sources */,
 				8C5E220C2C2891C800CCE092 /* RotatingViewsWithGestures.swift in Sources */,
+				8C273DB02C46F641001D7410 /* SwiftUIPreviews.swift in Sources */,
 				8CEA48CE2C305C4500E5F251 /* DismissModalView.swift in Sources */,
 				8C10493C2C1959020065C88C /* CreatePicker.swift in Sources */,
 				8C5E220E2C28962700CCE092 /* PinchToZoom.swift in Sources */,
@@ -760,6 +767,7 @@
 				8CEB62562C24A7B4004146AD /* DelayedAnimation.swift in Sources */,
 				8C69C7062C137CD400D5E041 /* CreateButton.swift in Sources */,
 				8C69C71E2C167B1900D5E041 /* CreateList.swift in Sources */,
+				8C273DAE2C46F0A4001D7410 /* ConsoleToDebug.swift in Sources */,
 				8C3D5BD12C1C94F600B06F51 /* AnimateProgressBar.swift in Sources */,
 				8CC7511C2C1E30D3002E73E6 /* FramesAndAlignment.swift in Sources */,
 				8C85E8C62BFA73B2005B6201 /* SwiftUIBinding.swift in Sources */,
