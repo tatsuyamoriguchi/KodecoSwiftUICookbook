@@ -25,6 +25,8 @@
 		8C22862D2C3452E20011BE64 /* CustomizingAudioVideoPlayback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C22862C2C3452E20011BE64 /* CustomizingAudioVideoPlayback.swift */; };
 		8C273DAE2C46F0A4001D7410 /* ConsoleToDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C273DAD2C46F0A4001D7410 /* ConsoleToDebug.swift */; };
 		8C273DB02C46F641001D7410 /* SwiftUIPreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C273DAF2C46F641001D7410 /* SwiftUIPreviews.swift */; };
+		8C273DB22C471B51001D7410 /* CustomizingPreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C273DB12C471B51001D7410 /* CustomizingPreviews.swift */; };
+		8C273DB42C471EA6001D7410 /* MemoryLeaksUsingInstruments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C273DB32C471EA5001D7410 /* MemoryLeaksUsingInstruments.swift */; };
 		8C2AAA682C12239400C7B29C /* BlendTwoImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AAA672C12239400C7B29C /* BlendTwoImages.swift */; };
 		8C2AAA6A2C1225F000C7B29C /* AnimatedImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AAA692C1225F000C7B29C /* AnimatedImages.swift */; };
 		8C2AAA6C2C122C7800C7B29C /* SwiftUIPhotosPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AAA6B2C122C7800C7B29C /* SwiftUIPhotosPicker.swift */; };
@@ -216,6 +218,8 @@
 		8C22862C2C3452E20011BE64 /* CustomizingAudioVideoPlayback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingAudioVideoPlayback.swift; sourceTree = "<group>"; };
 		8C273DAD2C46F0A4001D7410 /* ConsoleToDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleToDebug.swift; sourceTree = "<group>"; };
 		8C273DAF2C46F641001D7410 /* SwiftUIPreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPreviews.swift; sourceTree = "<group>"; };
+		8C273DB12C471B51001D7410 /* CustomizingPreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingPreviews.swift; sourceTree = "<group>"; };
+		8C273DB32C471EA5001D7410 /* MemoryLeaksUsingInstruments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryLeaksUsingInstruments.swift; sourceTree = "<group>"; };
 		8C2AAA672C12239400C7B29C /* BlendTwoImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendTwoImages.swift; sourceTree = "<group>"; };
 		8C2AAA692C1225F000C7B29C /* AnimatedImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedImages.swift; sourceTree = "<group>"; };
 		8C2AAA6B2C122C7800C7B29C /* SwiftUIPhotosPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPhotosPicker.swift; sourceTree = "<group>"; };
@@ -603,6 +607,8 @@
 				8C0D3DEA2C45964A00D3A3A1 /* DebuggingSwiftUICode.swift */,
 				8C273DAD2C46F0A4001D7410 /* ConsoleToDebug.swift */,
 				8C273DAF2C46F641001D7410 /* SwiftUIPreviews.swift */,
+				8C273DB12C471B51001D7410 /* CustomizingPreviews.swift */,
+				8C273DB32C471EA5001D7410 /* MemoryLeaksUsingInstruments.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -767,6 +773,7 @@
 				8CEB62562C24A7B4004146AD /* DelayedAnimation.swift in Sources */,
 				8C69C7062C137CD400D5E041 /* CreateButton.swift in Sources */,
 				8C69C71E2C167B1900D5E041 /* CreateList.swift in Sources */,
+				8C273DB22C471B51001D7410 /* CustomizingPreviews.swift in Sources */,
 				8C273DAE2C46F0A4001D7410 /* ConsoleToDebug.swift in Sources */,
 				8C3D5BD12C1C94F600B06F51 /* AnimateProgressBar.swift in Sources */,
 				8CC7511C2C1E30D3002E73E6 /* FramesAndAlignment.swift in Sources */,
@@ -884,6 +891,7 @@
 				8C69C7202C16859B00D5E041 /* CustomizeListRows.swift in Sources */,
 				8C2AEC352C08EA7000A80EF4 /* CustomFonts.swift in Sources */,
 				8CFC09F72C443FD800EB0AEA /* TestLocalizedApp.swift in Sources */,
+				8C273DB42C471EA6001D7410 /* MemoryLeaksUsingInstruments.swift in Sources */,
 				8CE526222C1B3FF900496A97 /* CustomizeSplitView.swift in Sources */,
 				8CDBE2D92C2F1050007F3DB8 /* FindAndReplaceToTextEditor.swift in Sources */,
 				8C56A6D52BFFA56300D5AC2B /* StateManagementWithCombine.swift in Sources */,
