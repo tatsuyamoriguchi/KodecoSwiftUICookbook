@@ -27,6 +27,7 @@
 		8C273DB02C46F641001D7410 /* SwiftUIPreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C273DAF2C46F641001D7410 /* SwiftUIPreviews.swift */; };
 		8C273DB22C471B51001D7410 /* CustomizingPreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C273DB12C471B51001D7410 /* CustomizingPreviews.swift */; };
 		8C273DB42C471EA6001D7410 /* MemoryLeaksUsingInstruments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C273DB32C471EA5001D7410 /* MemoryLeaksUsingInstruments.swift */; };
+		8C273DB62C48410E001D7410 /* StartupTimeWithInstruments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C273DB52C48410E001D7410 /* StartupTimeWithInstruments.swift */; };
 		8C2AAA682C12239400C7B29C /* BlendTwoImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AAA672C12239400C7B29C /* BlendTwoImages.swift */; };
 		8C2AAA6A2C1225F000C7B29C /* AnimatedImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AAA692C1225F000C7B29C /* AnimatedImages.swift */; };
 		8C2AAA6C2C122C7800C7B29C /* SwiftUIPhotosPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AAA6B2C122C7800C7B29C /* SwiftUIPhotosPicker.swift */; };
@@ -220,6 +221,7 @@
 		8C273DAF2C46F641001D7410 /* SwiftUIPreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPreviews.swift; sourceTree = "<group>"; };
 		8C273DB12C471B51001D7410 /* CustomizingPreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingPreviews.swift; sourceTree = "<group>"; };
 		8C273DB32C471EA5001D7410 /* MemoryLeaksUsingInstruments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryLeaksUsingInstruments.swift; sourceTree = "<group>"; };
+		8C273DB52C48410E001D7410 /* StartupTimeWithInstruments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupTimeWithInstruments.swift; sourceTree = "<group>"; };
 		8C2AAA672C12239400C7B29C /* BlendTwoImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendTwoImages.swift; sourceTree = "<group>"; };
 		8C2AAA692C1225F000C7B29C /* AnimatedImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedImages.swift; sourceTree = "<group>"; };
 		8C2AAA6B2C122C7800C7B29C /* SwiftUIPhotosPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPhotosPicker.swift; sourceTree = "<group>"; };
@@ -609,6 +611,7 @@
 				8C273DAF2C46F641001D7410 /* SwiftUIPreviews.swift */,
 				8C273DB12C471B51001D7410 /* CustomizingPreviews.swift */,
 				8C273DB32C471EA5001D7410 /* MemoryLeaksUsingInstruments.swift */,
+				8C273DB52C48410E001D7410 /* StartupTimeWithInstruments.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -822,6 +825,7 @@
 				8CFECD2A2C175CA100632C90 /* NavigationTitle.swift in Sources */,
 				8CDBE2D72C2F0DCA007F3DB8 /* StyleTextEditor.swift in Sources */,
 				8C64027C2C1A48E700171F9D /* CustomIconsToTabViewItems.swift in Sources */,
+				8C273DB62C48410E001D7410 /* StartupTimeWithInstruments.swift in Sources */,
 				8C3E3AF22C25F99C00741473 /* AnimateViewTransitions.swift in Sources */,
 				8C3B780D2C1F3BAF000643C9 /* SwiftUIScrollView.swift in Sources */,
 				8C2AEC482C0CD30000A80EF4 /* AspectRatios.swift in Sources */,
