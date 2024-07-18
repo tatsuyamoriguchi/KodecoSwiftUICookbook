@@ -28,6 +28,8 @@
 		8C273DB22C471B51001D7410 /* CustomizingPreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C273DB12C471B51001D7410 /* CustomizingPreviews.swift */; };
 		8C273DB42C471EA6001D7410 /* MemoryLeaksUsingInstruments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C273DB32C471EA5001D7410 /* MemoryLeaksUsingInstruments.swift */; };
 		8C273DB62C48410E001D7410 /* StartupTimeWithInstruments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C273DB52C48410E001D7410 /* StartupTimeWithInstruments.swift */; };
+		8C273DD82C496500001D7410 /* OnboardingExperience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C273DD72C496500001D7410 /* OnboardingExperience.swift */; };
+		8C273DDA2C496C1F001D7410 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C273DD92C496C1F001D7410 /* OnboardingView.swift */; };
 		8C2AAA682C12239400C7B29C /* BlendTwoImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AAA672C12239400C7B29C /* BlendTwoImages.swift */; };
 		8C2AAA6A2C1225F000C7B29C /* AnimatedImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AAA692C1225F000C7B29C /* AnimatedImages.swift */; };
 		8C2AAA6C2C122C7800C7B29C /* SwiftUIPhotosPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AAA6B2C122C7800C7B29C /* SwiftUIPhotosPicker.swift */; };
@@ -222,6 +224,8 @@
 		8C273DB12C471B51001D7410 /* CustomizingPreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingPreviews.swift; sourceTree = "<group>"; };
 		8C273DB32C471EA5001D7410 /* MemoryLeaksUsingInstruments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryLeaksUsingInstruments.swift; sourceTree = "<group>"; };
 		8C273DB52C48410E001D7410 /* StartupTimeWithInstruments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupTimeWithInstruments.swift; sourceTree = "<group>"; };
+		8C273DD72C496500001D7410 /* OnboardingExperience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingExperience.swift; sourceTree = "<group>"; };
+		8C273DD92C496C1F001D7410 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		8C2AAA672C12239400C7B29C /* BlendTwoImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendTwoImages.swift; sourceTree = "<group>"; };
 		8C2AAA692C1225F000C7B29C /* AnimatedImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedImages.swift; sourceTree = "<group>"; };
 		8C2AAA6B2C122C7800C7B29C /* SwiftUIPhotosPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPhotosPicker.swift; sourceTree = "<group>"; };
@@ -612,6 +616,8 @@
 				8C273DB12C471B51001D7410 /* CustomizingPreviews.swift */,
 				8C273DB32C471EA5001D7410 /* MemoryLeaksUsingInstruments.swift */,
 				8C273DB52C48410E001D7410 /* StartupTimeWithInstruments.swift */,
+				8C273DD72C496500001D7410 /* OnboardingExperience.swift */,
+				8C273DD92C496C1F001D7410 /* OnboardingView.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -771,6 +777,7 @@
 				8C1049362C19470A0065C88C /* FormWithSecitons.swift in Sources */,
 				8CA749C32BF9583200753A6A /* CustomViewModifier.swift in Sources */,
 				8CDBE2CB2C2C679A007F3DB8 /* ScrollableTextField.swift in Sources */,
+				8C273DD82C496500001D7410 /* OnboardingExperience.swift in Sources */,
 				8C64026C2C19FA4A00171F9D /* CreateDatePicker.swift in Sources */,
 				8C2AEC2F2C078A8A00A80EF4 /* MultilineTextView.swift in Sources */,
 				8CEB62562C24A7B4004146AD /* DelayedAnimation.swift in Sources */,
@@ -815,6 +822,7 @@
 				8C2B26BC2C31F50900D5AFCA /* CustomBackgroundForModal.swift in Sources */,
 				8C3963AF2C4075440082910F /* TailorVoiceOverSpeechProperties.swift in Sources */,
 				8CFECD302C17CB9700632C90 /* SearchBarInList.swift in Sources */,
+				8C273DDA2C496C1F001D7410 /* OnboardingView.swift in Sources */,
 				8CE003BB2C2722A8001FF8F3 /* DetectingTaps.swift in Sources */,
 				8C3D5BD92C1DE43000B06F51 /* DeterminateProgressBar.swift in Sources */,
 				8C4B01DD2C35A34B0072EEFC /* VideoStreaming.swift in Sources */,
