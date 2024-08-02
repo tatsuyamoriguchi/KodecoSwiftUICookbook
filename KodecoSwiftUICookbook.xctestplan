@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "9C39C6B7-E776-45AF-A68E-B864511B792C",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:KodecoSwiftUICookbook.xcodeproj",
+      "identifier" : "8CB4F48D2BF1191200BA2A90",
+      "name" : "KodecoSwiftUICookbook"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:KodecoSwiftUICookbook.xcodeproj",
+        "identifier" : "8C774B2E2C5D2C8700280AFB",
+        "name" : "KodecoSwiftUICookbookTests2"
+      }
+    }
+  ],
+  "version" : 1
+}

@@ -29,7 +29,7 @@ struct KodecoSwiftUICookbookApp: App {
   
   var body: some Scene {
     WindowGroup {
-        StartupTimeWithInstruments()
+        ViewInspectorTesting()
     }
   }
 }
