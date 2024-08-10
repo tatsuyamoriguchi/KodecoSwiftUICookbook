@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8C082E012C67CB3000CFBAFA /* MaintainingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C082E002C67CB3000CFBAFA /* MaintainingState.swift */; };
 		8C082E032C67CDCA00CFBAFA /* DebuggingSwiftUIViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C082E022C67CDCA00CFBAFA /* DebuggingSwiftUIViews.swift */; };
+		8C082E052C67DB7B00CFBAFA /* ReusableSwiftUIComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C082E042C67DB7B00CFBAFA /* ReusableSwiftUIComponents.swift */; };
+		8C082E072C67DD3D00CFBAFA /* ViewComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C082E062C67DD3D00CFBAFA /* ViewComposition.swift */; };
 		8C08BA9F2C10C54500677F91 /* ShadowToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C08BA9E2C10C54500677F91 /* ShadowToImage.swift */; };
 		8C08BAA12C10C99A00677F91 /* FilterToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C08BAA02C10C99A00677F91 /* FilterToImage.swift */; };
 		8C0B55102C31AE7900BFAFE9 /* ConfigureModalViewHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0B550F2C31AE7900BFAFE9 /* ConfigureModalViewHeight.swift */; };
@@ -241,6 +243,8 @@
 /* Begin PBXFileReference section */
 		8C082E002C67CB3000CFBAFA /* MaintainingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintainingState.swift; sourceTree = "<group>"; };
 		8C082E022C67CDCA00CFBAFA /* DebuggingSwiftUIViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingSwiftUIViews.swift; sourceTree = "<group>"; };
+		8C082E042C67DB7B00CFBAFA /* ReusableSwiftUIComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableSwiftUIComponents.swift; sourceTree = "<group>"; };
+		8C082E062C67DD3D00CFBAFA /* ViewComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewComposition.swift; sourceTree = "<group>"; };
 		8C08BA9E2C10C54500677F91 /* ShadowToImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowToImage.swift; sourceTree = "<group>"; };
 		8C08BAA02C10C99A00677F91 /* FilterToImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterToImage.swift; sourceTree = "<group>"; };
 		8C0B550F2C31AE7900BFAFE9 /* ConfigureModalViewHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureModalViewHeight.swift; sourceTree = "<group>"; };
@@ -733,6 +737,8 @@
 				8CE1877B2C6732F90076DF4D /* ImplicitExplicitAnimationFromChatGPT.swift */,
 				8C082E002C67CB3000CFBAFA /* MaintainingState.swift */,
 				8C082E022C67CDCA00CFBAFA /* DebuggingSwiftUIViews.swift */,
+				8C082E042C67DB7B00CFBAFA /* ReusableSwiftUIComponents.swift */,
+				8C082E062C67DD3D00CFBAFA /* ViewComposition.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -908,6 +914,7 @@
 				8CFC09FB2C444F2D00EB0AEA /* RTLLanguages.swift in Sources */,
 				8CDC12002C20C20C0052A33F /* AlignmentGuides.swift in Sources */,
 				8CDBE2C72C2C64B6007F3DB8 /* CreateATextField.swift in Sources */,
+				8C082E072C67DD3D00CFBAFA /* ViewComposition.swift in Sources */,
 				8C85E8D22BFD0496005B6201 /* StateObject.swift in Sources */,
 				8CB4F4942BF1191200BA2A90 /* ContentView.swift in Sources */,
 				8C2AEC3A2C08F28800A80EF4 /* CreateTextField.swift in Sources */,
@@ -930,6 +937,7 @@
 				8C3963B32C4193600082910F /* LocalizedString.swift in Sources */,
 				8C85E8C42BFA6E8A005B6201 /* SwiftUIState.swift in Sources */,
 				8C5E220A2C288F3A00CCE092 /* SwipeToDelete.swift in Sources */,
+				8C082E052C67DB7B00CFBAFA /* ReusableSwiftUIComponents.swift in Sources */,
 				8C99998D2C30A4A0002A0720 /* FullScreenModalView.swift in Sources */,
 				8C3963B92C419A830082910F /* UsersLanguage.swift in Sources */,
 				8C69C7222C16A48000D5E041 /* NvigationToList.swift in Sources */,
