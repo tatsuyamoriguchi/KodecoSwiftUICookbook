@@ -197,6 +197,14 @@
 		8CE003BB2C2722A8001FF8F3 /* DetectingTaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE003BA2C2722A8001FF8F3 /* DetectingTaps.swift */; };
 		8CE003BD2C272492001FF8F3 /* LongPressGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE003BC2C272492001FF8F3 /* LongPressGestures.swift */; };
 		8CE003BF2C27264E001FF8F3 /* DraggingGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE003BE2C27264E001FF8F3 /* DraggingGestures.swift */; };
+		8CE1876E2C667A6B0076DF4D /* ReducingComplexity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE1876D2C667A6B0076DF4D /* ReducingComplexity.swift */; };
+		8CE187702C667ABB0076DF4D /* ReducingComplexityRefactored.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE1876F2C667ABB0076DF4D /* ReducingComplexityRefactored.swift */; };
+		8CE187722C66839E0076DF4D /* SeparatingViewLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE187712C66839E0076DF4D /* SeparatingViewLogic.swift */; };
+		8CE187742C66840B0076DF4D /* SeparatingViewLogicWithViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE187732C66840B0076DF4D /* SeparatingViewLogicWithViewModel.swift */; };
+		8CE187762C6687580076DF4D /* EnvironmentVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE187752C6687580076DF4D /* EnvironmentVariables.swift */; };
+		8CE187782C6688D90076DF4D /* EnvironmentVariablesWithMultipleChildViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE187772C6688D90076DF4D /* EnvironmentVariablesWithMultipleChildViews.swift */; };
+		8CE1877A2C672F330076DF4D /* ImplicitAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE187792C672F330076DF4D /* ImplicitAnimations.swift */; };
+		8CE1877C2C6732F90076DF4D /* ImplicitExplicitAnimationFromChatGPT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE1877B2C6732F90076DF4D /* ImplicitExplicitAnimationFromChatGPT.swift */; };
 		8CE526222C1B3FF900496A97 /* CustomizeSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE526212C1B3FF900496A97 /* CustomizeSplitView.swift */; };
 		8CE526242C1B47AD00496A97 /* DetailViewToSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE526232C1B47AD00496A97 /* DetailViewToSplitView.swift */; };
 		8CEA48CC2C305AD000E5F251 /* CreateModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEA48CB2C305AD000E5F251 /* CreateModalView.swift */; };
@@ -424,6 +432,14 @@
 		8CE003BA2C2722A8001FF8F3 /* DetectingTaps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectingTaps.swift; sourceTree = "<group>"; };
 		8CE003BC2C272492001FF8F3 /* LongPressGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestures.swift; sourceTree = "<group>"; };
 		8CE003BE2C27264E001FF8F3 /* DraggingGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggingGestures.swift; sourceTree = "<group>"; };
+		8CE1876D2C667A6B0076DF4D /* ReducingComplexity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReducingComplexity.swift; sourceTree = "<group>"; };
+		8CE1876F2C667ABB0076DF4D /* ReducingComplexityRefactored.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReducingComplexityRefactored.swift; sourceTree = "<group>"; };
+		8CE187712C66839E0076DF4D /* SeparatingViewLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatingViewLogic.swift; sourceTree = "<group>"; };
+		8CE187732C66840B0076DF4D /* SeparatingViewLogicWithViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatingViewLogicWithViewModel.swift; sourceTree = "<group>"; };
+		8CE187752C6687580076DF4D /* EnvironmentVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentVariables.swift; sourceTree = "<group>"; };
+		8CE187772C6688D90076DF4D /* EnvironmentVariablesWithMultipleChildViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentVariablesWithMultipleChildViews.swift; sourceTree = "<group>"; };
+		8CE187792C672F330076DF4D /* ImplicitAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimations.swift; sourceTree = "<group>"; };
+		8CE1877B2C6732F90076DF4D /* ImplicitExplicitAnimationFromChatGPT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitExplicitAnimationFromChatGPT.swift; sourceTree = "<group>"; };
 		8CE526212C1B3FF900496A97 /* CustomizeSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeSplitView.swift; sourceTree = "<group>"; };
 		8CE526232C1B47AD00496A97 /* DetailViewToSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewToSplitView.swift; sourceTree = "<group>"; };
 		8CEA48CB2C305AD000E5F251 /* CreateModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateModalView.swift; sourceTree = "<group>"; };
@@ -703,6 +719,14 @@
 				8C774B142C5D1E2600280AFB /* UnitTestingStrategies.swift */,
 				8C94B6452C5D3CD100A2555B /* ViewInspectorTesting.swift */,
 				8C94B64C2C5D4D0200A2555B /* MVVMArchitecture.swift */,
+				8CE1876D2C667A6B0076DF4D /* ReducingComplexity.swift */,
+				8CE1876F2C667ABB0076DF4D /* ReducingComplexityRefactored.swift */,
+				8CE187712C66839E0076DF4D /* SeparatingViewLogic.swift */,
+				8CE187732C66840B0076DF4D /* SeparatingViewLogicWithViewModel.swift */,
+				8CE187752C6687580076DF4D /* EnvironmentVariables.swift */,
+				8CE187772C6688D90076DF4D /* EnvironmentVariablesWithMultipleChildViews.swift */,
+				8CE187792C672F330076DF4D /* ImplicitAnimations.swift */,
+				8CE1877B2C6732F90076DF4D /* ImplicitExplicitAnimationFromChatGPT.swift */,
 			);
 			path = KodecoSwiftUICookbook;
 			sourceTree = "<group>";
@@ -887,6 +911,7 @@
 				8C2B26BE2C31F7EE00D5AFCA /* ControlInteractionwithViewBehindModal.swift in Sources */,
 				8C69C70E2C14CD9E00D5E041 /* ActionToButton.swift in Sources */,
 				8CF80A3D2C29C6F6008F3683 /* SequencingGestures.swift in Sources */,
+				8CE187722C66839E0076DF4D /* SeparatingViewLogic.swift in Sources */,
 				8C5E220C2C2891C800CCE092 /* RotatingViewsWithGestures.swift in Sources */,
 				8C273DB02C46F641001D7410 /* SwiftUIPreviews.swift in Sources */,
 				8CEA48CE2C305C4500E5F251 /* DismissModalView.swift in Sources */,
@@ -902,6 +927,7 @@
 				8C99998D2C30A4A0002A0720 /* FullScreenModalView.swift in Sources */,
 				8C3963B92C419A830082910F /* UsersLanguage.swift in Sources */,
 				8C69C7222C16A48000D5E041 /* NvigationToList.swift in Sources */,
+				8CE187702C667ABB0076DF4D /* ReducingComplexityRefactored.swift in Sources */,
 				8CB4F4922BF1191200BA2A90 /* KodecoSwiftUICookbookApp.swift in Sources */,
 				8CFECD322C18BA6F00632C90 /* SwipeActionsToList.swift in Sources */,
 				8C08BA9F2C10C54500677F91 /* ShadowToImage.swift in Sources */,
@@ -924,7 +950,9 @@
 				8C3A09132C21DBC500871DBA /* AnimateViewsOpacity.swift in Sources */,
 				8C0B55122C31B17E00BFAFE9 /* ListToModal.swift in Sources */,
 				8C69C7042C13742700D5E041 /* ConsistentSwiftUIDesign.swift in Sources */,
+				8CE187782C6688D90076DF4D /* EnvironmentVariablesWithMultipleChildViews.swift in Sources */,
 				8C22862D2C3452E20011BE64 /* CustomizingAudioVideoPlayback.swift in Sources */,
+				8CE1877A2C672F330076DF4D /* ImplicitAnimations.swift in Sources */,
 				8C69C7182C1612FA00D5E041 /* FullScreenButton.swift in Sources */,
 				8C69C70C2C14C7A600D5E041 /* ImageToButton.swift in Sources */,
 				8CC751182C1E29B5002E73E6 /* CustomProgressView.swift in Sources */,
@@ -937,6 +965,7 @@
 				8C1049382C194CC20065C88C /* CreateCheckBox.swift in Sources */,
 				8CAD5CF62C24AC8A00BFCC4D /* ChainMultipleAnimations .swift in Sources */,
 				8CDBE2D32C2DC117007F3DB8 /* StyleTextField.swift in Sources */,
+				8CE187742C66840B0076DF4D /* SeparatingViewLogicWithViewModel.swift in Sources */,
 				8CFECD342C18C0DF00632C90 /* TabViewWithList.swift in Sources */,
 				8C10493A2C19563D0065C88C /* AddStepper.swift in Sources */,
 				8C3D5BDD2C1DEAF900B06F51 /* ProgresViewToNavigationBar.swift in Sources */,
@@ -959,6 +988,7 @@
 				8C3963AF2C4075440082910F /* TailorVoiceOverSpeechProperties.swift in Sources */,
 				8C608A4F2C4C2A9A005F4151 /* LineChartMainView.swift in Sources */,
 				8CFECD302C17CB9700632C90 /* SearchBarInList.swift in Sources */,
+				8CE1877C2C6732F90076DF4D /* ImplicitExplicitAnimationFromChatGPT.swift in Sources */,
 				8C273DDA2C496C1F001D7410 /* OnboardingView.swift in Sources */,
 				8C608A4B2C4C2657005F4151 /* PetSales.swift in Sources */,
 				8CE003BB2C2722A8001FF8F3 /* DetectingTaps.swift in Sources */,
@@ -991,10 +1021,12 @@
 				8C6402702C19FFDE00171F9D /* SegmentedControl.swift in Sources */,
 				8C3963A92C3DAE620082910F /* DarkModeAccessibility.swift in Sources */,
 				8CFECD2E2C17C7B600632C90 /* SectionHeaders.swift in Sources */,
+				8CE187762C6687580076DF4D /* EnvironmentVariables.swift in Sources */,
 				8CDBE2CD2C2C6AB7007F3DB8 /* TextFieldWithOptional.swift in Sources */,
 				8C3B780F2C1F3EE4000643C9 /* ZStackVStack.swift in Sources */,
 				8C3E31982C2BC00F0043422E /* SimultaneousGestures.swift in Sources */,
 				8C3D5BCD2C1BA9C500B06F51 /* HideTabView.swift in Sources */,
+				8CE1876E2C667A6B0076DF4D /* ReducingComplexity.swift in Sources */,
 				8C3D5BD32C1C996400B06F51 /* SpinningActivityIndicator.swift in Sources */,
 				8C2AEC422C0AE3FB00A80EF4 /* SeureFieldView.swift in Sources */,
 				8C2AEC312C078F8A00A80EF4 /* DynamicTypeTextStyles.swift in Sources */,
